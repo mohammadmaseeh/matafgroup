@@ -1,4 +1,4 @@
-@extends('layouts.main')
+@extends('layout')
 @section('content')
 	<section id="up" class="lines-section pos-rel anim-lines section-bg-dark-1">
 		<div class="lines-container flex-container padding-top-bottom-120">

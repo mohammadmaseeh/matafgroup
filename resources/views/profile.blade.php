@@ -1,4 +1,4 @@
-@extends('layouts.main')
+@extends('layout')
 @section('content')
 <style>
     #google-center-div{

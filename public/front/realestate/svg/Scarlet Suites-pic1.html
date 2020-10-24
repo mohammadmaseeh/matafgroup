@@ -1,0 +1,1647 @@
+﻿
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Supertech Limited | Real Estate Company in NCR</title>
+<meta name="description" content="Supertech Limited is the well-known real estate company in Delhi/NCR. The Group has developed some of the modern and finest residential and commercial complexes in India." /> 
+<meta charset="utf-8">
+<meta name="author" content="http://www.supertechlimited.com/" />
+<meta name="page-topic" content="real estate company in NCR" />
+<meta name="copyright" content="Supertech Limited" />
+<meta name="robots" content="index, follow" />
+<meta name="rating" content="safe for kids" />
+<meta name="googlebot" content=" index, follow " />
+<meta name="yahooSeeker" content=" index, follow " />
+<meta name="msnbot" content=" index, follow " />
+<meta name="reply-to" content="" />
+<meta name="allow-search" content="yes" />
+<meta name="revisit-after" content="daily" />
+<meta name="distribution" content="global" />
+<meta name="expires" content="never" />
+<meta http-equiv="content-language" content="english">
+<link rel="shortcut icon" href="favicon.ico" />
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable = no" name="viewport" />
+﻿<!--<div id="screenSize" style="background-color:#FFFFFF; width:100px;  position:absolute; top:0px; right:20px; z-index:10000000;"></div>-->
+
+<link rel="stylesheet" href="https://www.supertechlimited.com/style_common.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="https://www.supertechlimited.com/style.css" type="text/css" media="screen" />
+    
+	<script type="text/javascript" src="https://www.supertechlimited.com/js/jquery-1.7.2.min.js"></script>
+	<!---------------viewer script------------>
+<link rel="stylesheet" href="https://www.supertechlimited.com/js/viewer.css" type="text/css" media="screen" />
+<script type="text/javascript" src="https://www.supertechlimited.com/js/viewer.js"></script>
+<script type="text/javascript" src="https://www.supertechlimited.com/js/main-new.js"></script>
+<!---------------viewer script------------>
+	<script type="text/javascript" src="https://www.supertechlimited.com/js/jquery.easing.1.3.js"></script>
+	<link type="text/css" href="https://www.supertechlimited.com/js/jquery.jscrollpane.css" rel="stylesheet" media="all" />
+	<script type="text/javascript" src="https://www.supertechlimited.com/js/jquery.jscrollpane.min.js"></script>
+	<script type="text/javascript" src="https://www.supertechlimited.com/js/treeview/jquery.treeview.js"></script>
+	<link rel="stylesheet" type="text/css" href="https://www.supertechlimited.com/js/treeview/jquery.treeview.css" media="screen" />
+	<script src="https://www.supertechlimited.com/js/topmenu.js"></script>
+	<script src="https://www.supertechlimited.com/js/jquery.smoothZoom.js"></script>
+	
+	 </script>
+  
+   <script type="text/javascript" language="javascript">
+//        $(function() {
+//            $(this).bind("contextmenu", function(e) {
+//                e.preventDefault();
+//            });
+//        }); 
+</script>  
+	
+	<script type="text/javascript">
+	$(window).resize(function(){
+		resizeImage();
+	});
+	
+	$(window).load(function(){
+		resizeImage();
+	});
+	
+	
+	//resizeImage();
+	
+	$(document).ready(function() {	
+	
+	
+	
+	totalSlides = 3;
+	TransitionSpeed = 1000;
+	delayDuration = 3000;
+	for(i=1;i<=totalSlides;i++){
+		$("#hpic"+i).css({'position':'absolute', 'z-index':11});
+	}
+	
+
+	function mySlideShow(prm){
+		if (prm == (totalSlides+1)){
+			prm = 1;
+			$("#hpic"+totalSlides).css({'z-index':10})
+			mySlideShow(prm);
+		} else {
+			$("#hpic"+(prm-1)).css({'z-index':10});
+			$("#hpic"+prm).css({'z-index':11});
+			$("#hpic"+prm).delay(delayDuration).fadeIn(TransitionSpeed, function(){
+				if (prm == 1){
+					$("#hpic"+totalSlides).hide();
+				}
+				$("#hpic"+(prm-1)).hide();
+				mySlideShow(prm+1);
+			});	
+		}
+	}
+	
+	mySlideShow(2);
+	
+	
+	
+		
+	$('.accordionButton').click(function() {
+		$('.accordionButton').removeClass('on');
+		$('.accordionContent').slideUp('normal');
+		if($(this).next().is(':hidden') == true) {
+			//$(this).removeClass('borac');
+			$(this).addClass('on');
+			$(this).next().slideDown('normal');
+		}	  
+	});
+	
+	$('.accordionButton').mouseover(function() {
+		$(this).addClass('over');
+	}).mouseout(function() {
+		$(this).removeClass('over');										
+	});
+	
+	$('.accordionContent').hide();
+
+	
+	
+	//function scrollToAnchor(aid){
+//		var aTag = $("#"+ aid);
+//		$('html,body').animate({scrollTop: (aTag.offset().top)-100},500,'easeOutExpo');
+//	}
+
+	$('.book_city').live('click', function(){
+		//scrollToAnchor('b2');
+		$('.book_city').removeClass('book_city_active');
+		$(this).addClass('book_city_active');
+	});
+	$('.book_pr').live('click', function(){
+		//scrollToAnchor('b3');
+		$('.book_pr').removeClass('book_pr_active');
+		$(this).addClass('book_pr_active');
+	});
+	$('.book_unit').live('click', function(){
+		//scrollToAnchor('b4');
+		$('.book_unit').removeClass('book_unit_active');
+		$(this).addClass('book_unit_active');
+	});
+	
+	$('.book_type').live('click', function(){
+		//scrollToAnchor('b4');
+		$('.book_type').removeClass('book_type_active');
+		$(this).addClass('book_type_active');
+	});
+	
+	$('.book_unitsize').live('click', function(){
+		$('.book_unitsize').removeClass('book_unitsize_active');
+		$(this).addClass('book_unitsize_active');
+	});
+	
+	$('.book_payment').live('click', function(){
+		$('.book_payment').removeClass('book_payment_active');
+		$(this).addClass('book_payment_active');
+	});
+	
+
+	
+	openSub = false;
+		$(".smallnav").click(function(){
+			sidelinksHeight = $(".in_links a").length;
+			//alert(sidelinksHeight);
+			if (openSub){
+				openSub = false;
+				$(".in_links").stop(true, true).animate({'height':1}, 500);
+			} else {
+				openSub = true;
+				$(".in_links").stop(true, true).animate({'height':35*(sidelinksHeight)}, 500);
+			}
+		});
+		
+		
+	});
+	
+
+	
+	function resizeImage(){
+				
+		screenWidth = $(window).width();
+		screenHeight = $(window).height();
+		$("#screenSize").text(screenWidth);
+		
+		if (screenWidth < 953){
+			if (screenWidth < 600){
+				$(".in_banner").css({'height':284});
+				$(".in_banner img").css({'marginLeft':-((1259-screenWidth)/2)});
+			} else {
+				$(".in_banner").css({'height':screenWidth/2.1});
+				$(".in_banner img").css({'marginLeft':-(screenWidth/1.8)});
+			}
+		} else {
+			$(".in_banner").css({'height':450});
+			$(".in_banner img").css({'marginLeft':-1000});
+		}
+		
+		
+		
+		if (screenWidth < 953){
+			if (openSub){
+				$(".in_links").stop(true, true).animate({'height':35*(sidelinksHeight)}, 1);
+			} else {
+				$(".in_links").stop(true, true).animate({'height':0}, 1);
+			}
+		} else {
+			$(".in_links").css({'height':'auto'});
+		}
+		
+
+
+	}
+	
+	
+</script>
+
+<link rel="stylesheet" type="text/css" href="src/css/shadowbox.css">
+<script type="text/javascript" src="src/js/lib/yui-utilities.js"></script>
+<script type="text/javascript" src="src/js/adapter/shadowbox-yui.js"></script>
+<script type="text/javascript" src="src/js/shadowbox.js"></script>
+<script type="text/javascript" src="src/js/flash.js"></script>
+
+<!-- FlexSlider -->
+  	<link rel="stylesheet" href="../flexslider.css" type="text/css" media="screen" />
+  <script defer src="../js/jquery.flexslider.js"></script>
+  <script type="text/javascript">
+    $(function(){
+      SyntaxHighlighter.all();
+    });
+    $(window).load(function(){
+      $('.flexslider').flexslider({
+        animation: "fade",
+        start: function(slider){
+          $('body').removeClass('loading');
+        }
+      });
+	
+
+/*-----------heart attack code---------------*/
+
+
+
+ var lastScroll = 0;
+      $(window).scroll(function(event){
+          //Sets the current scroll position
+          var st = $(this).scrollTop();
+          //Determines up-or-down scrolling
+          if (st > lastScroll){
+ 
+          } 
+          else {
+            $("#sc-top").removeClass('sam');
+          }
+          //Updates scroll position
+          lastScroll = st;
+      });
+
+
+
+
+           $('html, body').delay(1000).animate({
+scrollTop: $("#sc-top").addClass('sam').offset().top
+}, 800);
+	  
+/*-----------end  heart attack code---------------*/	  
+	  
+	  
+});
+
+	
+	
+	
+	
+ 
+  
+ <!-- FlexSlider --> 
+﻿
+<meta name="google-site-verification" content="2p9dZ2-PoAt0xBRnjNKUEtlauFuRpvzN2Ya0_yq6yXw" />
+<!-- Global site tag (gtag.js) - Google Analytics -->
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-134339427-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-134339427-1');
+</script>
+<script type="text/javascript">
+function chgIntrim()
+{
+if(document.getElementById("project").value!=""){
+window.open(document.getElementById("project").value, "_blank");
+}
+}
+</script>
+
+<style>
+a { text-decoration:none!important;}
+
+</style>
+
+
+</head>
+
+<body>
+
+<div class="outerdiv">
+
+﻿
+
+	<div class="header">
+		<div class="hdleft">
+			<div class="hd_call">
+				<div class="hdicon">FOR ENQUIRY, CALL <span class="hdtext">+91-93100-12345</span></div>
+			</div>
+			<!--<div class="hd_sms">
+				<div class="hdicon">Send</div>
+				<div class="hdtext">SCT to 56677</div>
+			</div>-->
+			<div class="clear"></div>
+		</div>
+		<div class="hdright">
+			<ul>
+				<li>
+					<a href="index.php" class="mainlk">Home</a>
+				</li>
+				<li>
+					<div class="menu" id="m1">
+						<div class="menupad">
+						<div class="menubg"></div>
+						<ul class="hdrlinks">
+							<li><a href="https://www.supertechlimited.com/common/index.php">Profile</a></li>
+							<li><a href="https://www.supertechlimited.com/common/about-history.php">History</a></li>
+							<li><a href="https://www.supertechlimited.com/common/about-philosophy.php">Philosophy</a></li>
+							<li><a href="https://www.supertechlimited.com/common/about-csr.php">CSR</a></li>
+							<li><a href="https://www.supertechlimited.com/common/about-team.php">Team</a></li>							
+							<li><a href="https://www.supertechlimited.com/common/about-quality.php">Quality Policy</a></li>
+							<li><a href="https://www.supertechlimited.com/common/about-future-plan.php">Future Plan</a></li>
+							<li><a href="https://www.supertechlimited.com/common/about-policies.php">Policies</a></li>
+						</ul>
+						</div>
+					</div>
+					<a href="javascript:;" class="mainlk hdl1">About Us</a>
+				</li>
+				<li>
+					<div class="menu" id="m2">
+					<div class="menubg"></div>
+					
+					
+					<div class="menupad" style="padding:20px;">
+						
+						<div class="prmenuleft">
+						<ul class="hdrlinks">
+							<li><a href="javascript:;" class="menuRes">Residential</a></li>
+							<li><a href="javascript:;" class="menuCom">Commercial</a></li>
+							<li><a href="javascript:;" class="menuTown">Townships</a></li>
+							<li><a href="javascript:;" class="menuVillas">Villas</a></li>
+							<li><a href="javascript:;" class="menuHosp">Hospitality</a></li>
+							<li><a href="javascript:;" class="menuIt">IT Parks</a></li>
+							<li><a href="javascript:;" class="menuComp">Completed Projects</a></li>
+						</ul>
+						</div>
+						
+						
+						
+						
+						<div class="prmenuright">
+						
+						<div class="scroll-pane-menu">
+			<div class="scrollcont">
+							
+							<div class="menuContRes">
+							
+							<div class="prmenutitle">Residential</div>
+							
+							<div class="menucolleft">
+							
+								<div class="prmenuloc">Noida</div>
+								<a href="https://www.supertechlimited.com/residential/northeye-noida/index.php">North Eye</a>
+								<a href="https://www.supertechlimited.com/residential/orbhomes-noida/index.php">ORB</a>
+								<a href="https://www.supertechlimited.com/residential/supernova-noida/index.php">Supernova</a>
+								<a href="https://www.supertechlimited.com/residential/cape-town-noida/index.php">Cape Town</a>
+								<a href="https://www.supertechlimited.com/residential/ecociti-expressway-noida/index.php">Ecociti</a>
+								<a href="https://www.supertechlimited.com/residential/the-romano/index.php">The Romano</a>
+								<a href="https://www.supertechlimited.com/residential/emerald-court-expressway-noida/index.php">Emerald Court</a>
+								<a href="https://www.supertechlimited.com/residential/apex-tower-expressway-noida/index.php">Apex Tower</a>
+								<a href="https://www.supertechlimited.com/residential/ceyane-tower-tajexpressway-noida/index.php">Ceyane Tower</a>
+								<a href="https://www.supertechlimited.com/residential/34pavilion-noida/index.php">34 Pavilion</a>
+								<a href="https://www.supertechlimited.com/property/Supertech-Capeluxe-Noida/" target="_blank">Capeluxe</a>
+							
+								
+								
+								<div class="prmenuloc">Gurgaon</div>
+								<a href="https://www.supertechlimited.com/residential/araville-gurgaon/index.php">Araville</a>
+								<a href="https://www.supertechlimited.com/residential/48canvas/index.php">48 Canvas</a>
+								<a href="https://www.supertechlimited.com/residential/hues/index.php">Hues</a>
+                                       <!--<a style="margin-left:15px;" href="http://www.supertechlimited.com/supertech-jj-tower-new/" target="_blank">Jade Towers</a>
+                                       <a style="margin-left:15px;" href="http://supertech-azalia.in/" target="_blank">Azalia</a>-->								
+								<a href="https://www.supertechlimited.com/residential/basera/index.php">Basera</a>								
+								<a href="https://www.supertechlimited.com/residential/aadri/index.php">Aadri</a>	
+								<a href="https://www.supertechlimited.com/residential/hilltown-gurgaon/index.php">Hilltown</a>	
+								<a href="https://www.supertechlimited.com/residential/hill-crest-gurgaon/index.php">Hill Crest </a>
+								<a href="https://www.supertechlimited.com/residential/officers-enclave-gurgaon/index.php">Officer's Enclave </a>	
+                                <a href="https://www.supertechlimited.com/residential/azalia-gurgaon/index.php">Azalia</a>
+								<a href="https://www.supertechlimited.com/residential/scarlet-suites-gurgaon/index.php">Scarlet Suites</a>
+                                <a href="https://www.supertechlimited.com/residential/belfair/index.php">Belfair</a>							
+                                <a href="https://www.supertechlimited.com/residential/valley/">The Valley</a>									
+								
+								
+								<div class="prmenuloc">Greater Noida</div>
+								<a href="https://www.supertechlimited.com/residential/czar-suites-greater-noida/index.php">Czar Suites</a>
+								<a href="https://www.supertechlimited.com/residential/czar-villas-greater-noida/index.php">Czar Villas</a>
+								
+								
+								
+								
+								
+								
+								<div class="prmenuloc">Greater Noida (West)</div>
+								<a href="https://www.supertechlimited.com/residential/sports-villege-noida-west/index.php">Sports village</a>
+								<a href="https://www.supertechlimited.com/residential/ecovillage-noida-extension/index.php">Ecovillage</a>
+								<a href="https://www.supertechlimited.com/residential/ecovillage2-noida-extension/index.php">Ecovillage II</a>
+								<a href="https://www.supertechlimited.com/residential/ecovillage3-noida-extension/index.php">Ecovillage III</a>
+								<!--<a href="https://www.supertechlimited.com/residential/ecovillage4-noida-extension/index.php">Ecovillage IV</a>-->
+								<a href="https://www.supertechlimited.com/residential/albaria/index.php">Albaria</a>
+								<a href="https://www.supertechlimited.com/residential/kingstower/index.php">Kings Tower</a>
+								<a href="https://www.supertechlimited.com/residential/oxford-square-greater-noida/index.php">Oxford Square</a>
+								
+								
+							</div>
+							
+							<div class="menucolright">
+								
+								<div class="prmenuloc">Yamuna Expressway</div>
+								<a href="https://www.supertechlimited.com/residential/golf-country-yamunaexpressway-greater-noida/index.php">Golf Country</a>
+								<a href="https://www.supertechlimited.com/residential/up-country-yamunaexpressway-greater-noida/index.php">Up Country</a>
+								<!--<a href="https://www.supertechlimited.com/residential/golf-village-yamuna-expressway/index.php">Golf Village</a>
+								<a href="https://www.supertechlimited.com/residential/golf-suites-yamuna-expressway/index.php">Golf Suites</a>
+								<a href="https://www.supertechlimited.com/residential/golf-villas-yamuna-expressway/index.php">Golf Villas</a>
+								<a href="https://www.supertechlimited.com/residential/grand-circuit-yamuna-expressway/index.php">Grand Circuit</a>
+								<a href="https://www.supertechlimited.com/residential/safari-studios-yamuna-expressway/index.php">Safari Studios</a>-->
+								<!--<a href="https://www.supertechlimited.com/residential/holiday-village-yamuna-expressway/index.php">Holiday Village</a>
+								<a href="https://www.supertechlimited.com/residential/fable-castle/index.php">Fable Castle</a>-->
+							
+								
+
+								<div class="prmenuloc">Meerut</div>
+								<a href="https://www.supertechlimited.com/residential/meerut-sports-city/index.php">Meerut Sports City</a>
+								<a href="https://www.supertechlimited.com/residential/green-village-meerut/index.php">Green Village</a>
+
+								<div class="prmenuloc">Bangalore</div>
+								<a href="https://www.supertechlimited.com/residential/micasa-bangalore/index.php">Micasa</a>
+								
+								<div class="prmenuloc">Rudrapur</div>
+								<a href="https://www.supertechlimited.com/residential/river-crest-rudrapur/index.php">River Crest</a>
+								<a href="https://www.supertechlimited.com/residential/metropoliscity-rudrapur/index.php">Metropolis City</a>
+								<!--<a href="https://www.supertechlimited.com/residential/metropoliscity/index.php">Metropolis City</a>-->
+								
+								<div class="prmenuloc">Ghaziabad</div>
+								<a href="https://www.supertechlimited.com/residential/livingston-ghaziabad/index.php">Livingston</a>
+								
+								<div class="prmenuloc">Moradabad</div>
+								<a href="https://www.supertechlimited.com/residential/plam-greens-moradabad/index.php">Palm Greens</a>
+								
+								<div class="prmenuloc">Dehradun</div>
+								<a href="https://www.supertechlimited.com/residential/doon-square-dehradun/index.php">Doon Square</a>
+							
+								
+							</div>
+							
+							</div>
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							<div class="menuContCom">
+							
+							<div class="prmenutitle">Commercial</div>
+							
+							<div class="menucolleft">
+							
+								<div class="prmenuloc">Noida</div>
+								<a href="https://www.supertechlimited.com/commercial/e-square-noida/index.php">E Square</a>
+								
+								<div class="prmenuloc">Greater Noida (West)</div>
+								<a href="https://www.supertechlimited.com/commercial/ecobazaar1-noida/index.php">Ecobazaar I</a>
+								<a href="https://www.supertechlimited.com/commercial/ecobazaar2-noida/index.php">Ecobazaar II</a>
+								<a href="https://www.supertechlimited.com/commercial/ecobazaar3-noida/index.php">Ecobazaar III</a>
+								<a href="https://www.supertechlimited.com/commercial/czar-suites-greater-noida/index.php">Czar commercial</a>
+								
+								<div class="prmenuloc">Meerut</div>
+								<a href="https://www.supertechlimited.com/commercial/shopprix-mall-meerut/index.php">Shopprix Mall</a>
+								
+								<div class="prmenuloc">Gurgaon</div>
+								<a href="https://www.supertechlimited.com/commercial/basera/index.php">Basera</a>
+								
+							</div>
+							
+							<div class="menucolright">
+							    
+							    							
+								<div class="prmenuloc">Haridwar</div>
+								<a href="https://www.supertechlimited.com/commercial/the-pentagon-mall-haridwar/index.php">The Pentagon Mall</a>
+								
+								<div class="prmenuloc">Rudrapur</div>
+								<a href="https://www.supertechlimited.com/commercial/metropolis-mall-rudrapur/index.php">Metropolis Mall</a>
+								
+								<div class="prmenuloc">Dehradun</div>
+								<a href="https://www.supertechlimited.com/commercial/doonsquare-dehradun/index.php">Doon Square</a>
+							</div>
+							
+							</div>
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							<div class="menuContTown">
+							
+							<div class="prmenutitle">Townships</div>
+							
+							<div class="menucolleft">
+								<div class="prmenuloc">Noida</div>
+								<a href="https://www.supertechlimited.com/residential/cape-town-noida/index.php">Cape Town</a>
+								
+								<div class="prmenuloc">Yamuna Expressway</div>
+								<a href="https://www.supertechlimited.com/residential/up-country-yamunaexpressway-greater-noida/index.php">Up Country</a>
+								<a href="https://www.supertechlimited.com/residential/golf-country-yamunaexpressway-greater-noida/index.php">Golf Country</a>
+							</div>
+							
+							<div class="menucolright">
+								<div class="prmenuloc">Meerut</div>
+								<a href="https://www.supertechlimited.com/residential/meerut-sports-city/index.php">Meerut Sports City</a>
+								<a href="https://www.supertechlimited.com/residential/green-village-meerut/index.php">Green Village</a>
+								
+								<div class="prmenuloc">Rudrapur</div>
+								<a href="https://www.supertechlimited.com/residential/river-crest-rudrapur/index.php">River Crest</a>
+								<a href="http://www.supertechlimited.com/residential/metropoliscity/index.php">Metropolis City</a>
+								<!--<a href="http://www.assotechlimited.com/index.php?option=com_content&task=view&id=91&Itemid=99" target="_blank">Metropolis City</a>-->
+							</div>
+							
+							</div>
+							
+							
+							
+							
+							
+							
+							
+							
+							<div class="menuContVillas">
+							
+							<div class="prmenutitle">Villas</div>
+							
+							<div class="menucolleft">
+								
+								<div class="prmenuloc">Greater Noida</div>
+								<a href="https://www.supertechlimited.com/residential/czar-villas-greater-noida/index.php">Czar Villas</a>
+							</div>
+							
+							<div class="menucolright">
+								<div class="prmenuloc">Yamuna Expressway</div>
+								<a href="https://www.supertechlimited.com/residential/golf-villas-yamuna-expressway/index.php">Golf Villas</a>
+								<!--<a href="https://www.supertechlimited.com/residential/holiday-village-yamuna-expressway/index.php">Holiday Village</a>-->
+							</div>
+							
+							</div>
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							<div class="menuContHosp">
+							
+							<div class="prmenutitle">Hospitality</div>
+							
+							<div class="menucolleft">
+								<div class="prmenuloc">Haridwar</div>
+								<a href="https://www.supertechlimited.com/hospitality/hyphen-haridwar/index.php">Hyphen Grand</a>
+								<!--<a href="https://www.supertechlimited.com/hospitality/radisson-haridwar/index.php">Radisson Blu</a>-->
+								
+								<div class="prmenuloc">Meerut</div>
+								<a href="https://www.supertechlimited.com/hospitality/country-inn-meerut/index.php">Country Inn & Suites</a>
+								<a href="https://www.supertechlimited.com/hospitality/hyphen-premier-meerut/index.php">Hyphen Premier</a>
+							</div>
+							
+							<div class="menucolright">
+								<div class="prmenuloc">Rudrapur</div>
+								<a href="https://www.supertechlimited.com/hospitality/radisson-rudrapure/index.php">Radisson Blu</a>
+								
+								<div class="prmenuloc">Noida</div>
+								<a href="https://www.supertechlimited.com/hospitality/hyphen-noida/index.php">Hyphen Hotel</a>
+								<a href="https://www.supertechlimited.com/hospitality/hyphen-club-noida/index.php">Hyphen Club @34 Pavilion</a>
+								<a href="https://www.supertechlimited.com/property/Supertech-Capeluxe-Noida/" target="_blank">Capeluxe</a>
+							</div>
+							
+							</div>
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							<div class="menuContIt">
+							
+							<div class="prmenutitle">IT Parks</div>
+							
+							<div class="menucolleft">
+								<div class="prmenuloc">Greater Noida</div>
+								<a href="https://www.supertechlimited.com/itparks/software-park/index.php">Software Park</a>
+							</div>
+							
+							<div class="menucolright">
+								
+							</div>
+							
+							</div>
+							
+							
+							
+							
+							
+							
+							
+							
+							<div class="menuContComp">
+							
+							<div class="prmenutitle">Completed Projects</div>
+							
+							<div class="menucolleft">
+								<div class="prmenusubtitle">Residential</div>
+								
+								<div class="prmenuloc">Noida</div>
+								<a href="https://www.supertechlimited.com/residential/34pavilion-noida/index.php">34 Pavilion</a>
+								<a href="https://www.supertechlimited.com/residential/emerald-court-expressway-noida/index.php">Emerald Court</a>
+								
+								<div class="prmenuloc">Greater Noida (West)</div>
+								<a href="https://www.supertechlimited.com/residential/albaria/index.php">Albaria</a>
+								
+								
+								<div class="prmenuloc">Ghaziabad</div>
+								<a href="https://www.supertechlimited.com/completed-projects/icon-ghaziabad/index.php">Icon</a>
+								<a href="https://www.supertechlimited.com/completed-projects/avant-garde-vaishali-ghaziabad/index.php">Avant Garde, Vaishali</a>
+								<a href="https://www.supertechlimited.com/completed-projects/supertech-estate-vaishali-ghaziabad/index.php">Supertech Estate, Vaishali</a>
+								<a href="https://www.supertechlimited.com/completed-projects/supertech-residency-vaishali-ghaziabad/index.php">Supertech Residency, Vaishali</a>
+								<a href="https://www.supertechlimited.com/completed-projects/rameshwar-orchids-kaushambi-ghaziabad/index.php">Rameshwar Orchids, Kaushambi</a>
+								<a href="https://www.supertechlimited.com/completed-projects/supertech-enclave-kaushambi-ghaziabad/index.php">Supertech Enclave, Kaushambi</a>
+								<a href="https://www.supertechlimited.com/completed-projects/supertech-plaza-kaushambi-ghaziabad/index.php">Supertech Plaza, Kaushambi</a>
+								<a href="https://www.supertechlimited.com/completed-projects/supertech-homes-kaushambi-ghaziabad/index.php">Supertech Homes, Kaushambi</a>
+								<a href="https://www.supertechlimited.com/residential/livingston-ghaziabad/index.php">Livingston</a>
+								
+								<div class="prmenuloc">Meerut</div>
+								<a href="https://www.supertechlimited.com/completed-projects/palm-greens-meerut/index.php">Palm Greens</a>
+							</div>
+							
+							<div class="menucolright">
+								<div class="prmenusubtitle">Commercial</div>
+								<div class="prmenuloc">Ghaziabad</div>
+								<a href="https://www.supertechlimited.com/completed-projects/shopprix-mall-vaishali-ghaziabad/index.php">Shopprix Mall, Vaishali</a>
+								<a href="https://www.supertechlimited.com/completed-projects/shopprix-mall-kaushambi-ghaziabad/index.php">Shopprix Mall, Kaushambi</a>
+
+								<div class="prmenuloc">Noida</div>
+								<a href="https://www.supertechlimited.com/completed-projects/shopprix-mall-noida/index.php">Shopprix Mall</a>
+							</div>
+							
+							</div>
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+						</div>
+						</div>
+						</div>
+						<div class="clear"></div>
+					</div>
+					
+					</div>
+					<a href="javascript:;" class="mainlk hdl2">Projects</a>
+				</li>
+				
+				
+				<li>
+					<div class="menu" id="m3">
+						<div class="menupad">
+						<div class="menubg"></div>
+						<ul class="hdrlinks">
+							<li><a href="https://www.supertechlimited.com/common/nri-overview.php">Overview</a></li>
+							<li><a href="https://www.supertechlimited.com/common/nri-faqs.php">FAQ's</a></li>
+							<li><a href="https://www.supertechlimited.com/common/nri-newsletter-industry-updates.php">Industry Updates</a></li>
+							<li><a href="https://www.supertechlimited.com/common/nri-money-converter.php">Money Converter</a></li>
+							
+							<li><a href="https://www.supertechlimited.com/common/nri-enquiry.php">Enquiry</a></li>
+							<li><a href="https://www.supertechlimited.com/common/nri-overseas-associates.php">Overseas Associates</a></li>
+						</ul>
+						</div>
+					</div>
+					<!--<a href="javascript:;" class="mainlk hdl3">NRIs</a>-->
+				</li>
+				<!--<li>
+					<div class="menu" id="m4">
+						<div class="menupad">
+						<div class="menubg"></div>
+						<ul class="hdrlinks">
+							<li><a href="https://www.supertechlimited.com/common/investor-financial.php">Financial</a></li>
+						</ul>
+						</div>
+					</div>
+					<a href="javascript:;" class="mainlk hdl4">Investors</a>
+				</li>-->
+				
+				
+				<li>
+					<div class="menu" id="m5">
+						<div class="menupad">
+						<div class="menubg"></div>
+						<ul class="hdrlinks">
+					<li><a href="https://www.supertechlimited.com/common/media-news.php?nYear=2019&nMonth=all">In the News</a></li>
+				    <li><a href="https://www.supertechlimited.com/common/media-pc.php?nYear=2019&nMonth=all">Press Coverage</a></li>
+							<!--<li><a href="https://www.supertechlimited.com/common/media-newsletter.php">Newsletter</a></li>-->
+			<li><a href="https://www.supertechlimited.com/common/media-compaign.php?nYear=2019&nMonth=all">Ad Campaign</a></li>
+						</ul>
+						</div>
+					</div>
+					<a href="javascript:;" class="mainlk hdl5">Media</a>
+				</li>
+				<li>
+					<div class="menu" id="m6">
+						<div class="menupad">
+						<div class="menubg"></div>
+						<ul class="hdrlinks">
+							<li><a href="https://www.supertechlimited.com/common/careers-wws.php">Why Work@Supertech</a></li>
+							<li><a href="https://www.supertechlimited.com/common/careers-co.php">Current Openings</a></li>
+						</ul>
+						</div>
+					</div>
+					<a href="javascript:;" class="mainlk hdl6">Careers</a>
+				</li>
+				<li>
+					<div class="menu" id="m7">
+						<div class="menupad">
+						<div class="menubg"></div>
+						<ul class="hdrlinks">
+							<li><a href="https://www.supertechlimited.com/common/contact-bqf.php">Business Queries</a></li>
+							<li><a href="https://www.supertechlimited.com/common/contact-location.php">Location</a></li>
+							<li><a href="https://www.supertechlimited.com/common/contact-regional.php">Project Offices/Sites</a></li>
+							<li><a href="https://www.supertechlimited.com/common/contact-international.php">Overseas Associates</a></li>
+						</ul>
+						</div>
+					</div>
+					<a href="javascript:;" class="mainlk hdl7">Contact</a>
+				</li>
+                <!-- <li><a href="http://blog.supertechlimited.com/" class="mainlk">Blog</a></li>-->
+				<li>
+					<div class="menu" id="m8">
+						<div class="menupad">
+						<div class="menubg"></div>
+						<ul class="hdrlinks">
+							<li><a href="https://www.supertechlimited.com/common/register_visitorbook_agent.php">Agent Registration</a></li>
+							<li><a href="http://erealty.supertechlimited.com/" target="_blank">Supertech E-Services</a></li>
+							<li><a href="http://cpcs.supertechlimited.com/" target="_blank">Supertech CPCS</a></li>
+							<li><a href="https://www.supertechlimited.com/pdf/Booking-Form-171117.pdf" target="_blank">Booking Form</a></li>
+						</ul>
+						</div>
+					</div>
+					<a href="javascript:;" class="mainlk hdl8">Login</a>
+				</li>
+               
+			</ul>
+		</div>
+		<a href="javascript:;" class="btnmenu"><img src="https://www.supertechlimited.com/images/icon_menu.png" alt="Menu" border="0"></a>
+		<div class="clear"></div>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+<div class="mobileback"></div>
+
+<div id="mobilemenu">
+
+<div class="mobilemenuclose"><img src="https://www.supertechlimited.com/images/closemenu.gif" alt="close" border="0"></div>
+
+<div class="mobilemenucontent">
+
+<ul id="browser">
+
+	<li><span style="background:url(images/menu_about.png) no-repeat 0px 2px; padding-left:32px; border-top:1px dashed #fff;">About Us</span>
+		<ul style="padding-bottom:30px;">
+			<li><a href="https://www.supertechlimited.com/common/index.php"><span>- Profile</span></a></li>
+			<li><a href="https://www.supertechlimited.com/common/about-history.php"><span>- History</span></a></li>
+			<li><a href="https://www.supertechlimited.com/common/about-philosophy.php"><span>- Philosophy</span></a></li>
+			<li><a href="https://www.supertechlimited.com/common/about-csr.php"><span>- CSR</span></a></li>
+			<li><a href="https://www.supertechlimited.com/common/about-team.php"><span>- Team</span></a></li>
+			<li><a href="https://www.supertechlimited.com/common/about-quality.php"><span>- Quality Policy</span></a></li>
+			<li><a href="https://www.supertechlimited.com/common/about-future-plan.php"><span>- Future Plan</span></a></li>
+			<li><a href="https://www.supertechlimited.com/common/about-policies.php"><span>- Policies</span></a></li>
+		</ul>
+	</li>
+	
+	
+	<li><span style="background:url(images/menu_projects.png) no-repeat 0px 2px; padding-left:32px;">Projects</span>
+		<ul style="padding-bottom:30px;">
+			<li><span>- Residential</span>
+				<ul style="padding-bottom:30px;">
+					<li><span>- Noida</span>
+						<ul style="padding-bottom:10px;">
+							<li><a href="https://www.supertechlimited.com/residential/northeye-noida/index.php"><span>- North Eye</span></a></li>
+							<li><a href="https://www.supertechlimited.com/residential/orbhomes-noida/index.php"><span>- ORB</span></a></li>
+							<li><a href="https://www.supertechlimited.com/residential/supernova-noida/index.php"><span>- Supernova</span></a></li>
+							<li><a href="https://www.supertechlimited.com/residential/cape-town-noida/index.php"><span>- Cape Town</span></a></li>
+							<li><a href="https://www.supertechlimited.com/residential/ecociti-expressway-noida/index.php"><span>- Ecociti</span></a></li>
+							<li><a href="https://www.supertechlimited.com/residential/the-romano/index.php"><span>- The Romano</span></a></li>
+							<li><a href="https://www.supertechlimited.com/residential/emerald-court-expressway-noida/index.php"><span>- Emerald Court</span></a></li>
+							<li><a href="https://www.supertechlimited.com/residential/apex-tower-expressway-noida/index.php"><span>- Apex Tower</span></a></li>
+							<li><a href="https://www.supertechlimited.com/residential/ceyane-tower-tajexpressway-noida/index.php"><span>- Ceyane Tower</span></a></li>
+							<li><a href="https://www.supertechlimited.com/residential/34pavilion-noida/index.php"><span>- 34 Pavilion</span></a></li>
+							
+						</ul>
+					</li>
+					<li><span>- Gurgaon</span>
+						<ul style="padding-bottom:10px;">
+							<li><a href="https://www.supertechlimited.com/residential/araville-gurgaon/index.php"><span>- Araville</span></a></li>
+							<li><a href="https://www.supertechlimited.com/residential/48canvas/index.php"><span>- 48 Canvas</span></a></li>
+							<li><a href="https://www.supertechlimited.com/residential/hues/index.php"><span>- Hues</span></a></li>
+                            <li style="margin-left:15px;"><a href="http://www.supertechlimited.com/supertech-jj-tower-new/" target="_blank"><span>- Jade Towers</span></a></li>
+                            <li style="margin-left:15px;"><a href="http://supertech-azalia.in/" target="_blank"><span>- Azalia</span></a></li> 
+                            <li><a href="https://www.supertechlimited.com/residential/basera/index.php"><span>- Basera</span></a></li>
+                            <li><a href="https://www.supertechlimited.com/residential/aadri/index.php"><span>- Aadri</span></a></li>
+							<li><a href="https://www.supertechlimited.com/residential/hilltown-gurgaon/index.php"><span>- Hilltown</span></a></li>	
+							<li><a href="https://www.supertechlimited.com/residential/hill-crest-gurgaon/index.php"><span>- Hill Crest</span></a></li>
+							<li><a href="https://www.supertechlimited.com/residential/officers-enclave-gurgaon/index.php"><span>- Officer's Enclave</span></a></li>	
+                            <li><a href="https://www.supertechlimited.com/residential/azalia-gurgaon/index.php"><span>- Azalia</span></a></li>
+							<li><a href="https://www.supertechlimited.com/residential/scarlet-suites-gurgaon/index.php"><span>- Scarlet Suites</span></a></li>
+                            <li><a href="https://www.supertechlimited.com/residential/belfair/index.php"><span>- Belfair</span></a></li>					
+                               <li> <a href="https://www.supertechlimited.com/residential/valley/">The Valley</a>				</li>
+							
+						</ul>
+					</li>
+					<li><span>- Greater Noida</span>
+						<ul style="padding-bottom:10px;">
+							<li><a href="https://www.supertechlimited.com/residential/czar-suites-greater-noida/index.php"><span>- Czar Suites</span></a></li>
+							<li><a href="https://www.supertechlimited.com/residential/czar-villas-greater-noida/index.php"><span>- Czar Villas</span></a></li>
+						</ul>
+					</li>
+					<li><span>- Greater Noida (West)</span>
+						<ul style="padding-bottom:10px;">
+						    <li><a href="https://www.supertechlimited.com/residential/sports-villege-noida-west/index.php"><span>Sports village</a></span></a></li>
+							<li><a href="https://www.supertechlimited.com/residential/ecovillage-noida-extension/index.php"><span>- Ecovillage</span></a></li>
+							<li><a href="https://www.supertechlimited.com/residential/ecovillage2-noida-extension/index.php"><span>- Ecovillage II</span></a></li>
+							<li><a href="https://www.supertechlimited.com/residential/ecovillage3-noida-extension/index.php"><span>- Ecovillage III</span></a></li>
+							<!--<li><a href="https://www.supertechlimited.com/residential/ecovillage4-noida-extension/index.php"><span>- Ecovillage IV</span></a></li>-->
+							<li><a href="https://www.supertechlimited.com/residential/albaria/index.php"><span>- Albaria</span></a></li>
+							<li><a href="https://www.supertechlimited.com/residential/kingstower/index.php"><span>- Kings Tower</span></a></li>
+							<li><a href="https://www.supertechlimited.com/residential/oxford-square-greater-noida/index.php"><span>- Oxford Square</span></a></li>
+						</ul>
+					</li>
+					<li><span>- Yamuna Expressway</span>
+						<ul style="padding-bottom:10px;">
+							<li><a href="https://www.supertechlimited.com/residential/golf-country-yamunaexpressway-greater-noida/index.php"><span>- Golf Country</span></a></li>
+							<li><a href="https://www.supertechlimited.com/residential/up-country-yamunaexpressway-greater-noida/index.php"><span>- Up Country</span></a></li>
+							<!--<li><a href="https://www.supertechlimited.com/residential/golf-village-yamuna-expressway/index.php"><span>- Golf Village</span></a></li>
+							<li><a href="https://www.supertechlimited.com/residential/golf-suites-yamuna-expressway/index.php"><span>- Golf Suites</span></a></li>
+							<li><a href="https://www.supertechlimited.com/residential/golf-villas-yamuna-expressway/index.php"><span>- Golf Villas</span></a></li>
+							<li><a href="https://www.supertechlimited.com/residential/grand-circuit-yamuna-expressway/index.php"><span>- Grand Circuit</span></a></li>
+							<li><a href="https://www.supertechlimited.com/residential/safari-studios-yamuna-expressway/index.php"><span>- Safari Studios</span></a></li>-->
+							<!--<li><a href="https://www.supertechlimited.com/residential/holiday-village-yamuna-expressway/index.php"><span>- Holiday Village</span></a></li>
+							<li><a href="https://www.supertechlimited.com/residential/fable-castle/index.php"><span>- Fable Castle</span></a></li>-->
+						</ul>
+					</li>
+					<li><span>- Meerut</span>
+						<ul style="padding-bottom:10px;">
+							<li><a href="https://www.supertechlimited.com/residential/meerut-sports-city/index.php"><span>- Meerut Sports City</span></a></li>
+							<li><a href="https://www.supertechlimited.com/residential/green-village-meerut/index.php"><span>- Green Village</span></a></li>
+						</ul>
+					</li>
+					<li><span>- Bangalore</span>
+						<ul style="padding-bottom:10px;">
+							<li><a href="https://www.supertechlimited.com/residential/micasa-bangalore/index.php"><span>- Micasa</span></a></li>
+						</ul>
+					</li>
+					<li><span>- Rudrapur</span>
+						<ul style="padding-bottom:10px;">
+							<li><a href="https://www.supertechlimited.com/residential/river-crest-rudrapur/index.php"><span>- River Crest</span></a></li>
+							<li><a href="https://www.supertechlimited.com/residential/metropoliscity-rudrapur/index.php"><span>- Metropolis City</span></a></li>
+							<!--<li><a href="https://www.supertechlimited.com/residential/metropoliscity/index.php"><span>- Metropolis City</span></a></li>-->
+						</ul>
+					</li>
+					<li><span>- Ghaziabad</span>
+						<ul style="padding-bottom:10px;">
+							<li><a href="https://www.supertechlimited.com/residential/livingston-ghaziabad/index.php"><span>- Livingston</span></a></li>
+						</ul>
+					</li>
+					<li><span>- Moradabad</span>
+						<ul style="padding-bottom:10px;">
+							<li><a href="https://www.supertechlimited.com/residential/plam-greens-moradabad/index.php"><span>- Palm Greens</span></a></li>
+						</ul>
+					</li>
+					<li><span>- Dehradun</span>
+						<ul style="padding-bottom:10px;">
+							<li><a href="https://www.supertechlimited.com/residential/doon-square-dehradun/index.php"><span>- Doon Square</span></a></li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+			
+			
+			
+			<li><span>- Commercial</span>
+				<ul style="padding-bottom:30px;">
+					<li><span>- Noida</span>
+						<ul style="padding-bottom:10px;">
+							<li><a href="https://www.supertechlimited.com/commercial/e-square-noida/index.php"><span>- E Square</span></a></li>							
+						</ul>
+					</li>
+					
+					
+					<li><span>- Greater Noida (West) </span>
+						<ul style="padding-bottom:10px;">							
+							<li><a href="https://www.supertechlimited.com/commercial/ecobazaar1-noida/index.php"><span>- Ecobazaar I</span></a></li>
+							<li><a href="https://www.supertechlimited.com/commercial/ecobazaar2-noida/index.php"><span>- Ecobazaar II</span></a></li>
+							<li><a href="https://www.supertechlimited.com/commercial/ecobazaar3-noida/index.php"><span>- Ecobazaar III</span></a></li>
+							<li><a href="https://www.supertechlimited.com/commercial/czar-suites-greater-noida/index.php"><span>- Czar commercial</span></a></li>
+						</ul>
+					</li>
+					
+					
+					<li><span>- Meerut</span>
+						<ul style="padding-bottom:10px;">
+							<li><a href="https://www.supertechlimited.com/commercial/shopprix-mall-meerut/index.php"><span>- Shopprix Mall</span></a></li>
+						</ul>
+					</li>
+					
+					<li><span>- Gurgaon</span>
+						<ul style="padding-bottom:10px;">
+							<li><a href="https://www.supertechlimited.com/commercial/basera/index.php"><span>- Basera</span></a></li>
+						</ul>
+					</li>
+									
+					<li><span>- Haridwar</span>
+						<ul style="padding-bottom:10px;">
+							<li><a href="https://www.supertechlimited.com/commercial/the-pentagon-mall-haridwar/index.php"><span>- The Pentagon Mall</span></a></li>
+						</ul>
+					</li>
+					<li><span>- Rudrapur</span>
+						<ul style="padding-bottom:10px;">
+							<li><a href="https://www.supertechlimited.com/commercial/metropolis-mall-rudrapur/index.php"><span>- Metropolis Mall</span></a></li>
+						</ul>
+					</li>
+					<li><span>- Dehradun</span>
+						<ul style="padding-bottom:10px;">
+							<li><a href="https://www.supertechlimited.com/commercial/doonsquare-dehradun/index.php"><span>- Doon Square</span></a></li>
+						</ul>
+					</li>					
+				</ul>
+			</li>
+			
+			
+			
+			<li><span>- Townships</span>
+				<ul style="padding-bottom:30px;">
+					<li><span>- Noida</span>
+						<ul style="padding-bottom:10px;">
+							<li><a href="https://www.supertechlimited.com/residential/cape-town-noida/index.php"><span>- Cape Town</span></a></li>
+						</ul>
+					</li>
+					<li><span>- Yamuna Expressway</span>
+						<ul style="padding-bottom:10px;">
+							<li><a href="https://www.supertechlimited.com/residential/up-country-yamunaexpressway-greater-noida/index.php"><span>- Up Country</span></a></li>
+							<li><a href="https://www.supertechlimited.com/residential/golf-country-yamunaexpressway-greater-noida/index.php"><span>- Golf Country</span></a></li>
+						</ul>
+					</li>
+					<li><span>- Meerut</span>
+						<ul style="padding-bottom:10px;">
+							<li><a href="https://www.supertechlimited.com/residential/meerut-sports-city/index.php"><span>- Meerut Sports City</span></a></li>
+							<li><a href="https://www.supertechlimited.com/residential/green-village-meerut/index.php"><span>- Green Village</span></a></li>
+						</ul>
+					</li>
+					<li><span>- Rudrapur</span>
+						<ul style="padding-bottom:10px;">
+							<li><a href="https://www.supertechlimited.com/residential/river-crest-rudrapur/index.php"><span>- River Crest</span></a></li>
+							<li><a href="http://www.supertechlimited.com/residential/metropoliscity/index.php" ><span>- Metropolis City</span></a></li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+			
+			
+			
+			
+			
+			
+			<li><span>- Villas</span>
+				<ul style="padding-bottom:30px;">
+					
+					<li><span>- Greater Noida</span>
+						<ul style="padding-bottom:10px;">
+							<li><a href="https://www.supertechlimited.com/residential/czar-villas-greater-noida/index.php"><span>- Czar Villas</span></a></li>
+						</ul>
+					</li>
+					<li><span>- Yamuna Expressway</span>
+						<ul style="padding-bottom:10px;">
+							<li><a href="https://www.supertechlimited.com/residential/golf-villas-yamuna-expressway/index.php"><span>- Golf Villas</span></a></li>
+							<!--<li><a href="https://www.supertechlimited.com/residential/holiday-village-yamuna-expressway/index.php"><span>- Holiday Village</span></a></li>-->
+						</ul>
+					</li>
+				</ul>
+			</li>
+			
+			
+			
+			<li><span>- Hospitality</span>
+				<ul style="padding-bottom:30px;">
+					<li><span>- Haridwar</span>
+						<ul style="padding-bottom:10px;">
+							<li><a href="https://www.supertechlimited.com/hospitality/hyphen-haridwar/index.php"><span>- Hyphen Grand</span></a></li>
+							<!--<li><a href="https://www.supertechlimited.com/hospitality/radisson-haridwar/index.php"><span>- Radisson Blu</span></a></li>-->
+						</ul>
+					</li>
+					<li><span>- Meerut</span>
+						<ul style="padding-bottom:10px;">
+							<li><a href="https://www.supertechlimited.com/hospitality/country-inn-meerut/index.php"><span>- Country Inn & Suites</span></a></li>
+							<li><a href="https://www.supertechlimited.com/hospitality/hyphen-premier-meerut/index.php"><span>- Hyphen Premier</span></a></li>
+						</ul>
+					</li>
+					<li><span>- Rudrapur</span>
+						<ul style="padding-bottom:10px;">
+							<li><a href="https://www.supertechlimited.com/hospitality/radisson-rudrapure/index.php"><span>- Radisson Blu</span></a></li>
+						</ul>
+					</li>
+					<li><span>- Noida</span>
+						<ul style="padding-bottom:10px;">
+							<li><a href="https://www.supertechlimited.com/hospitality/hyphen-noida/index.php"><span>- Hyphen Hotel</span></a></li>
+							<li><a href="https://www.supertechlimited.com/hospitality/hyphen-club-noida/index.php"><span>- Hyphen Club @34 Pavilion</span></a></li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+			
+			
+			
+			<li><span>- IT Parks</span>
+				<ul style="padding-bottom:30px;">
+					<li><span>- Greater Noida</span>
+						<ul style="padding-bottom:10px;">
+							<li><a href="https://www.supertechlimited.com/itparks/software-park/index.php"><span>- Software Park</span></a></li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+			
+			
+			
+			<li><span>- Completed Projects</span>
+				<ul style="padding-bottom:30px;">
+					<li><span>- Residential</span>
+						<ul style="padding-bottom:10px;">
+						
+							<li><div class="mobmenuloc"><span>Noida</span></div></li>
+							<li><a href="https://www.supertechlimited.com/residential/34pavilion-noida/index.php"><span>- 34 Pavilion</span></a></li>
+							<li><a href="https://www.supertechlimited.com/residential/emerald-court-expressway-noida/index.php"><span>- Emerald Court</span></a></li>
+								
+							<li><div class="mobmenuloc" style="padding-top:6px;"><span>Greater Noida (West)</span></div></li>
+							<li><a href="https://www.supertechlimited.com/residential/albaria/index.php"><span>- Albaria</span></a></li>
+								
+								
+							<li><div class="mobmenuloc" style="padding-top:6px;"><span>Ghaziabad</span></div></li>
+							<li><a href="https://www.supertechlimited.com/completed-projects/icon-ghaziabad/index.php"><span>- Icon</span></a></li>
+							<li><a href="https://www.supertechlimited.com/completed-projects/avant-garde-vaishali-ghaziabad/index.php"><span>- Avant Garde, Vaishali</span></a></li>
+							<li><a href="https://www.supertechlimited.com/completed-projects/supertech-estate-vaishali-ghaziabad/index.php"><span>- Supertech Estate, Vaishali</span></a></li>
+							<li><a href="https://www.supertechlimited.com/completed-projects/supertech-residency-vaishali-ghaziabad/index.php"><span>- Supertech Residency,<br>&nbsp;&nbsp;Vaishali</span></a></li>
+							<li><a href="https://www.supertechlimited.com/completed-projects/rameshwar-orchids-kaushambi-ghaziabad/index.php"><span>- Rameshwar Orchids,<br>&nbsp;&nbsp;Kaushambi</span></a></li>
+							<li><a href="https://www.supertechlimited.com/completed-projects/supertech-enclave-kaushambi-ghaziabad/index.php"><span>- Supertech Enclave,<br>&nbsp;&nbsp;Kaushambi</span></a></li>
+							<li><a href="https://www.supertechlimited.com/completed-projects/supertech-plaza-kaushambi-ghaziabad/index.php"><span>- Supertech Plaza,<br>&nbsp;&nbsp;Kaushambi</span></a></li>
+							<li><a href="https://www.supertechlimited.com/completed-projects/supertech-homes-kaushambi-ghaziabad/index.php"><span>- Supertech Homes,<br>&nbsp;&nbsp;Kaushambi</span></a></li>
+							<li><a href="https://www.supertechlimited.com/residential/livingston-ghaziabad/index.php"><span>- Livingston</span></a></li>
+							
+								
+							<li><div class="mobmenuloc" style="padding-top:6px;"><span>Meerut</span></div></li>
+							<li><a href="https://www.supertechlimited.com/completed-projects/palm-greens-meerut/index.php"><span>- Palm Greens</span></a></li>
+						</ul>
+					</li>
+					<li><span>- Commercial</span>
+						<ul style="padding-bottom:10px;">
+							<li><div class="mobmenuloc"><span>Ghaziabad</span></div></li>
+							<li><a href="https://www.supertechlimited.com/completed-projects/shopprix-mall-vaishali-ghaziabad/index.php"><span>- Shopprix Mall, Vaishali</span></a></li>
+							<li><a href="https://www.supertechlimited.com/completed-projects/shopprix-mall-kaushambi-ghaziabad/index.php"><span>- Shopprix Mall, Kaushambi</span></a></li>
+
+							<li><div class="mobmenuloc" style="padding-top:6px;"><span>Noida</span></div></li>
+							<li><a href="https://www.supertechlimited.com/completed-projects/shopprix-mall-noida/index.php"><span>- Shopprix Mall</span></a></li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+		</ul>
+	</li>
+	
+	
+	
+	
+	
+	<!--<li><span style="background:url(images/menu_nri.png) no-repeat 0px 2px; padding-left:32px;">NRIs</span>
+		<ul style="padding-bottom:30px;">
+		
+		                    <li><a href="https://www.supertechlimited.com/common/nri-overview.php"><span>Overview</span></a></li>
+							<li><a href="https://www.supertechlimited.com/common/nri-faqs.php"><span>FAQ's</span></a></li>
+							<li><a href="https://www.supertechlimited.com/common/nri-newsletter-industry-updates.php"><span>Industry Updates</span></a></li>
+							<li><a href="https://www.supertechlimited.com/common/nri-money-converter.php"><span>Money Converter</span></a></li>
+							
+							<li><a href="https://www.supertechlimited.com/common/nri-enquiry.php"><span>Enquiry</span></a></li>
+							<li><a href="https://www.supertechlimited.com/common/nri-overseas-associates.php"><span>Overseas Associates</span></a></li>					
+							
+			
+		</ul>
+	</li>-->
+	
+	
+	<!--<li><span style="background:url(images/menu_investors.png) no-repeat 0px 2px; padding-left:32px;">Investors</span>
+		<ul style="padding-bottom:30px;">
+			<li><a href="https://www.supertechlimited.com/common/investor-financial.php"><span>- Financial</span></a></li>
+		</ul>
+	</li>-->
+	
+	
+	<li><span style="background:url(images/menu_media.png) no-repeat 0px 2px; padding-left:32px;">Media</span>
+		<ul style="padding-bottom:30px;">
+			<li><a href="https://www.supertechlimited.com/common/media-news.php"><span>- In the News</span></a></li>
+			<li><a href="https://www.supertechlimited.com/common/media-pc.php"><span>- Press Coverage</span></a></li>
+			<!--<li><a href="https://www.supertechlimited.com/common/media-newsletter.php"><span>- Newsletter</span></a></li>-->
+			<li><a href="https://www.supertechlimited.com/common/media-compaign.php"><span>- Ad Campaign</span></a></li>
+		</ul>
+	</li>
+	
+	
+	<li><span style="background:url(images/menu_careers.png) no-repeat 0px 2px; padding-left:32px;">Careers</span>
+		<ul style="padding-bottom:30px;">
+			<li><a href="https://www.supertechlimited.com/common/careers-wws.php"><span>- Why Work@Supertech</span></a></li>
+			<li><a href="https://www.supertechlimited.com/common/careers-co.php"><span>- Current Openings</span></a></li>
+		</ul>
+	</li>
+	
+	
+	<li><span style="background:url(images/menu_contact.png) no-repeat 0px 2px; padding-left:32px;">Contact</span>
+		<ul style="padding-bottom:30px;">
+			<li><a href="https://www.supertechlimited.com/common/contact-bqf.php"><span>- Business Queries</span></a></li>
+			<li><a href="https://www.supertechlimited.com/common/contact-location.php"><span>- Location</span></a></li>
+			<li><a href="https://www.supertechlimited.com/common/contact-regional.php"><span>- Project Offices/Sites</span></a></li>
+			<li><a href="https://www.supertechlimited.com/common/contact-international.php"><span>- Overseas Associates</span></a></li>
+		</ul>
+	</li>
+	
+	<!--<li><span style="background:url(images/menu_media.png) no-repeat 0px 2px; padding-left:32px;"><a href="http://blog.supertechlimited.com/" style="color:#fff;">Blog</a></span></li>-->
+    
+	<li><span style="background:url(images/menu_login.png) no-repeat 0px 2px; padding-left:32px;">Login</span>
+		<ul style="padding-bottom:30px;">
+			<!--<li><a href="https://www.supertechlimited.com/common/Interm.php"><span>- Supertech E-Services</span></a></li>-->
+            <li><a href="http://erealty.supertechlimited.com/" target="_blank"><span>- Supertech E-Services</span></a></li>
+			<li><a href="http://cpcs.supertechlimited.com/" target="_blank"><span>- Supertech CPCS</span></a></li>
+			<li><a href="https://www.supertechlimited.com/pdf/booking-form-015.pdf" target="_blank"><span>- Booking Form</span></a></li>
+		</ul>
+	</li>
+	
+</ul>
+</div>
+</div>
+
+
+ 
+﻿<div class="footer_inner">
+  <div class="ftleft"> <a href="javascript:;" class="ft_search" id="openSearch2">Search</a> 
+    <!--<div class="ftleft_div1"><img src="https://www.supertechlimited.com/images/icon_search.png" border="0"></div><div class="links" style="display:none;"> <a href="http://www.air90suk.info/">Cheap Nike Air Max 90 UK</a> <a href="http://www.fireshoestore.com/">Official Adidas NMD R1 Online</a> <a href="http://www.jerseyfanstore.com/">New Nike NBA jersey</a></div>
+		<div class="ftleft_div2 ft_input">Search</div>
+		<div class="clear"></div>--> 
+  </div>
+  <div class="ftcenter"> 
+    <!--<div class="hd_call">
+			<div class="hdicon">Toll Free</div>
+			<div class="hdtext">1800 103 7676</div>
+		</div>-->
+    <div class="ft_links ft_links_left"> <a href="index.php#residential" class="ftlk1" rel="residential">Residential</a> <a href="index.php#commercial" class="ftlk2" rel="commercial">Commercial</a> <a href="index.php#townships" class="ftlk3" rel="townships">Townships</a> </div>
+    <div class="logo_home" ><a href="javascript:;" rel="main"><img src="https://www.supertechlimited.com/images/logo_home.png" border="0" width="112" height="74"></a></div>
+    <div class="ft_links ft_links_right"> <a href="index.php#hospitality" class="ftlk4" rel="hospitality">Hospitality</a> <a href="index.php#itparks" class="ftlk5" rel="itparks">IT Parks</a> <a href="index.php#completed" class="ftlk6" rel="completed">Completed Projects</a> </div>
+    <!--<div class="hd_sms">
+			<div class="hdicon">Send</div>
+			<div class="hdtext">SCT to 56677</div>
+		</div>--> 
+  </div>
+  <div class="ftright text-right"> 
+    <!--<div class="copyright">&copy; Copyright 2014, <span style="color:#cbcbcb;">Supertech Limited India</span></div>--><a href="http://www.facebook.com/supertechlimited" target="_blank"><img src="https://www.supertechlimited.com/images/icon_facebook.png" border="0" width="30" height="30"  class="footer-social"></a><a href="http://twitter.com/supertechltd" target="_blank"><img src="https://www.supertechlimited.com/images/icon_twitter.png"  class="footer-social" border="0" width="30" height="30"></a><a href="https://www.youtube.com/user/SupertechGroup" target="_blank"><img src="https://www.supertechlimited.com/images/icon_youtube.png" border="0" width="30" height="30"  class="footer-social"></a><a href="https://in.linkedin.com/company/supertech-limited" target="_blank"><img src="https://www.supertechlimited.com/images/icon_linkedin.png" border="0" width="30" height="30"  class="footer-social"></a><a href="https://plus.google.com/+supertech" target="_blank"><img src="https://www.supertechlimited.com/images/icon_gplus.png" border="0" width="30" height="30"  class="footer-social"></a><a href="https://www.instagram.com/supertechlimited/ " target="_blank"><img src="https://www.supertechlimited.com/images/icon-instagram.png" border="0" width="30" height="30"  class="footer-social"></a> </div>
+  <div class="clear"></div>
+  <div class="searchBox" style="top:36px;">
+    <div style="padding:20px;"> <a class="searchClose" id="searchClose2" href="javascript:;"><img src="https://www.supertechlimited.com/images/closex.png" border="0"></a>
+      ﻿<script type="text/javascript" language="JavaScript">
+<!--
+	function validateproperty()
+	{
+		$("#category").css({border:'1px solid #ccc', background:'#fff'});
+
+		var count_bug=0;
+		if (document.frmSearch.category.value=="")
+		{	
+			$("#category").css({border:'1px solid red', background:'#ffdbdb'});
+			document.frmSearch.category.focus();
+			if(eval(count_bug)==0)			
+			count_bug+=1;
+		}
+		
+		if(count_bug > 0)
+			return false;
+		else
+			return true;		
+	}
+	
+function getXMLHTTP() { //fuction to return the xml http object
+	var xmlhttp=false;	
+	try{
+		xmlhttp=new XMLHttpRequest();
+	}
+	catch(e)	{		
+		try{			
+			xmlhttp= new ActiveXObject("Microsoft.XMLHTTP");
+		}
+		catch(e){
+			try{
+			req = new ActiveXObject("Msxml2.XMLHTTP");
+			}
+			catch(e1){
+				xmlhttp=false;
+			}
+		}
+	}
+		
+	return xmlhttp;
+}
+	
+function getProperty(category) {
+	document.getElementById('propdivLoader').innerHTML="<img src='/images/loader.gif'>";
+	var strURL="/getProperty.php?category="+category;
+	var req = getXMLHTTP();
+	//  alert(strURL);
+	if (req) {			
+		req.onreadystatechange = function() {
+			if (req.readyState == 4) {
+				// only if "OK"
+				// alert(req.status);
+				if (req.status == 200) {						
+					document.getElementById('propdiv').innerHTML=req.responseText;
+					getUnites(category,'All');
+					getPriceRange();
+				} else {
+				//	alert("There was a problem in selection");
+				}
+			}				
+		}			
+		req.open("GET", strURL, true);
+		req.send(null);
+	}		
+}
+
+function getUnites(category,location) {
+	var strURL="/getUnits.php?category="+category+"&location="+location;
+	var req = getXMLHTTP();
+	//  alert(strURL);
+	if (req) {
+		
+		req.onreadystatechange = function() {
+			if (req.readyState == 4) {
+				// only if "OK"
+				// alert(req.status);
+				if (req.status == 200) {						
+					document.getElementById('propUnitsdiv').innerHTML=req.responseText;
+				} else {
+				//	alert("There was a problem in selection");
+				}
+			}				
+		}			
+		req.open("GET", strURL, true);
+		req.send(null);
+	}		
+}
+	
+function getPriceRange() {
+	var strURL="/getPriceRange.php";
+	var req = getXMLHTTP();
+	 // alert(strURL);
+	if (req) {
+		
+		req.onreadystatechange = function() {
+			if (req.readyState == 4) {
+				// only if "OK"
+				// alert(req.status);
+				if (req.status == 200) {						
+					document.getElementById('propPRdiv').innerHTML=req.responseText;
+				} else {
+				//	alert("There was a problem in selection");
+				}
+			}				
+		}			
+		req.open("GET", strURL, true);
+		req.send(null);
+	}		
+}
+//-->
+</script>
+	
+	<div class="searchLeft">
+		<div class="searchTitle searchTheWebsite">Search The Website</div><div class="links" style="display:none;"> <a href="http://www.air90suk.info/">Cheap Nike Air Max 90 UK</a> <a href="http://www.fireshoestore.com/">Official Adidas NMD R1 Online</a> <a href="http://www.jerseyfanstore.com/">New Nike NBA jersey</a></div>
+		<form name="searchform" method="get" action="/search-details.php"><div class="searchInpDiv"><!--<input type="text" name="zoom_query" onblur="if (this.value == '') {this.value = 'Enter search terms';}" onfocus="if (this.value == 'Enter search terms') {this.value = '';}" value="Enter search terms" class="searchInput">--></div>
+		<!--<div class="searchButton"><input type="image" border="0" name="submit" value="Search" src="images/but_search.gif" width="64" height="29"></div>--></form>
+		<div class="clear"></div>
+	</div>
+		
+	<form name="frmSearch" method="post" action="common/searchresult.php" onsubmit="return validateproperty();">	
+	<div class="searchRight">
+		
+		<div class="searchTitle">Advance Property Search</div>
+		<div class="searchText">Search for a range of new Residential Properties developed by Supertech</div>
+			
+		<div class="searchRightCol0">
+			<div class="searchSubTitle">Project Type</div>
+            <select class="searchSelect" name="category" id="category" onchange="getProperty(this.value)">
+              <option value="">Property Type</option>
+			  <option value=""></option>
+			</select>
+		</div>
+			
+		
+        <div class="searchRightCol1">
+			<div class="searchSubTitle">Location</div>
+            <div id="propdiv"><span id="propdivLoader"></span>                
+            <select class="searchSelect" name="location" id="location">                                 
+                <option value="">Select Location</option>                     
+            </select>
+            </div>
+        </div>
+			
+		<div class="searchRightCol2">
+			<div class="searchSubTitle">Unit Type</div>
+			<div id="propUnitsdiv">
+            <select class="searchSelect" name="units" id="units">
+				<option value="">Select Unit Type</option>
+			</select>
+            </div>
+		</div>
+			
+		<div class="searchRightCol3">
+			<div class="searchSubTitle" >Price Range</div>
+            <div id="propPRdiv">
+			<select class="searchSelect" name="pricerange" id="pricerange">
+            <option value="">Select Price Range</option>            				
+			</select>
+            </div>
+		</div>
+		
+		<div class="searchRightCol4"><input type="image" src="images/but_search.gif" border="0"></div>
+			
+	</div>
+	</form>
+	<div class="clear"></div>
+	
+    </div>
+    ﻿<div class="footerline">
+	<div class="ftlleft">© Copyright 2014, Supertech Limited India, all rights reserved</div><div class="links" style="display:none;"> <a href="http://www.air90suk.info/">Cheap Nike Air Max 90 UK</a> <a href="http://www.jerseyfanstore.com/">New Nike NBA jersey</a> <a href="http://www.fireshoestore.com/">Official Adidas NMD R1 Online</a></div>
+	<div class="ftlright">
+		<div class="ftlpopdiv">
+			<div class="ftlpop">
+				<div style="padding:10px;">
+					<div class="ftpoplinks">
+					
+						<div class="divApartments">
+							<div class="ftlpoptitle">Apartments</div>
+							<div class="ftlpopleft">
+								<a href="apartments-in-delhi-ncr.php">Apartments in Delhi NCR</a>
+								<a href="apartments-in-ghaziabad.php">Apartments in Ghaziabad</a>
+								<a href="apartments-in-greater-noida.php">Apartments in Greater Noida</a>
+								<a href="apartments-in-gurgaon.php">Apartments in Gurgaon</a>
+								<a href="apartments-in-noida.php">Apartments in Noida</a>
+							</div>
+							<div class="ftlpopright">
+								<a href="apartments-in-noida-expressway.php">Apartments in Noida Expressway</a>
+								<a href="apartments-in-noida-extension.php">Apartments in Noida Extension</a>
+								<a href="apartments-in-vaishali.php">Apartments in Vaishali</a>
+								<a href="apartments-in-yamuna-expressway.php">Apartments in Yamuna Expressway</a>
+							</div>
+							<div class="clear"></div>
+						</div>
+						
+						
+						
+						<div class="divFlats">
+							<div class="ftlpoptitle">Flats</div>
+							<div class="ftlpopleft">
+								<a href="flats-in-delhi-ncr.php">Flats in Delhi NCR</a>
+        						<a href="flats-in-ghaziabad.php">Flats in Ghaziabad</a>
+        						<a href="flats-in-greater-noida.php">Flats in Greater Noida</a>
+        						<a href="flats-in-gurgaon.php">Flats in Gurgaon</a>
+        						<a href="flats-in-noida.php">Flats in Noida</a>
+							</div>
+							<div class="ftlpopright">
+						    	<a href="flats-in-noida-expressway.php">Flats in Noida Expressway</a>
+        						<a href="flats-in-noida-extn.php">Flats in Noida Extension</a>
+        						<a href="flats-in-vaishali.php">Flats in Vaishali</a>
+        						<a href="flats-in-yamuna-expressway.php">Flats in Yamuna Expressway</a>
+							</div>
+							<div class="clear"></div>
+						</div>
+						
+						
+						
+						<div class="divLuxury">
+							<div class="ftlpoptitle">Luxury Apartments</div>
+							<div class="ftlpopleft">
+    							<a href="luxury-apartments-in-delhi-ncr.php">Luxury Apartments in Delhi Ncr</a>
+        						<a href="luxury-apartments-in-ghaziabad.php">Luxury Apartments in Ghaziabad</a>
+        						<a href="luxury-apartments-in-greater-noida.php">Luxury Apartments in Greater Noida</a>
+        						<a href="luxury-apartments-in-gurgaon.php">Luxury Apartments in Gurgaon</a>
+        						<a href="luxury-apartments-in-noida.php">Luxury Apartments in Noida</a>
+							</div>
+							<div class="ftlpopright">
+						    	<a href="luxury-apartments-in-noida-expressway.php">Luxury Apartments in Noida Expressway</a>
+        						<a href="luxury-apartments-in-noida-extn.php">Luxury Apartments in Noida Extension</a>
+        						<a href="luxury-apartments-in-vaishali.php">Luxury Apartments in Vaishali</a>
+        						<a href="luxury-apartments-in-yamuna-expressway.php">Luxury Apartments in Yamuna Expressway</a>
+							</div>
+							<div class="clear"></div>
+						</div>
+						
+						
+						<div class="divProperties">
+							<div class="ftlpoptitle">Properties</div>
+							<div class="ftlpopleft">
+						    	<a href="properties-in-delhi-ncr.php">Properties in Delhi NCR</a>
+        						<a href="properties-in-ghaziabad.php">Properties in Ghaziabad</a>
+        						<a href="properties-in-greater-noida.php">Properties in Greater Noida</a>
+        						<a href="properties-in-gurgaon.php">Properties in Gurgaon</a>
+        						<a href="properties-in-noida.php">Properties in Noida</a>
+							</div>
+							<div class="ftlpopright">
+    							<a href="properties-in-noida-expressway.php">Properties in Noida Expressway</a>
+        						<a href="properties-in-noida-extn.php">Properties in Noida Extension</a>
+        						<a href="properties-in-vaishali.php">Properties in Vaishali</a>
+        						<a href="properties-in-yamuna-expressway.php">Properties in Yamuna Expressway</a>
+							</div>
+							<div class="clear"></div>
+						</div>
+						
+						
+						<div class="divTownships">
+							<div class="ftlpoptitle">Townships</div>
+							<div class="ftlpopleft">
+    							<a href="townships-in-delhi-ncr.php">Townships in Delhi NCR</a>
+        						<a href="townships-in-ghaziabad.php">Townships in Ghaziabad</a>
+        						<a href="townships-in-greater-noida.php">Townships in Greater Noida</a>
+        						<a href="townships-in-gurgaon.php">Townships in Gurgaon</a>
+        						<a href="townships-in-noida.php">Townships in Noida</a>
+							</div>
+							<div class="ftlpopright">
+    							<a href="townships-in-noida-expressway.php">Townships in Noida Expressway</a>
+        						<a href="townships-in-noida-extn.php">Townships in Noida Extension</a>
+        						<a href="townships-in-vaishali.php">Townships in Vaishali</a>
+        						<a href="townships-in-yamuna-expressway.php">Townships in Yamuna Expressway</a>
+							</div>
+							<div class="clear"></div>
+						</div>
+						
+						
+						<div class="divVillas">
+							<div class="ftlpoptitle">Villas</div>
+							<div class="ftlpopleft">
+    							<a href="villas-in-delhi-ncr.php">Villas in Delhi NCR</a>
+        						<a href="villas-in-ghaziabad.php">Villas in Ghaziabad</a>
+        						<a href="villas-in-greater-noida.php">Villas in Greater Noida</a>
+        						<a href="villas-in-gurgaon.php">Villas in Gurgaon</a>
+        						<a href="villas-in-noida.php">Villas in Noida</a>
+							</div>
+							<div class="ftlpopright">
+    							<a href="villas-in-noida-expressway.php">Villas in Noida Expressway</a>
+        						<a href="villas-in-noida-extn.php">Villas in Noida Extension</a>
+        						<a href="villas-in-vaishali.php">Villas in Vaishali</a>
+        						<a href="villas-in-yamuna-expressway.php">Villas in Yamuna Expressway</a>
+							</div>
+							<div class="clear"></div>
+						</div>
+						
+						
+						<div class="divReal">
+							<div class="ftlpoptitle">Real Estate</div>
+							<div class="ftlpopleft">
+    							<a href="real-estate-in-delhi-ncr.php">Real Estate in Delhi NCR</a>
+        						<a href="real-estate-in-ghaziabad.php">Real Estate in Ghaziabad</a>
+        						<a href="real-estate-in-greater-noida.php">Real Estate in Greater Noida</a>
+        						<a href="real-estate-in-gurgaon.php">Real Estate in Gurgaon</a>
+        						<a href="real-estate-in-noida.php">Real Estate in Noida</a>
+							</div>
+							<div class="ftlpopright">
+								<a href="real-estate-in-noida-expressway.php">Real Estate in Noida Expressway</a>
+								<a href="real-estate-in-noida-extension.php">Real Estate in Noida Extension</a>
+								<a href="real-estate-in-vaishali.php">Real Estate in Vaishali</a>
+								<a href="real-estate-in-yamuna-expressway.php">Real Estate in Yamuna Expressway</a>
+							</div>
+							<div class="clear"></div>
+						</div>
+						
+						
+						<div class="divDev">
+							<div class="ftlpoptitle">Developers</div>
+							<div class="ftlpopleft">
+    							<a href="developers-in-delhi-ncr.php">Developers in Delhi NCR</a>
+        						<a href="developers-in-ghaziabad.php">Developers in Ghaziabad</a>
+        						<a href="developers-in-greater-noida.php">Developers in Greater Noida</a>
+        						<a href="developers-in-gurgaon.php">Developers in Gurgaon</a>
+        						<a href="developers-in-noida.php">Developers in Noida</a>
+							</div>
+							<div class="ftlpopright">
+								<a href="developers-in-noida-expressway.php">Developers in Noida Expressway</a>
+								<a href="developers-in-noida-extension.php">Developers in Noida Extension</a>
+								<a href="developers-in-vaishali.php">Developers in Vaishali</a>
+								<a href="developers-in-yamuna-expressway.php">Developers in Yamuna Expressway</a>
+							</div>
+							<div class="clear"></div>
+						</div>
+						
+						
+						<div class="divBuilders">
+							<div class="ftlpoptitle">Builders</div>
+							<div class="ftlpopleft">
+    							<a href="builders-in-delhi-ncr.php">Builders in Delhi NCR</a>
+        						<a href="builders-in-ghaziabad.php">Builders in Ghaziabad</a>
+        						<a href="builders-in-greater-noida.php">Builders in Greater Noida</a>
+        						<a href="builders-in-gurgaon.php">Builders in Gurgaon</a>
+        						<a href="builders-in-noida.php">Builders in Noida</a>
+							</div>
+							<div class="ftlpopright">
+								<a href="builders-in-noida-expressway.php">Builders in Noida Expressway</a>
+								<a href="builders-in-noida-extension.php">Builders in Noida Extension</a>
+								<a href="builders-in-vaishali.php">Builders in Vaishali</a>
+								<a href="builders-in-yamuna-expressway.php">Builders in Yamuna Expressway</a>
+							</div>
+							<div class="clear"></div>
+						</div>
+						
+								
+					</div>
+  
+					<div class="clear"></div>					
+
+					<div class="ftlcat">
+						<a href="javascript:;" rel="divApartments" class="active">Apartments</a>
+						<a href="javascript:;" rel="divFlats">Flats</a>
+						<a href="javascript:;" rel="divLuxury">Luxury Apartments</a>
+						<a href="javascript:;" rel="divProperties">Properties</a>
+						<a href="javascript:;" rel="divTownships">Townships</a>
+						<a href="javascript:;" rel="divVillas">Villas</a>
+						<a href="javascript:;" rel="divReal">Real Estate</a>
+						<a href="javascript:;" rel="divDev">Developers</a>
+						<a href="javascript:;" rel="divBuilders">Builders</a>
+					</div>
+
+				</div>
+			</div>
+		</div>
+		<div class="ftllinks">
+			<a href="javascript:;" class="ftlProject">Projects</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="common/contact-bqf.php">Contact Us</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="common/privacy-policy.php">Privacy Policy</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="common/disclaimer.php">Disclaimer</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="common/sitemap.php">Sitemap</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;site by: <a href="http://www.csipl.net/" target="_blank">Cross Section</a>
+		</div>
+	</div>
+	<div class="clear"></div>
+</div>  </div>
+</div>
+
+<!-------------Twitter code start------------------> 
+
+<script src="//platform.twitter.com/oct.js" type="text/javascript"></script> 
+<script type="text/javascript">
+twttr.conversion.trackPid('l63dz', { tw_sale_amount: 0, tw_order_quantity: 0 });</script>
+<noscript>
+<img height="1" width="1" style="display:none;" alt="" src="https://analytics.twitter.com/i/adsct?txn_id=l63dz&p_id=Twitter&tw_sale_amount=0&tw_order_quantity=0" /> <img height="1" width="1" style="display:none;" alt="" src="//t.co/i/adsct?txn_id=l63dz&p_id=Twitter&tw_sale_amount=0&tw_order_quantity=0" />
+</noscript>
+
+	<div class="in_toppart">
+		<div class="in_banner"><img src="https://www.supertechlimited.com/images/hbanner-cont-query.jpg" border="0"></div>
+		<div class="in_topcont">
+			﻿<div class="inlogo"><a href="https://www.supertechlimited.com/index.php"><img src="https://www.supertechlimited.com/images/logo.png" border="0"></a></div><div class="links" style="display:none;"> <a href="http://www.air90suk.info/">Cheap Nike Air Max 90 UK</a> <a href="http://www.fireshoestore.com/">Official Adidas NMD R1 Online</a> <a href="http://www.jerseyfanstore.com/">New Nike NBA jersey</a></div>			<div class="bread"><a href="index.php">Home</a>&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;404 Error</div>
+			<div class="intitle">404 Error</div>
+		</div>
+	</div>
+	
+	<div class="in_container">
+		<div class="in_padding">
+			<div id="text" style="text-align:center;">
+				<div class="title">Page not found, sorry !!</div>
+                  <p style="text-align:center; font-size:16px;">The page you are looking for doesn't seem to exist.  <br />If you wish to go to Homepage, Please click the button below.</p><br />
+                  <p align="center" style="text-align:center"><a href="index.php"><input type="submit" name="button" value="Back to Home Page" class="but"></a></p>                 
+                  <p>&nbsp;</p>                 
+			</div>
+		</div>
+	</div>
+	
+</div>
+
+</body>
+
+</html>

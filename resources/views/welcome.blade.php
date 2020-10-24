@@ -1,4 +1,4 @@
-@extends('layouts.main')
+@extends('layout')
 @section('content')
         <!-- home slider start -->
 <section id="up" class="pos-rel section-bg-dark-1 js-home-slider fullscreen-slider">
@@ -344,7 +344,7 @@
           </span>
         </h2><!-- title end -->
         <p class="body-text-s anim-text-reveal js-scrollanim column-l-r-margin-10 mrgT10">Pitchfork vaporware hella, vice next level art party subway tile swag portland. Cliche authentic photo booth, seitan sartorial iPhone brooklyn bicycle rights whatever small batch selvage affogato yuccie adaptogen vinyl.</p>
-        <a href="http://localhost/matafgroup/public/it-marketing" class="border-btn js-pointer-large column-l-r-margin-10 mrgT10">
+        <a href="{{url('about-us')}}" class="border-btn js-pointer-large column-l-r-margin-10 mrgT10">
           <span class="border-btn__inner">Read more</span>
           <span class="border-btn__lines-1"></span>
           <span class="border-btn__lines-2"></span>
@@ -384,7 +384,7 @@
 
       <!-- grid-item start -->
       <div class="padding-top-60 grid-item-33-50-100 js-isotope-filter-grid-item branding">
-        <a href="project_beauty-lab.html" class="grid-margin-box hover-box js-animsition-link js-pointer-large">
+        <a href="{{url('construction')}}" class="grid-margin-box hover-box js-animsition-link js-pointer-large">
           <div class="anim-img-scale anim-img-scale_hover js-img-scale">
             <img class="anim-img-scale__inner" src="images/sectors/construction.jpg" alt="project">
           </div>
@@ -398,7 +398,7 @@
 
       <!-- grid-item start -->
       <div class="padding-top-60 grid-item-33-50-100 js-isotope-filter-grid-item marketing">
-        <a href="project_drone.html" class="grid-margin-box hover-box js-animsition-link js-pointer-large">
+        <a href="{{url('real-estate')}}" class="grid-margin-box hover-box js-animsition-link js-pointer-large">
           <div class="anim-img-scale anim-img-scale_hover js-img-scale">
             <img class="anim-img-scale__inner" src="images/sectors/real-estate.jpg" alt="project">
           </div>
@@ -413,7 +413,7 @@
 
       <!-- grid-item start -->
       <div class="padding-top-60 grid-item-33-50-100 js-isotope-filter-grid-item marketing">
-        <a href="project_drone.html" class="grid-margin-box hover-box js-animsition-link js-pointer-large">
+        <a href="{{url('hospitality')}}" class="grid-margin-box hover-box js-animsition-link js-pointer-large">
           <div class="anim-img-scale anim-img-scale_hover js-img-scale">
             <img class="anim-img-scale__inner" src="images/sectors/hotels.jpg" alt="project">
           </div>
@@ -427,7 +427,7 @@
 
       <!-- grid-item start -->
       <div class="padding-top-60 grid-item-33-50-100 js-isotope-filter-grid-item photoshoot">
-        <a href="project_drone.html" class="grid-margin-box hover-box js-animsition-link js-pointer-large">
+        <a href="{{url('health-wellness')}}" class="grid-margin-box hover-box js-animsition-link js-pointer-large">
           <div class="anim-img-scale anim-img-scale_hover js-img-scale">
             <img class="anim-img-scale__inner" src="images/sectors/health.jpg" alt="project">
           </div>
@@ -441,7 +441,7 @@
 
       <!-- grid-item start -->
       <div class="padding-top-60 grid-item-33-50-100 js-isotope-filter-grid-item marketing">
-        <a href="project_drone.html" class="grid-margin-box hover-box js-animsition-link js-pointer-large">
+        <a href="{{url('recycling')}}" class="grid-margin-box hover-box js-animsition-link js-pointer-large">
           <div class="anim-img-scale anim-img-scale_hover js-img-scale">
             <img class="anim-img-scale__inner" src="images/sectors/recycling.jpg" alt="project">
           </div>
@@ -456,7 +456,7 @@
 
       <!-- grid-item start -->
       <div class="padding-top-60 grid-item-33-50-100 js-isotope-filter-grid-item marketing">
-        <a href="project_blue-ridge.html" class="grid-margin-box hover-box js-animsition-link js-pointer-large">
+        <a href="{{url('education')}}" class="grid-margin-box hover-box js-animsition-link js-pointer-large">
           <div class="anim-img-scale anim-img-scale_hover js-img-scale">
             <img class="anim-img-scale__inner" src="images/sectors/education.jpg" alt="project">
           </div>
@@ -470,7 +470,7 @@
 
       <!-- grid-item start -->
       <div class="padding-top-60 grid-item-33-50-100 js-isotope-filter-grid-item photoshoot">
-        <a href="project_drone.html" class="grid-margin-box hover-box js-animsition-link js-pointer-large">
+        <a href="{{url('it-marketing')}}" class="grid-margin-box hover-box js-animsition-link js-pointer-large">
           <div class="anim-img-scale anim-img-scale_hover js-img-scale">
             <img class="anim-img-scale__inner" src="images/sectors/marketing.jpg" alt="project">
           </div>
@@ -484,7 +484,7 @@
 
       <!-- grid-item start -->
       <div class="padding-top-60 grid-item-33-50-100 js-isotope-filter-grid-item photoshoot">
-        <a href="project_drone.html" class="grid-margin-box hover-box js-animsition-link js-pointer-large">
+        <a href="{{url('decorate')}}" class="grid-margin-box hover-box js-animsition-link js-pointer-large">
           <div class="anim-img-scale anim-img-scale_hover js-img-scale">
             <img class="anim-img-scale__inner" src="images/sectors/innovative.jpg" alt="project">
           </div>
@@ -498,7 +498,7 @@
 
       <!-- grid-item start -->
       <div class="padding-top-60 grid-item-33-50-100 js-isotope-filter-grid-item branding">
-        <a href="project_drone.html" class="grid-margin-box hover-box js-animsition-link js-pointer-large">
+        <a href="{{url('consultation')}}" class="grid-margin-box hover-box js-animsition-link js-pointer-large">
           <div class="anim-img-scale anim-img-scale_hover js-img-scale">
             <img class="anim-img-scale__inner" src="images/sectors/consultation.jpg" alt="project">
           </div>

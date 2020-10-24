@@ -1,4 +1,4 @@
-@extends('layouts.main')
+@extends('layout')
 @section('content')
 <style>
 .card-body canvas{max-width: 100%;width: 100%!important;}
