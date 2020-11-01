@@ -5,7 +5,7 @@
 	<meta name="author" content="www.frebsite.nl" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 
-	<title>LearnUp - Online Course & Education HTML Template</title>
+	<title>MatafGroup - Education</title>
 
 	<!-- Custom CSS -->
 	<link href="{{asset('front/education/css/styles.css')}}" rel="stylesheet">
@@ -50,9 +50,6 @@
 						</li>
 						<li class="{{request()->path() == 'education/courses'?'active':''}}">
 							<a href="{{url('/education/courses')}}">Courses & Programs</a>
-						</li>
-						<li class="{{request()->path() == 'education/services'?'active':''}}">
-							<a href="{{url('/education/services')}}">Services</a>
 						</li>
 						<li><a href="{{url('contact-us')}}">Contact</a></li>
 					</ul>
@@ -114,8 +111,7 @@
 							<h4 class="widget-title">Education Sector</h4>
 							<ul class="footer-menu">
 								<li><a href="{{url('education')}}">About Sector</a></li>
-								<li><a href="{{url('courses')}}">Courses</a></li>
-								<li><a href="{{url('services')}}">Services</a></li>
+								<li><a href="{{url('education/courses')}}">Courses</a></li>
 								<li><a href="{{url('contact-us')}}">Contact Us</a></li>
 							</ul>
 						</div>
