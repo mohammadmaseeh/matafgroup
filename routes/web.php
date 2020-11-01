@@ -36,3 +36,21 @@ Route::group(['prefix' => 'construction'], function() {
     Route::get('/services','Front\Construction\PagesController@services');
     Route::get('/projects','Front\Construction\PagesController@projects');
 });
+Route::group(['prefix' => 'education'], function() {
+    /*Home*/
+    Route::get('/','Front\Education\PagesController@index');
+    Route::get('/services','Front\Education\PagesController@services');
+    Route::get('/courses','Front\Education\PagesController@courses');
+});
+Route::group(['prefix' => 'consultation'], function() {
+    /*Home*/
+    Route::get('/','Front\Consultation\PagesController@index');
+    Route::get('/services','Front\Consultation\PagesController@services');
+    Route::get('/projects','Front\Consultation\PagesController@projects');
+});
+Route::group(['prefix' => 'recycling'], function() {
+    /*Home*/
+    Route::get('/','Front\Recycling\PagesController@index');
+    Route::get('/services','Front\Recycling\PagesController@services');
+    Route::get('/projects','Front\Recycling\PagesController@projects');
+});

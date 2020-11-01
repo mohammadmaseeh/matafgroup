@@ -38,40 +38,6 @@
     <!-- swiper-slide start -->
     <div class="swiper-slide">
       <!-- slide-bg -->
-      <div class="js-parallax-slide-bg bg-img-cover" style="background-image:url('{{url('images/sliders/real-estate.jpg')}}')"></div>
-      <!-- bg-overlay -->
-      <div class="bg-overlay-black"></div>
-
-      <!-- content start -->
-      <div class="flex-min-height-100vh pos-rel" data-swiper-parallax-x="30%">
-        <div class="container small text-center padding-top-bottom-120">
-          <h2 class="headline-xl">
-            <span class="hidden-box d-block">
-            <span class="anim-slide tr-delay-02">Real Estate</span>
-            </span>
-            <span class="hidden-box d-block">
-            <span class="anim-slide tr-delay-03">
-              <span class="text-color-red">Best</span> Deals &
-            </span>
-            </span>
-            <span class="hidden-box d-block">
-            <span class="anim-slide tr-delay-04 text-color-red">Properties</span>
-            </span>
-          </h2>
-          <div class="margin-top-30 anim-fade tr-delay-08">
-            <a href="{{url('real-estate')}}" class="border-btn js-pointer-large">
-              <span class="border-btn__inner">Read more</span>
-              <span class="border-btn__lines-1"></span>
-              <span class="border-btn__lines-2"></span>
-            </a>
-          </div>
-        </div>
-      </div><!-- content end -->
-    </div>
-    <!-- swiper-slide end -->
-    <!-- swiper-slide start -->
-    <div class="swiper-slide">
-      <!-- slide-bg -->
       <div class="js-parallax-slide-bg bg-img-cover" style="background-image:url('{{url('images/sliders/construction.jpg')}}')"></div>
       <!-- bg-overlay -->
       <div class="bg-overlay-black"></div>
@@ -94,6 +60,40 @@
           </h2>
           <div class="margin-top-30 anim-fade tr-delay-08">
             <a href="{{url('construction')}}" class="border-btn js-pointer-large">
+              <span class="border-btn__inner">Read more</span>
+              <span class="border-btn__lines-1"></span>
+              <span class="border-btn__lines-2"></span>
+            </a>
+          </div>
+        </div>
+      </div><!-- content end -->
+    </div>
+    <!-- swiper-slide end -->
+    <!-- swiper-slide start -->
+    <div class="swiper-slide">
+      <!-- slide-bg -->
+      <div class="js-parallax-slide-bg bg-img-cover" style="background-image:url('{{url('images/sliders/real-estate.jpg')}}')"></div>
+      <!-- bg-overlay -->
+      <div class="bg-overlay-black"></div>
+
+      <!-- content start -->
+      <div class="flex-min-height-100vh pos-rel" data-swiper-parallax-x="30%">
+        <div class="container small text-center padding-top-bottom-120">
+          <h2 class="headline-xl">
+            <span class="hidden-box d-block">
+            <span class="anim-slide tr-delay-02">Real Estate</span>
+            </span>
+            <span class="hidden-box d-block">
+            <span class="anim-slide tr-delay-03">
+              <span class="text-color-red">Best</span> Deals &
+            </span>
+            </span>
+            <span class="hidden-box d-block">
+            <span class="anim-slide tr-delay-04 text-color-red">Properties</span>
+            </span>
+          </h2>
+          <div class="margin-top-30 anim-fade tr-delay-08">
+            <a href="{{url('real-estate')}}" class="border-btn js-pointer-large">
               <span class="border-btn__inner">Read more</span>
               <span class="border-btn__lines-1"></span>
               <span class="border-btn__lines-2"></span>
@@ -276,6 +276,40 @@
     <!-- swiper-slide start -->
     <div class="swiper-slide">
       <!-- slide-bg -->
+      <div class="js-parallax-slide-bg bg-img-cover" style="background-image:url('{{url('images/sliders/health.jpg')}}')"></div>
+      <!-- bg-overlay -->
+      <div class="bg-overlay-black"></div>
+
+      <!-- content start -->
+      <div class="flex-min-height-100vh pos-rel" data-swiper-parallax-x="30%">
+        <div class="container small text-center padding-top-bottom-120">
+          <h2 class="headline-xl">
+            <span class="hidden-box d-block">
+            <span class="anim-slide tr-delay-02">We provide</span>
+            </span>
+            <span class="hidden-box d-block">
+            <span class="anim-slide tr-delay-03">
+              <span class="text-color-red">Health</span> & Wellness
+            </span>
+            </span>
+            <span class="hidden-box d-block">
+            <span class="anim-slide tr-delay-04 text-color-red">services & do events.</span>
+            </span>
+          </h2>
+          <div class="margin-top-30 anim-fade tr-delay-08">
+            <a href="#" class="border-btn js-pointer-large">
+              <span class="border-btn__inner">Read more</span>
+              <span class="border-btn__lines-1"></span>
+              <span class="border-btn__lines-2"></span>
+            </a>
+          </div>
+        </div>
+      </div><!-- content end -->
+    </div>
+    <!-- swiper-slide end -->
+    <!-- swiper-slide start -->
+    <div class="swiper-slide">
+      <!-- slide-bg -->
       <div class="js-parallax-slide-bg bg-img-cover" style="background-image:url('{{asset('images/projects/black-bike/josh-nuttall-pIwu5XNvXpk-unsplash.jpg')}}')"></div>
       <!-- bg-overlay -->
       <div class="bg-overlay-black"></div>
@@ -343,8 +377,9 @@
               </span>
           </span>
         </h2><!-- title end -->
-        <p class="body-text-s anim-text-reveal js-scrollanim column-l-r-margin-10 mrgT10">Pitchfork vaporware hella, vice next level art party subway tile swag portland. Cliche authentic photo booth, seitan sartorial iPhone brooklyn bicycle rights whatever small batch selvage affogato yuccie adaptogen vinyl.</p>
-        <a href="{{url('about-us')}}" class="border-btn js-pointer-large column-l-r-margin-10 mrgT10">
+        <p class="body-text-s anim-text-reveal js-scrollanim column-l-r-margin-10 mrgT10">
+          Mataf Group is a major multifarious group established in 2008 based in Indore, India, and operating across other parts of the world. Over the past 12 years, Mataf Group built an outstanding reputation for delivering excellent service to our partners and customers. With great success in the market, our company is in the stage of expanding its business overseas. We combine commitment, our local and multinational market knowledge with the technical expertise and diverse product ranges of our overseas partners to forge enduring fruitful relationships.
+        </p><a href="{{url('about-us')}}" class="border-btn js-pointer-large column-l-r-margin-10 mrgT10">
           <span class="border-btn__inner">Read more</span>
           <span class="border-btn__lines-1"></span>
           <span class="border-btn__lines-2"></span>
@@ -353,13 +388,17 @@
       <div class="four-columns padding-bottom-20 about_mission">
         <img src = "images/about/mission.png">
         <h5>Mission</h5>
-        <p class="body-text-s anim-text-reveal js-scrollanim">Pitchfork vaporware hella, vice next level art party subway tile swag portland.</p>
+        <p class="body-text-s anim-text-reveal js-scrollanim">
+          To be a total solution provider for all sorts of Engineering & Specialties Works in all over the world.
+        </p>
       </div><!-- column end -->
       <div class="four-columns padding-bottom-20 about_mission">
         <!-- title start -->
         <img src = "images/about/vision.png">
         <h5>Vision</h5>
-        <p class="body-text-s anim-text-reveal js-scrollanim">Sartorial franzen tacos cardigan, offal gluten-free pour-over snackwave plaid four dollar toast.</p>
+        <p class="body-text-s anim-text-reveal js-scrollanim">
+          We are committed to continuously provide quality service/ high level job performance safety, maintain honorable relationship with clients as well as profitably meeting our business objectives.
+        </p>
       </div><!-- column end -->
 
     </div><!-- flex-container end -->
@@ -523,7 +562,6 @@
             Our <span class="text-color-red">Recent</span> Projects
         </span>
     </h2><!-- title end -->
-
     <!-- js-3-view-slider start -->
     <div class="js-3-view-slider padding-top-bottom-90 hidden-box pos-rel">
       <!-- swiper-wrapper start -->
@@ -532,175 +570,42 @@
         <div class="swiper-slide">
           <!-- anim-img-scale start -->
           <div class="anim-img-scale hover-box">
-            <img class="anim-img-scale__inner" src="images/team/team_slider/woman-wearing-eyeglasses-on-brown-wooden-plank-1845210.jpg" alt="Amanda Bryan">
-
-            <!-- social btns start -->
-            <ul class="list pos-abs pos-left-top">
-              <li class="list__item hidden-box">
-                <div class="hover-slide">
-                  <a href="#" class="flip-btn js-pointer-small" data-text="Facebook">Facebook</a>
-                </div>
-              </li>
-              <li class="list__item hidden-box">
-                <div class="hover-slide tr-delay-01">
-                  <a href="#" class="flip-btn js-pointer-small" data-text="Dribbble">Dribbble</a>
-                </div>
-              </li>
-              <li class="list__item hidden-box">
-                <div class="hover-slide tr-delay-02">
-                  <a href="#" class="flip-btn js-pointer-small" data-text="Instagram">Instagram</a>
-                </div>
-              </li>
-              <li class="list__item hidden-box">
-                <div class="hover-slide tr-delay-03">
-                  <a href="#" class="flip-btn js-pointer-small" data-text="Behance">Behance</a>
-                </div>
-              </li>
-              <li class="list__item hidden-box">
-                <div class="hover-slide tr-delay-04">
-                  <a href="#" class="flip-btn js-pointer-small" data-text="Twitter">Twitter</a>
-                </div>
-              </li>
-            </ul><!-- social btns end -->
+            <img class="anim-img-scale__inner" src="images/projects/34-Pavilion.jpg" alt="34 Pavilion">
           </div><!-- anim-img-scale end -->
-
           <!-- content start -->
           <div class="margin-top-20 margin-left-20">
-            <h4 class="subhead-m anim-text-double-fill tr-delay-01" data-text="Amanda Bryan">Amanda Bryan</h4><br>
-            <p class="headline-xxxxs margin-top-5 anim-text-double-fill invert tr-delay-03" data-text="Ui/UX designer">Ui/UX designer</p>
+            <h4 class="subhead-m anim-text-double-fill tr-delay-01" data-text="34 Pavilion">34 Pavilion</h4><br>
+            <p class="headline-xxxxs margin-top-5 anim-text-double-fill invert tr-delay-03" data-text="Real Estate">Real Estate</p>
           </div><!-- content end -->
-        </div><!-- swiper-slide end -->
-
+        </div>
+        <!-- swiper-slide end -->
         <!-- swiper-slide start -->
         <div class="swiper-slide">
           <!-- anim-img-scale start -->
           <div class="anim-img-scale hover-box">
-            <img class="anim-img-scale__inner" src="images/team/team_slider/woman-posing-for-photo-shoot-1689731.jpg" alt="Sharon Arney">
-
-            <!-- social btns start -->
-            <ul class="list pos-abs pos-left-top">
-              <li class="list__item hidden-box">
-                <div class="hover-slide">
-                  <a href="#" class="flip-btn js-pointer-small" data-text="Facebook">Facebook</a>
-                </div>
-              </li>
-              <li class="list__item hidden-box">
-                <div class="hover-slide tr-delay-01">
-                  <a href="#" class="flip-btn js-pointer-small" data-text="Dribbble">Dribbble</a>
-                </div>
-              </li>
-              <li class="list__item hidden-box">
-                <div class="hover-slide tr-delay-02">
-                  <a href="#" class="flip-btn js-pointer-small" data-text="Instagram">Instagram</a>
-                </div>
-              </li>
-              <li class="list__item hidden-box">
-                <div class="hover-slide tr-delay-03">
-                  <a href="#" class="flip-btn js-pointer-small" data-text="Behance">Behance</a>
-                </div>
-              </li>
-              <li class="list__item hidden-box">
-                <div class="hover-slide tr-delay-04">
-                  <a href="#" class="flip-btn js-pointer-small" data-text="Twitter">Twitter</a>
-                </div>
-              </li>
-            </ul><!-- social btns end -->
+            <img class="anim-img-scale__inner" src="images/projects/North-Eye.jpg" alt="North Eye">
           </div><!-- anim-img-scale end -->
-
           <!-- content start -->
           <div class="margin-top-20 margin-left-20">
-            <h4 class="subhead-m anim-text-double-fill tr-delay-01" data-text="Sharon Arney">Sharon Arney</h4><br>
-            <p class="headline-xxxxs margin-top-5 anim-text-double-fill invert tr-delay-03" data-text="Project manager">Project manager</p>
+            <h4 class="subhead-m anim-text-double-fill tr-delay-01" data-text="North Eye">North Eye</h4><br>
+            <p class="headline-xxxxs margin-top-5 anim-text-double-fill invert tr-delay-03" data-text="Real Estate">Real Estate</p>
           </div><!-- content end -->
-        </div><!-- swiper-slide end -->
-
+        </div>
+        <!-- swiper-slide end -->
         <!-- swiper-slide start -->
         <div class="swiper-slide">
           <!-- anim-img-scale start -->
           <div class="anim-img-scale hover-box">
-            <img class="anim-img-scale__inner" src="images/team/team_slider/woman-wearing-black-tank-top-sitting-on-gray-stainless-steel-1850178.jpg" alt="Alyse Quintero">
-
-            <!-- social btns start -->
-            <ul class="list pos-abs pos-left-top">
-              <li class="list__item hidden-box">
-                <div class="hover-slide">
-                  <a href="#" class="flip-btn js-pointer-small" data-text="Facebook">Facebook</a>
-                </div>
-              </li>
-              <li class="list__item hidden-box">
-                <div class="hover-slide tr-delay-01">
-                  <a href="#" class="flip-btn js-pointer-small" data-text="Dribbble">Dribbble</a>
-                </div>
-              </li>
-              <li class="list__item hidden-box">
-                <div class="hover-slide tr-delay-02">
-                  <a href="#" class="flip-btn js-pointer-small" data-text="Instagram">Instagram</a>
-                </div>
-              </li>
-              <li class="list__item hidden-box">
-                <div class="hover-slide tr-delay-03">
-                  <a href="#" class="flip-btn js-pointer-small" data-text="Behance">Behance</a>
-                </div>
-              </li>
-              <li class="list__item hidden-box">
-                <div class="hover-slide tr-delay-04">
-                  <a href="#" class="flip-btn js-pointer-small" data-text="Twitter">Twitter</a>
-                </div>
-              </li>
-            </ul><!-- social btns end -->
+            <img class="anim-img-scale__inner" src="images/projects/romano.jpg" alt="Romano">
           </div><!-- anim-img-scale end -->
-
           <!-- content start -->
           <div class="margin-top-20 margin-left-20">
-            <h4 class="subhead-m anim-text-double-fill tr-delay-01" data-text="Alyse Quintero">Alyse Quintero</h4><br>
-            <p class="headline-xxxxs margin-top-5 anim-text-double-fill invert tr-delay-03" data-text="Front-end developer">Front-end developer</p>
+            <h4 class="subhead-m anim-text-double-fill tr-delay-01" data-text="Romano">Romano</h4><br>
+            <p class="headline-xxxxs margin-top-5 anim-text-double-fill invert tr-delay-03" data-text="Real Estate">Real Estate</p>
           </div><!-- content end -->
-        </div><!-- swiper-slide end -->
-
-        <!-- swiper-slide start -->
-        <div class="swiper-slide">
-          <!-- anim-img-scale start -->
-          <div class="anim-img-scale hover-box">
-            <img class="anim-img-scale__inner" src="images/team/team_slider/photo-of-woman-leaning-on-wall-2936815.jpg" alt="Ashley Keller">
-
-            <!-- social btns start -->
-            <ul class="list pos-abs pos-left-top">
-              <li class="list__item hidden-box">
-                <div class="hover-slide">
-                  <a href="#" class="flip-btn js-pointer-small" data-text="Facebook">Facebook</a>
-                </div>
-              </li>
-              <li class="list__item hidden-box">
-                <div class="hover-slide tr-delay-01">
-                  <a href="#" class="flip-btn js-pointer-small" data-text="Dribbble">Dribbble</a>
-                </div>
-              </li>
-              <li class="list__item hidden-box">
-                <div class="hover-slide tr-delay-02">
-                  <a href="#" class="flip-btn js-pointer-small" data-text="Instagram">Instagram</a>
-                </div>
-              </li>
-              <li class="list__item hidden-box">
-                <div class="hover-slide tr-delay-03">
-                  <a href="#" class="flip-btn js-pointer-small" data-text="Behance">Behance</a>
-                </div>
-              </li>
-              <li class="list__item hidden-box">
-                <div class="hover-slide tr-delay-04">
-                  <a href="#" class="flip-btn js-pointer-small" data-text="Twitter">Twitter</a>
-                </div>
-              </li>
-            </ul><!-- social btns end -->
-          </div><!-- anim-img-scale end -->
-
-          <!-- content start -->
-          <div class="margin-top-20 margin-left-20">
-            <h4 class="subhead-m anim-text-double-fill tr-delay-01" data-text="Ashley Keller">Ashley Keller</h4><br>
-            <p class="headline-xxxxs margin-top-5 anim-text-double-fill invert tr-delay-03" data-text="Back-end developer">Back-end developer</p>
-          </div><!-- content end -->
-        </div><!-- swiper-slide end -->
+        </div>
+        <!-- swiper-slide end -->
       </div><!-- swiper-wrapper end -->
-
       <!-- swiper-button-prev start -->
       <div class="swiper-button-prev-box">
         <div class="swiper-button-prev"></div>
@@ -993,13 +898,13 @@
         </div>
         <div class="six-columns padding-top-30">
           <div class="column-l-margin-40 anim-fade js-scrollanim">
-            <a href="post_dont-panic.html" class="margin-top-bottom-30 d-block js-pointer-large js-animsition-link">
+            <a href="//matafgroup.com/decorate/?product=photocoffee/" class="margin-top-bottom-30 d-block js-pointer-large js-animsition-link">
               <h3 class="headline-xxxs text-color-black">
                 PhotoCoffee
               </h3>
               <p class="body-text-xs margin-top-20 text-color-black">Enriches the beverage experience with gorgeous graphics, and personalized messages.</p>
             </a>
-            <a href="http://matafgroup.com/decorate/?product=photocoffee/" class="skew-btn js-pointer-large js-animsition-link">
+            <a href="//matafgroup.com/decorate/?product=photocoffee/" class="skew-btn js-pointer-large js-animsition-link">
               <span class="skew-btn__box">
                   <span class="skew-btn__content text-color-black">Continue reading</span>
                   <span class="skew-btn__arrow black"></span>
@@ -1014,7 +919,7 @@
         <div class="six-columns padding-top-30">
           <div class="column-r-margin-40 anim-fade js-scrollanim">
 
-            <a href="post_good-morning.html" class="margin-top-bottom-30 d-block js-pointer-large js-animsition-link">
+            <a href="//matafgroup.com/decorate/product/foodnote/" class="margin-top-bottom-30 d-block js-pointer-large js-animsition-link">
               <h3 class="headline-xxxs text-color-black">
                 FoodNote
               </h3>
