@@ -54,9 +54,6 @@
                                 <a href="{{url('it-marketing/services')}}" class="{{request()->path() == 'it-marketing/services'?'active':''}}">Services</a>
                             </li>
                             <li>
-                                <a href="{{url('it-marketing/work-portfolio')}}" class="{{request()->path() == 'it-marketing/projects'?'active':''}}">Portfolio</a>
-                            </li>
-                            <li>
                                 <a href="{{url('contact-us')}}" target="_blank">Contact us</a>
                             </li>
                         </ul>
