@@ -38,11 +38,11 @@
     <div class="hero-wrap alt">
         <div class="container">
             <div class="hero-item">
-                <h2>Balkon Architecture <br> Studio</h2>
+                <h2>MatafGroup Construction <br> Sector</h2>
                 <div class="clearfix"></div>
-                <p>All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary .</p>
+                <p>We do high quality jobs and provide all customers with good services treating their property with respect.</p>
                 <div class="clearfix"></div>
-                <a href="portfolio.html" class="btn float-btn flat-btn">Our portfolio</a>
+                <a href="{{url('/construction/services')}}" class="btn float-btn flat-btn">Our Services</a>
             </div>
         </div>
     </div>
@@ -58,25 +58,27 @@
                 <div class="row">
                     <div class="col-md-7">
                         <div class="content-wrap about-wrap">
-                            <h3 class="bold-title">Welcome !  We are Balkon .  <br>   Architecture Studio <br> From NY</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras lacinia magna vel molestie faucibus. Donec auctor et urnaLorem ipsum dolor sit amet, consectetur adipiscing elit. Cras lacinia magna vel molestie faucibus.
-                                Cras lacinia magna vel molestie faucibus. Donec auctor et urnaLorem ipsum dolor sit amet, consectetur adipiscing elit. Cras lacinia magna vel molestie faucibus.
+                            <h3 class="bold-title">Welcome !  We are MatafGroup .  <br>   Construction Sector</h3>
+                            <p>
+                                We have a vast experience in the field of civil and electro-mechanical works well specialized in civil works. We also work activities in industrial plants, district cooling plants, infrastructure and other related facilities in the Kingdom of Saudi Arabia with our head office registered in Jeddah, Kingdom of Saudi Arabia.
                             </p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras lacinia magna vel molestie faucibus. Donec auctor et urnaLorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            <p>
+                                We do high quality jobs and provide all customers with good services treating their property with respect. We are relaible and competitive with our pricing and activities with our clients.
                             </p>
                             <br><br>
                             <h3 class="bold-title">What we do</h3>
                             <div class="pr-tags fl-wrap">
                                 <span>Services : </span>
                                 <ul>
-                                    <li><a href="#">Architecture</a></li>
-                                    <li><a href="#">Design</a></li>
-                                    <li><a href="#">Photography</a></li>
+                                    <li><a href="{{url('construction/services')}}">Structural</a></li>
+                                    <li><a href="{{url('construction/services')}}">Design</a></li>
+                                    <li><a href="{{url('construction/services')}}">MEP</a></li>
+                                    <li><a href="{{url('construction/services')}}">Architectural</a></li>
                                 </ul>
                             </div>
                             <span class="bold-separator"></span>
                             <div class="clearfix"></div>
-                            <a href="portfolio.html" class="btn float-btn flat-btn">Our portfolio</a>
+                            <a href="{{url('construction/projects')}}" class="btn float-btn flat-btn">Our portfolio</a>
                         </div>
                     </div>
                     <div class="col-md-5">
@@ -99,8 +101,8 @@
         <div class="container">
             <div class="intro-text fl-wrap">
                 <h2>Entrust your project <br>to our team of  <br>professionals</h2>
-                <a href="services.html" class="btn float-btn flat-btn">Our Services</a>
-                <a href="contact.html" class="btn float-btn flat-btn">Get in Touch</a>
+                <a href="{{url('construction/services')}}" class="btn float-btn flat-btn">Our Services</a>
+                <a href="{{url('contact-us')}}" target="_blank" class="btn float-btn flat-btn">Get in Touch</a>
             </div>
         </div>
     </section>
@@ -112,7 +114,7 @@
                 <div class="col-md-4">
                     <div class="pr-title">
                         Our Featured Work
-                        <span>Lorem Ipsum generators on the Internet tend to repeat king this the first true generator . </span>
+                        <span>Find below our recent featured works</span>
                     </div>
                 </div>
             </div>
@@ -124,15 +126,15 @@
                         <div class="parallax-header fl-wrap">
                             <span>01.</span>
                             <ul>
-                                <li><a href="#">Design</a></li>
-                                <li><a href="#">Architecture </a></li>
+                                <li><a href="#">Structural</a></li>
+                                <li><a href="#">Architecture</a></li>
                             </ul>
                         </div>
-                        <img  src="{{url('front/construction/images/folio/2.jpg')}}"   alt="">
+                        <img  src="{{url('projects/construction/balamand-university.png')}}"   alt="">
                         <div class="parallax-text left-pos" data-scrollax="properties: { translateY: '-250px' }">
-                            <h3><a href="portfolio-single.html">Theatre de Stoep</a></h3>
-                            <h4>There are many variations of passages of Lorem Ipsum</h4>
-                            <a href="portfolio-single.html" class="btn float-btn flat-btn">View project</a>
+                            <h3><a href="#">Balamand University</a></h3>
+                            <h4>We worked as Civil & Electro-Mechanical Contractor & Completed Successfully</h4>
+                            <a href="{{url('/construction/projects')}}" class="btn float-btn flat-btn">View All</a>
                         </div>
                     </div>
                 </div>
@@ -145,15 +147,16 @@
                         <div class="parallax-header fl-wrap">
                             <span>02.</span>
                             <ul>
-                                <li><a href="#">Design</a></li>
+                                <li><a href="#">Structural</a></li>
                                 <li><a href="#">Architecture </a></li>
+                                <li><a href="#">MEP</a></li>
                             </ul>
                         </div>
-                        <img  src="{{url('front/construction/images/folio/11.jpg')}}"   alt="">
+                        <img  src="{{url('projects/construction/sultan-villa-barsha.jpg')}}"   alt="">
                         <div class="parallax-text right-pos" data-scrollax="properties: { translateY: '-250px' }">
-                            <h3><a href="portfolio-single.html">New Acropolis Museum</a></h3>
-                            <h4>There are many variations of passages of Lorem Ipsum</h4>
-                            <a href="portfolio-single.html" class="btn float-btn flat-btn">View project</a>
+                            <h3><a href="#">Sultan Villa, Barsha</a></h3>
+                            <h4>We worked as sub contractor of all scope of works.</h4>
+                            <a href="#" class="btn float-btn flat-btn">View project</a>
                         </div>
                     </div>
                 </div>
@@ -167,15 +170,15 @@
                         <div class="parallax-header fl-wrap">
                             <span>03.</span>
                             <ul>
-                                <li><a href="#">Design</a></li>
+                                <li><a href="#">Structural</a></li>
                                 <li><a href="#">Architecture </a></li>
                             </ul>
                         </div>
-                        <img  src="{{url('front/construction/images/folio/16.jpg')}}"   alt="">
+                        <img  src="{{url('projects/construction/rashidiya-villa.jpg')}}"   alt="">
                         <div class="parallax-text left-pos" data-scrollax="properties: { translateY: '-250px' }">
-                            <h3><a href="portfolio-single.html">Theatre de Stoep</a></h3>
-                            <h4>There are many variations of passages of Lorem Ipsum</h4>
-                            <a href="portfolio-single.html" class="btn float-btn flat-btn">View project</a>
+                            <h3><a href="#">Rashidiya Villa</a></h3>
+                            <h4>We worked as sub contractor for all civil & finishing works.</h4>
+                            <a href="#" class="btn float-btn flat-btn">View project</a>
                         </div>
                     </div>
                 </div>
@@ -192,11 +195,11 @@
                                 <li><a href="#">Architecture </a></li>
                             </ul>
                         </div>
-                        <img  src="{{url('front/construction/images/folio/19.jpg')}}"   alt="">
+                        <img  src="{{url('projects/construction/gemstone-office.jpg')}}"   alt="">
                         <div class="parallax-text right-pos" data-scrollax="properties: { translateY: '-250px' }">
-                            <h3><a href="portfolio-single.html">New Acropolis Museum</a></h3>
-                            <h4>There are many variations of passages of Lorem Ipsum</h4>
-                            <a href="portfolio-single.html" class="btn float-btn flat-btn">View project</a>
+                            <h3><a href="#">Gemstone Office</a></h3>
+                            <h4>We worked as Interior & Finishing Contractor.</h4>
+                            <a href="#" class="btn float-btn flat-btn">View project</a>
                         </div>
                     </div>
                 </div>
@@ -204,59 +207,6 @@
             <!--parallax-item end-->
         </div>
         <div class="partcile-dec" data-parcount="250"></div>
-    </section>
-    <!--section end  -->
-    <!--section -->
-    <section class="parallax-section header-section  " data-scrollax-parent="true" id="sec6">
-        <div class="bg"  data-bg="{{url('front/construction/images/bg/1.jpg')}}" data-scrollax="properties: { translateY: '200px' }"></div>
-        <div class="overlay"></div>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="pr-title">
-                        Testimonials
-                    </div>
-                </div>
-                <div class="col-md-8">
-                    <div class="single-slider testilider fl-wrap" data-effects="slide">
-                        <div class="swiper-container">
-                            <div class="swiper-wrapper">
-                                <!-- swiper-slide -->
-                                <div class="swiper-slide">
-                                    <div class="testi-item fl-wrap">
-                                        <h3>Andy Smith</h3>
-                                        <p>"All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words"</p>
-                                        <a href="#" class="btn float-btn flat-btn" target="_blank">Via Twitter</a>
-                                    </div>
-                                </div>
-                                <!-- swiper-slide end-->
-                                <!-- swiper-slide -->
-                                <div class="swiper-slide">
-                                    <div class="testi-item fl-wrap">
-                                        <h3>Liza Mirovsky</h3>
-                                        <p>"Vestibulum orci felis, ullamcorper non condimentum non, ultrices ac nunc. Mauris non ligula suscipit, vulputate mi accumsan, dapibus felis. Nullam sed sapien dui. Nulla auctor sit amet sem non porta. Integer iaculis tellus nulla, quis imperdiet magna venenatis vitae"</p>
-                                        <a href="#" class="btn float-btn flat-btn" target="_blank">Via Facebook</a>
-                                    </div>
-                                </div>
-                                <!-- swiper-slide end-->
-                                <!-- swiper-slide -->
-                                <div class="swiper-slide">
-                                    <div class="testi-item fl-wrap">
-                                        <h3>Gary Trust</h3>
-                                        <p>"If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text."</p>
-                                        <a href="#" class="btn float-btn flat-btn" target="_blank">Via Myspace</a>
-                                    </div>
-                                </div>
-                                <!-- swiper-slide end-->
-                            </div>
-                            <div class="swiper-pagination"></div>
-                            <div class="swiper-button-prev"><i class="fa fa-angle-left"></i></div>
-                            <div class="swiper-button-next"><i class="fa fa-angle-right"></i></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
     </section>
     <!--section end  -->
     <!--section -->
@@ -274,17 +224,6 @@
         </div>
     </section>
     <!--section end  -->
-    <!--social-wrap -->
-    <div class="social-wrap fl-wrap">
-        <ul>
-            <li><a href="#" target="_blank" ><i class="fa fa-facebook"></i></a></li>
-            <li><a href="#" target="_blank"><i class="fa fa-twitter"></i></a></li>
-            <li><a href="#" target="_blank" ><i class="fa fa-instagram"></i></a></li>
-            <li><a href="#" target="_blank" ><i class="fa fa-pinterest"></i></a></li>
-            <li><a href="#" target="_blank" ><i class="fa fa-tumblr"></i></a></li>
-        </ul>
-    </div>
-    <!--social-wrap end-->
 </div>
 <!-- content  end -->
 @endsection
