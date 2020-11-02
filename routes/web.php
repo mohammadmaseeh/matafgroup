@@ -54,8 +54,8 @@ Route::group(['prefix' => 'recycling'], function() {
     Route::get('/services','Front\Recycling\PagesController@services');
     Route::get('/projects','Front\Recycling\PagesController@projects');
 });
-Route::group(['prefix' => 'robotic-agriculture'], function() {
+Route::group(['prefix' => 'robotics-agriculture'], function() {
     /*Home*/
-    Route::get('/','Front\RoboticAgriculture\PagesController@index');
-    Route::get('/services','Front\RoboticAgriculture\PagesController@services');
+    Route::get('/','Front\RoboticsAgriculture\PagesController@index');
+    Route::get('/services','Front\RoboticsAgriculture\PagesController@services');
 });

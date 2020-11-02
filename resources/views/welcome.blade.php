@@ -454,7 +454,7 @@
       <div class="padding-top-60 grid-item-33-50-100 js-isotope-filter-grid-item marketing">
         <a href="{{url('property-sharing')}}" class="grid-margin-box hover-box js-animsition-link js-pointer-large">
           <div class="anim-img-scale anim-img-scale_hover js-img-scale">
-            <img class="anim-img-scale__inner" src="images/sectors/real-estate.jpg" alt="project">
+            <img class="anim-img-scale__inner" src="images/sectors/property-sharing.jpg" alt="project">
           </div>
           <div class="margin-top-10 js-scrollanim">
 
@@ -551,9 +551,9 @@
 
       <!-- grid-item start -->
       <div class="padding-top-60 grid-item-33-50-100 js-isotope-filter-grid-item photoshoot">
-        <a href="{{url('/robotic-agriculture')}}" class="grid-margin-box hover-box js-animsition-link js-pointer-large">
+        <a href="{{url('/robotics-agriculture')}}" class="grid-margin-box hover-box js-animsition-link js-pointer-large">
           <div class="anim-img-scale anim-img-scale_hover js-img-scale">
-            <img class="anim-img-scale__inner" src="images/sectors/innovative.jpg" alt="Robotic Agriculture">
+            <img class="anim-img-scale__inner" src="images/sectors/robotics-agriculture.jpeg" alt="Robotic Agriculture">
           </div>
           <div class="margin-top-10 js-scrollanim">
             <h3 class="hidden-box">

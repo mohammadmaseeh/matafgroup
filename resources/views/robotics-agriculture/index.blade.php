@@ -1,4 +1,4 @@
-@extends('robotic-agriculture.layout')
+@extends('robotics-agriculture.layout')
 @section('content')
         <!-- Banner Section -->
         <section class="banner-section banner-one">

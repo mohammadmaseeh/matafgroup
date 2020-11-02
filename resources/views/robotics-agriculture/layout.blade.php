@@ -88,11 +88,11 @@
                             <li>
                                 <a href="{{url('/')}}">Home</a>
                             </li>
-                            <li class="{{request()->path() == 'robotic-agriculture'?'current':''}}">
-                                <a href="{{url('/robotic-agriculture')}}">Robotic Agriculture</a>
+                            <li class="{{request()->path() == 'robotics-agriculture'?'current':''}}">
+                                <a href="{{url('/robotics-agriculture')}}">Robotics Agriculture</a>
                             </li>
-                            <li class="{{request()->path() == 'robotic-agriculture/services'?'current':''}}">
-                                <a href="{{url('/robotic-agriculture')}}">Services</a>
+                            <li class="{{request()->path() == 'robotics-agriculture/services'?'current':''}}">
+                                <a href="{{url('/robotics-agriculture/services')}}">Services (Robotics Agriculture)</a>
                             </li>
                             <li>
                                 <a href="{{url('contact-us')}}" target="_blank">Contact Us</a>
