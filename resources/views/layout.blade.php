@@ -290,7 +290,7 @@
         <!-- nav-copyright start -->
         <div class="nav-copyright text-right">
             <p class="copyright-style nav-fade-anim js-nav-anim">
-                &copy; 2008-{{date('Y')}} MatafGroup All Right Reserved
+                &copy; 1998-{{date('Y')}} MatafGroup All Right Reserved
             </p>
         </div><!-- nav-copyright end -->
     </div><!-- pos-rel end -->
@@ -404,7 +404,7 @@
             <!-- footer-copyright start -->
             <div class="footer-copyright text-center pos-abs pos-bottom-center">
                 <p class="copyright-style">
-                    &copy; 2008-{{date('Y')}} MatafGroup All Right Reserved
+                    &copy; 1998-{{date('Y')}} MatafGroup All Right Reserved
                 </p>
             </div><!-- footer-copyright end -->
         </div><!-- container end -->

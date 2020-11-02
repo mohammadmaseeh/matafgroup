@@ -378,7 +378,7 @@
           </span>
         </h2><!-- title end -->
         <p class="body-text-s anim-text-reveal js-scrollanim column-l-r-margin-10 mrgT10">
-          Mataf Group is a major multifarious group established in 2008 based in Indore, India, and operating across other parts of the world. Over the past 12 years, Mataf Group built an outstanding reputation for delivering excellent service to our partners and customers. With great success in the market, our company is in the stage of expanding its business overseas. We combine commitment, our local and multinational market knowledge with the technical expertise and diverse product ranges of our overseas partners to forge enduring fruitful relationships.
+          Mataf Group is a major multifarious group established in 1998 based in Indore, India, and operating across other parts of the world. Over the past 12 years, Mataf Group built an outstanding reputation for delivering excellent service to our partners and customers. With great success in the market, our company is in the stage of expanding its business overseas. We combine commitment, our local and multinational market knowledge with the technical expertise and diverse product ranges of our overseas partners to forge enduring fruitful relationships.
         </p><a href="{{url('about-us')}}" class="border-btn js-pointer-large column-l-r-margin-10 mrgT10">
           <span class="border-btn__inner">Read more</span>
           <span class="border-btn__lines-1"></span>
