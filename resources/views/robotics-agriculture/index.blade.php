@@ -6,16 +6,16 @@
             <div class="banner-carousel owl-theme owl-carousel">
                 <!-- Slide Item -->
                 <div class="slide-item">
-                    <div class="image-layer" style="background-image: url('{{url('front/robotic/images/main-slider/slide_v1_1.jpg')}}');">
+                    <div class="image-layer" style="background-image: url('{{url('front/robotic/images/sliders/slide1.jpg')}}');">
                     </div>
                     <div class="auto-container">
                         <div class="content-box">
                             <div class="content">
                                 <div class="inner">
-                                    <div class="sub-title">The best Agriculture products</div>
-                                    <h1>Welcome to<br> agriculture Form</h1>
+                                    <div class="sub-title">The Future is Now</div>
+                                    <h1>Robotics<br> Agriculture</h1>
                                     <div class="link-box">
-                                        <a href="about.html" class="thm-btn">Discover More</a>
+                                        <a href="{{url('/robotics-agriculture/services')}}" class="thm-btn">Read More</a>
                                     </div>
                                 </div>
                             </div>
@@ -24,48 +24,25 @@
                 </div>
                 <!-- Slide Item -->
                 <div class="slide-item">
-                    <div class="image-layer" style="background-image: url('{{url('front/robotic/images/main-slider/slide_v1_2.jpg')}}');">
+                    <div class="image-layer" style="background-image: url('{{url('front/robotic/images/sliders/slide2.jpg')}}');">
                     </div>
                     <div class="auto-container">
                         <div class="content-box">
                             <div class="content">
                                 <div class="inner">
-                                    <div class="sub-title">The best Agriculture products</div>
-                                    <h1>Welcome to<br> agriculture Form</h1>
+                                    <div class="sub-title">Introducing New World</div>
+                                    <h1>FARMING & AGRICULTURE ROBOTS</h1>
                                     <div class="link-box">
-                                        <a href="about.html" class="thm-btn">Discover More</a>
+                                        <a href="{{url('/robotics-agriculture/services')}}" class="thm-btn">Discover More</a>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <!-- Slide Item -->
-                <div class="slide-item">
-                    <div class="image-layer" style="background-image: url('{{url('front/robotic/images/main-slider/slide_v1_3.jpg')}}');">
-                    </div>
-                    <div class="auto-container">
-                        <div class="content-box">
-                            <div class="content">
-                                <div class="inner">
-                                    <div class="sub-title">The best Agriculture products</div>
-                                    <h1>Welcome to<br> agriculture Form</h1>
-                                    <div class="link-box">
-                                        <a href="about.html" class="thm-btn">Discover More</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-
             </div>
         </section>
         <!--End Banner Section -->
-
-
-
         <section class="about_one">
             <div class="container">
                 <div class="row">
@@ -85,45 +62,52 @@
                     </div>
                     <div class="col-xl-6 col-lg-6">
                         <div class="block-title text-left">
-                            <p>About agriculture</p>
-                            <h3>We’re leader in agriculture market</h3>
+                            <p>About</p>
+                            <h3>Robotics Agriculture</h3>
                             <div class="leaf">
                                 <img src="{{url('front/robotic/images/resources/leaf.png')}}" alt="">
                             </div>
                         </div>
                         <div class="about_content">
                             <div class="text">
-                                <p>There are many variations of passages of Lorem Ipsum available, but the majority have
-                                    suffered alteration in some form, by injected humour, or randomised words which
-                                    don't look even slightly believable.</p>
+                                <p>
+                                    Agriculture is quickly becoming an exciting high-tech industry, drawing new professionals, new companies and new investors. The technology is developing rapidly, not only advancing the production capabilities of farmers but also advancing robotics and automation technology as we know it.
+                                </p>
+                                <p>
+                                    Agricultural robots are increasing production yields for farmers in various ways. From drones to autonomous tractors to robotic arms, the technology is being deployed in creative and innovative applications.
+                                </p>
                             </div>
                             <div class="about1_icon_wrap">
                                 <div class="about1_icon_single">
                                     <div class="about1_icon">
-                                        <span class="icon-harvest"></span>
-                                    </div>
-                                    <p>Growing Fruits and Vegetables</p>
-                                </div>
-                                <div class="about1_icon_single">
-                                    <div class="about1_icon">
                                         <span class="icon-temperature"></span>
                                     </div>
-                                    <p>Tips for Ripening your Fruits</p>
+                                    <p>Agricultural Robot Applications</p>
                                 </div>
                             </div>
                             <div class="bottom_text">
-                                <p> If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't
-                                    anything embarrassing hidden in the middle of text.</p>
-                            </div>
-                            <div class="about1__button-block">
-                                <a href="about.html" class="thm-btn about_one__btn">Learn More</a>
+                                <p>
+                                    Agricultural robots automate slow, repetitive and dull tasks for farmers, allowing them to focus more on improving overall production yields. Some of the most common robots in agriculture are used for:
+                                </p>
+                                <ul>
+                                    <li>Harvesting and picking</li>
+                                    <li>Weed control</li>
+                                    <li>Autonomous mowing, pruning, seeding, spraying and thinning</li>
+                                    <li>Phenotyping</li>
+                                    <li>Sorting and packing</li>
+                                    <li>Utility platforms</li>
+                                </ul>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-
+        <style>
+            .services_row>div{
+                margin-bottom: 10px;
+            }
+        </style>
         <section class="service_one">
             <div class="container">
                 <div class="block-title text-center">
@@ -133,59 +117,118 @@
                         <img src="{{url('front/robotic/images/resources/leaf.png')}}" alt="">
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-xl-3 col-lg-3 col-md-6">
+                <div class="row services_row">
+                    <div class="col-md-4">
                         <div class="service_1_single wow fadeInUp">
                             <div class="content">
-                                <h3>Fresh<br>vegetables</h3>
-                                <p>Lorem ipsum is simply are many variations of pass of majority.</p>
+                                <h3>ROBOTIC<br>PLATFORMS</h3>
+                                <p>
+                                    Agricultural platforms can be divided into domain- and
+                                    task-specific robots designed to perform a specific task on
+                                    a given crop in a pre-defined domain, and generic platforms
+                                    designed to perform several tasks in different <domains class=""></domains>
+                                </p>
                             </div>
                             <div class="service_1_img">
-                                <img src="{{url('front/robotic/images/service/service-1-img-1.jpg')}}" alt="Service Image">
+                                <img src="{{url('front/robotic/images/service/1.JPG')}}" alt="Service Image">
                                 <div class="hover_box">
-                                    <a href="service-detail.html"><span class="icon-left-arrow"></span></a>
+                                    <a href="{{url('robotics-agriculture/services')}}"><span class="icon-left-arrow"></span></a>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-3 col-lg-3 col-md-6">
-                        <div class="service_1_single wow fadeInUp" data-wow-delay="300ms">
+                    <div class="col-md-4">
+                        <div class="service_1_single wow fadeInUp">
                             <div class="content">
-                                <h3>Fresh<br>vegetables</h3>
-                                <p>Lorem ipsum is simply are many variations of pass of majority.</p>
+                                <h3> SENSING AND <br> PERCEPTION</h3>
+                                <p>
+                                    The integration of sensor systems within autonomous
+                                    robotic systems offers the significant potential for new
+                                    measurements that would otherwise be unobtainable.
+                                </p>
                             </div>
                             <div class="service_1_img">
-                                <img src="{{url('front/robotic/images/service/service-1-img-2.jpg')}}" alt="Service Image">
+                                <img src="{{url('front/robotic/images/service/2.JPG')}}" alt="Service Image">
                                 <div class="hover_box">
-                                    <a href="service-detail.html"><span class="icon-left-arrow"></span></a>
+                                    <a href="{{url('robotics-agriculture/services')}}"><span class="icon-left-arrow"></span></a>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-3 col-lg-3 col-md-6">
-                        <div class="service_1_single wow fadeInUp" data-wow-delay="600ms">
+                    <div class="col-md-4">
+                        <div class="service_1_single wow fadeInUp">
                             <div class="content">
-                                <h3>Fresh<br>vegetables</h3>
-                                <p>Lorem ipsum is simply are many variations of pass of majority.</p>
+                                <h3>PLANNING AND<br>COORDINATION</h3>
+                                <p>
+                                    The true potential of robotics in agriculture will be harnessed
+                                    when different types of robots and autonomous systems
+                                    are brought together in a systemic approach.
+                                </p>
                             </div>
                             <div class="service_1_img">
-                                <img src="{{url('front/robotic/images/service/service-1-img-3.jpg')}}" alt="Service Image">
+                                <img src="{{url('front/robotic/images/service/3.JPG')}}" alt="Service Image">
                                 <div class="hover_box">
-                                    <a href="service-detail.html"><span class="icon-left-arrow"></span></a>
+                                    <a href="{{url('robotics-agriculture/services')}}"><span class="icon-left-arrow"></span></a>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-3 col-lg-3 col-md-6">
-                        <div class="service_1_single wow fadeInUp" data-wow-delay="900ms">
+                    <div class="col-md-4">
+                        <div class="service_1_single wow fadeInUp">
                             <div class="content">
-                                <h3>Fresh<br>vegetables</h3>
-                                <p>Lorem ipsum is simply are many variations of pass of majority.</p>
+                                <h3>MANIPULATION</h3>
+                                <p>
+                                    Automated manipulation and grasping of food items
+                                    presents a series of unique challenges compared to
+                                    other sectors. These include significant natural size and
+                                    shape variations between examples of the same product,
+                                    heterogeneous positioning of products (e.g. during
+                                    harvesting) and the fragile nature of food products.
+                                </p>
                             </div>
                             <div class="service_1_img">
-                                <img src="{{url('front/robotic/images/service/service-1-img-4.jpg')}}" alt="Service Image">
+                                <img src="{{url('front/robotic/images/service/4.JPG')}}" alt="Service Image">
                                 <div class="hover_box">
-                                    <a href="service-detail.html"><span class="icon-left-arrow"></span></a>
+                                    <a href="{{url('robotics-agriculture/services')}}"><span class="icon-left-arrow"></span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="service_1_single wow fadeInUp">
+                            <div class="content">
+                                <h3>HUMAN-ROBOT<br>INTERACTION</h3>
+                                <p>
+                                    The challenges for interaction range from domainindependent aspects such as intuitive designs, immersive
+                                    displays (e.g. Virtual and Augmented Reality) and tactile
+                                    feedback, to very specific challenges stemming from the
+                                    in-field conditions.
+                                </p>
+                            </div>
+                            <div class="service_1_img">
+                                <img src="{{url('front/robotic/images/service/5.JPG')}}" alt="Service Image">
+                                <div class="hover_box">
+                                    <a href="{{url('robotics-agriculture/services')}}"><span class="icon-left-arrow"></span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="service_1_single wow fadeInUp">
+                            <div class="content">
+                                <h3>LEARNING AND <br>ADAPTATION</h3>
+                                <p>
+                                    Artificial intelligence technologies, especially in machine
+                                    learning, are expected to play a major role in most of the
+                                    above technology areas, and will be essential enablers for
+                                    agricultural robots. Agricultural environments are subject
+                                    to changes throughout the lifetime of a robotic system.
+                                </p>
+                            </div>
+                            <div class="service_1_img">
+                                <img src="{{url('front/robotic/images/service/6.JPG')}}" alt="Service Image">
+                                <div class="hover_box">
+                                    <a href="{{url('robotics-agriculture/services')}}"><span class="icon-left-arrow"></span></a>
                                 </div>
                             </div>
                         </div>
@@ -240,13 +283,13 @@
                 <div class="row">
                     <div class="col-xl-6 wow slideInLeft" data-wow-delay="100ms">
                         <div class="single_featured_box">
-                            <img src="{{url('front/robotic/images/resources/featured-leaf.png')}}" alt=""><span>We Sale Best Agriculture
+                            <img src="{{url('front/robotic/images/resources/featured-leaf.png')}}" alt=""><span>We Deal in Best Agriculture Robots
                                 Products</span><img src="{{url('front/robotic/images/resources/featured-leaf.png')}}" alt="">
                         </div>
                     </div>
                     <div class="col-xl-6 wow slideInRight" data-wow-delay="100ms">
                         <div class="single_featured_box">
-                            <img src="{{url('front/robotic/images/resources/featured-leaf.png')}}" alt=""><span>We’ve 40 years experience
+                            <img src="{{url('front/robotic/images/resources/featured-leaf.png')}}" alt=""><span>We’ve 10 years experience
                                 in field</span><img src="{{url('front/robotic/images/resources/featured-leaf.png')}}" alt="">
                         </div>
                     </div>
@@ -263,7 +306,7 @@
             </div>
         </section>
 
-        <section class="testimonials-one">
+        <section class="testimonials-one" style="display: none;">
             <div class="container">
                 <div class="row">
                     <div class="col-xl-6 col-lg-6">
@@ -352,8 +395,8 @@
         <section class="recent-project">
             <div class="container">
                 <div class="block-title text-center">
-                    <p>explore projects</p>
-                    <h3>our Recent projects</h3>
+                    <p>explore us</p>
+                    <h3>our Values</h3>
                     <div class="leaf">
                         <img src="{{url('front/robotic/images/resources/leaf.png')}}" alt="">
                     </div>
@@ -409,7 +452,7 @@
                     <div class="col-xl-4">
                         <div class="block-title text-left">
                             <p>Our benefits</p>
-                            <h3>Agriculture & Eco<br>Farming</h3>
+                            <h3>Agriculture & AI<br>Robots</h3>
                             <div class="leaf">
                                 <img src="{{url('front/robotic/images/resources/leaf.png')}}" alt="">
                             </div>
@@ -418,11 +461,9 @@
                     <div class="col-xl-8 d-flex">
                         <div class="my-auto">
                             <div class="benefits_text">
-                                <p>There are many variations of passages of available but the majority have suffered
-                                    alteration in some form, by injected humou or randomised words which don't look even
-                                    slightly believable. There are many variations of passages of available but the
-                                    majority have suffered alteration in some form, by injected humou or randomised
-                                    words which don't look even slightly believable.</p>
+                                <p>
+                                    Thus the agricultural industry is in transition. And that transition differs country by country, state by state, region by region as well as by type of farming practiced: from primitive to conventional to precision to experimental. A little bit of everything is going on everywhere but the general trend worldwide is toward precision agriculture supplemented by advanced technologies including robotics.
+                                </p>
                             </div>
                         </div><!-- /.my-auto -->
                     </div>
@@ -473,7 +514,7 @@
                         <div class="product_img">
                             <img src="{{url('front/robotic/images/resources/product-1-img-1.jpg')}}" alt="Product One Img">
                             <div class="experience_box">
-                                <h2>40 Year</h2>
+                                <h2>10 Year</h2>
                                 <p>Of Experience</p>
                             </div>
                         </div>
@@ -481,29 +522,36 @@
                     <div class="col-xl-6 col-lg-6">
                         <div class="growing_product">
                             <div class="block-title text-left">
-                                <p>fresh products</p>
-                                <h3>Growing products</h3>
+                                <p>new technology</p>
+                                <h3>Growing Industry</h3>
                                 <div class="leaf">
                                     <img src="{{url('front/robotic/images/resources/leaf.png')}}" alt="">
                                 </div>
                             </div>
                             <div class="growing_product_text">
-                                <p>Lorem ipsum dolor sit amet nsectetur cing elit. Suspe ndisse suscipit sagittis leo
-                                    sit met entum estibu dignissim posuere cubilia durae. Leo sit met entum cubilia crae
-                                    onec.</p>
+                                <p>Robotics and Autonomous Systems (RAS) are set to
+                                    transform global industries. These technologies will
+                                    have greatest impact on large sectors of the economy
+                                    with relatively low productivity such as Agri-Food
+                                    (food production from the farm through to and including
+                                    manufacturing to the retail shelf). The UK Agri-Food chain,
+                                    from primary farming through to retail, generates over
+                                    £108bn p.a., with 3.7m employees in a truly international
+                                    industry yielding £20bn of exports in 2016.
+                                </p>
                             </div>
                             <div class="progress-levels">
                                 <!--Skill Box-->
                                 <div class="progress-box">
                                     <div class="inner count-box">
-                                        <div class="text">Agriculture</div>
+                                        <div class="text">Robotic Agriculture Growing</div>
                                         <div class="bar">
                                             <div class="bar-innner">
                                                 <div class="skill-percent">
-                                                    <span class="count-text" data-speed="3000" data-stop="68">0</span>
+                                                    <span class="count-text" data-speed="3000" data-stop="20">0</span>
                                                     <span class="percent">%</span>
                                                 </div>
-                                                <div class="bar-fill" data-percent="68"></div>
+                                                <div class="bar-fill" data-percent="20"></div>
                                             </div>
                                         </div>
                                     </div>
@@ -511,14 +559,14 @@
                                 <!--Skill Box-->
                                 <div class="progress-box">
                                     <div class="inner count-box">
-                                        <div class="text">Organic</div>
+                                        <div class="text">Orthodocs Agriculture</div>
                                         <div class="bar">
                                             <div class="bar-innner">
                                                 <div class="skill-percent">
-                                                    <span class="count-text" data-speed="3000" data-stop="98">0</span>
+                                                    <span class="count-text" data-speed="3000" data-stop="80">0</span>
                                                     <span class="percent">%</span>
                                                 </div>
-                                                <div class="bar-fill" data-percent="98"></div>
+                                                <div class="bar-fill" data-percent="80"></div>
                                             </div>
                                         </div>
                                     </div>
@@ -545,24 +593,30 @@
                             <div class="blog_one_image">
                                 <div class="blog_image">
                                     <img src="{{url('front/robotic/images/blog/blog-1-img-1.jpg')}}" alt="Blog One Image">
-                                    <div class="blog_one_date_box">
-                                        <p>30 Oct, 2019</p>
-                                    </div>
+                                    {{--<div class="blog_one_date_box">--}}
+                                        {{--<p>30 Oct, 2019</p>--}}
+                                    {{--</div>--}}
                                 </div>
                                 <div class="blog-one__content">
-                                    <ul class="list-unstyled blog-one__meta">
-                                        <li><a href="news_detail.html"><i class="far fa-user-circle"></i> Admin</a></li>
-                                        <li><a href="news_detail.html"><i class="far fa-comments"></i> 2 Comments</a>
-                                        </li>
-                                    </ul>
-                                    <h3><a href="news_detail.html">Agriculture Miracle you<br>Don't Know About</a></h3>
+                                    {{--<ul class="list-unstyled blog-one__meta">--}}
+                                        {{--<li><a href="#"><i class="far fa-user-circle"></i> Admin</a></li>--}}
+                                        {{--<li><a href="#"><i class="far fa-comments"></i> 2 Comments</a>--}}
+                                        {{--</li>--}}
+                                    {{--</ul>--}}
+                                    <h3><a href="#">ECONOMIC AND SOCIETAL FACTORS</a></h3>
                                     <div class="blog_one_text">
-                                        <p>There are lorem ipsum is simply free many variations of ipsum the majority
-                                            suffered.</p>
+                                        <p>
+                                            Robotics and Autonomous Systems (RAS) are set to
+                                            transform many global industries. These technologies will
+                                            have greatest impact on large sectors of the economy
+                                            with relatively low productivity such as Agri-Food (food
+                                            production from the farm through to and including
+                                            manufacturing to the retail shelf).
+                                        </p>
                                     </div>
-                                    <div class="read_more_btn">
-                                        <a href="#"><i class="fa fa-angle-right"></i>Read More</a>
-                                    </div>
+                                    {{--<div class="read_more_btn">--}}
+                                        {{--<a href="#"><i class="fa fa-angle-right"></i>Read More</a>--}}
+                                    {{--</div>--}}
                                 </div>
                             </div>
                         </div>
@@ -572,24 +626,28 @@
                             <div class="blog_one_image">
                                 <div class="blog_image">
                                     <img src="{{url('front/robotic/images/blog/blog-1-img-2.jpg')}}" alt="Blog One Image">
-                                    <div class="blog_one_date_box">
-                                        <p>30 Oct, 2019</p>
-                                    </div>
+                                    {{--<div class="blog_one_date_box">--}}
+                                        {{--<p>30 Oct, 2019</p>--}}
+                                    {{--</div>--}}
                                 </div>
                                 <div class="blog-one__content">
-                                    <ul class="list-unstyled blog-one__meta">
-                                        <li><a href="news_detail.html"><i class="far fa-user-circle"></i> Admin</a></li>
-                                        <li><a href="news_detail.html"><i class="far fa-comments"></i> 2 Comments</a>
-                                        </li>
-                                    </ul>
-                                    <h3><a href="news_detail.html">Amount of Freak Bread<br>or Other Fruits</a></h3>
+                                    {{--<ul class="list-unstyled blog-one__meta">--}}
+                                        {{--<li><a href="#"><i class="far fa-user-circle"></i> Admin</a></li>--}}
+                                        {{--<li><a href="#"><i class="far fa-comments"></i> 2 Comments</a>--}}
+                                        {{--</li>--}}
+                                    {{--</ul>--}}
+                                    <h3><a href="#">ENVIRONMENTAL BENEFITS</a></h3>
                                     <div class="blog_one_text">
-                                        <p>There are lorem ipsum is simply free many variations of ipsum the majority
-                                            suffered.</p>
+                                        <p>
+                                            As well as delivering economic benefits, such as increasing
+                                            productivity and reducing waste throughout the food supply
+                                            chain, developing a new focus for RAS within Agri-Food
+                                            will have significant societal and environmental benefits.
+                                        </p>
                                     </div>
-                                    <div class="read_more_btn">
-                                        <a href="#"><i class="fa fa-angle-right"></i>Read More</a>
-                                    </div>
+                                    {{--<div class="read_more_btn">--}}
+                                        {{--<a href="#"><i class="fa fa-angle-right"></i>Read More</a>--}}
+                                    {{--</div>--}}
                                 </div>
                             </div>
                         </div>
@@ -599,24 +657,30 @@
                             <div class="blog_one_image">
                                 <div class="blog_image">
                                     <img src="{{url('front/robotic/images/blog/blog-1-img-3.jpg')}}" alt="Blog One Image">
-                                    <div class="blog_one_date_box">
-                                        <p>30 Oct, 2019</p>
-                                    </div>
+                                    {{--<div class="blog_one_date_box">--}}
+                                        {{--<p>30 Oct, 2019</p>--}}
+                                    {{--</div>--}}
                                 </div>
                                 <div class="blog-one__content">
-                                    <ul class="list-unstyled blog-one__meta">
-                                        <li><a href="news_detail.html"><i class="far fa-user-circle"></i> Admin</a></li>
-                                        <li><a href="news_detail.html"><i class="far fa-comments"></i> 2 Comments</a>
-                                        </li>
-                                    </ul>
-                                    <h3><a href="news_detail.html">Winter Wheat Harvest<br>Gathering Momentum</a></h3>
+                                    {{--<ul class="list-unstyled blog-one__meta">--}}
+                                        {{--<li><a href="#"><i class="far fa-user-circle"></i> Admin</a></li>--}}
+                                        {{--<li><a href="#"><i class="far fa-comments"></i> 2 Comments</a>--}}
+                                        {{--</li>--}}
+                                    {{--</ul>--}}
+                                    <h3><a href="#">PRECISION AGRICULTURE</a></h3>
                                     <div class="blog_one_text">
-                                        <p>There are lorem ipsum is simply free many variations of ipsum the majority
-                                            suffered.</p>
+                                        <p>
+                                            Also known as ‘smart farming’, precision agriculture
+                                            has its origins in developments first applied in industrial
+                                            manufacturing as far back as the 1970s and 80s. It concerns
+                                            the use of monitoring and intervention techniques to improve
+                                            efficiency, realised in application through the deployment
+                                            of sensing technologies and automation.
+                                        </p>
                                     </div>
-                                    <div class="read_more_btn">
-                                        <a href="#"><i class="fa fa-angle-right"></i>Read More</a>
-                                    </div>
+                                    {{--<div class="read_more_btn">--}}
+                                        {{--<a href="#"><i class="fa fa-angle-right"></i>Read More</a>--}}
+                                    {{--</div>--}}
                                 </div>
                             </div>
                         </div>
@@ -631,9 +695,8 @@
                     <div class="col-xl-12">
                         <div class="cta_one_content">
                             <h1>Provide you the Highest Quality products<br>that Meets your Expectation</h1>
-                            <p>Eu quo laoreet propriae, te has, vocent persius eum ea.</p>
                             <div class="cta_one__button-block">
-                                <a href="#" class="thm-btn cta_one__btn">Discover More</a>
+                                <a href="{{url('contact-us')}}" class="thm-btn cta_one__btn">Contact Us</a>
                             </div>
                         </div>
                     </div>

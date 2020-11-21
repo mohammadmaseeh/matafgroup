@@ -1,9 +1,7 @@
 @extends('realestate.layout')
 @section('content')
-        <!-- Google Tag Manager (noscript) -->
 <noscript>
-    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W3B7D89"
-            height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W3B7D89" height="0" width="0" style="display:none;visibility:hidden"></iframe>
 </noscript>
 <div class="vtPopup" style="position:absolute; top:0px; left:0px; width:100%; height:100%; z-index:1000000000000000000000000000; display:none;">
     <div class="vtBg" style="position:absolute; top:0px; left:0px; background:url('{{url('front/realestate/front/realestate/svg/popVirtualBg.png')}}'); width:100%; height:100%;"></div>
@@ -31,7 +29,12 @@
     <div class="links" style="display:none;"><a href="http://www.air90suk.info/">Cheap Nike Air Max 90 UK</a><a href="http://www.fireshoestore.com/">Official Adidas NMD R1 Online</a> <a href="http://www.jerseyfanstore.com/">New Nike NBA jersey</a></div>
 </div>
 <div class="content_homepage">
-    <div class="mobilebanners"><div class="myban" id="myban25918"><a href="montana-view/index.html" target="_blank"><img src="{{url('front/realestate/svg/jadetowers1.jpg')}}" border="0" /></a></div>
+    <div class="mobilebanners">
+        <div class="myban" id="myban25918">
+            <a href="montana-view/index.html" target="_blank">
+                <img src="{{url('front/realestate/svg/jadetowers1.jpg')}}" border="0" />
+            </a>
+        </div>
         <div class="myban"><a href="festive-offers/index.html" target="_blank"><img src="{{url('front/realestate/svg/popup-supertech.jpg')}}" alt="Doon Square" border="0" /></a></div>
         <div class="myban"><a href="supernova-noida/index.html" target="_blank"><img src="{{url('front/realestate/svg/dd0f45de.jpg')}}" alt="Doon Square" border="0" /></a></div>
         <div class="myban"><a href="supertech-doon-square-commercial-property/index.html" target="_blank"><img src="{{url('front/realestate/svg/doonsquare25219.jpg')}}" alt="Doon Square" border="0" /></a></div>
@@ -41,7 +44,8 @@
         <div class="myban"><a href="javascript:;" target="_blank"><img src="{{url('front/realestate/svg/Golf-Mansion-Ad-01.jpg')}}" alt="Golf Mansion" border="0" /></a></div>
         <div class="myban"><a href="http://supertech-sportsvillage.in/"><img src="{{url('front/realestate/svg/sports-village.jpg')}}" alt="supertech sports village" border="0"></a></div>
         <div class="myban"><a href="http://www.supertech-yay.in/" target="_blank"><img src="{{url('front/realestate/svg/7th-feb-2018.jpg')}}" alt="supertech yay" border="0"></a></div>
-        <div class="clear"></div></div>
+        <div class="clear"></div>
+    </div>
 </div>
 
 <div class="content_residential">
@@ -126,7 +130,9 @@
 </div>
 <div class="content_completed">
     <div class="comp_res_noida logocontainer">
-        <div class="loclabel" style="margin-top:0px;">Residential - Indore</div><div class="links" style="display:none;"> <a href="http://www.fireshoestore.com/">Official Adidas NMD R1 Online</a> <a href="http://www.air90suk.info/">Cheap Nike Air Max 90 UK</a> <a href="http://www.jerseyfanstore.com/">New Nike NBA jersey</a></div>
+        <div class="loclabel" style="margin-top:0px;">Residential - Indore</div><div class="links" style="display:none;">
+        <a href="http://www.fireshoestore.com/">Official Adidas NMD R1 Online</a> <
+            a href="http://www.air90suk.info/">Cheap Nike Air Max 90 UK</a> <a href="http://www.jerseyfanstore.com/">New Nike NBA jersey</a></div>
         <a class="hp_sub_logo" href="residential/34pavilion-noida/index.html">
             <div class="hp_sub_logo_div">
                 <img src="{{url('front/realestate/svg/hplogos/logo_34pavilion.png')}}" alt="supertech 34pavilion" border="0">
@@ -183,7 +189,7 @@
     <div class="close_app"><img src="{{url('front/realestate/svg/app-close.png')}}"/></div>
     <div class="app_logo"><a href=""><img src="{{url('front/realestate/svg/app_logo_new.png')}}" /></a></div>
     <div class="app_logo_content"><h4>MatafGroup</h4>
-        <p>Get the MatafGroup App</p><div class="links" style="display:none;"> <a href="http://www.fireshoestore.com/">Official Adidas NMD R1 Online</a> <a href="http://www.jerseyfanstore.com/">New Nike NBA jersey</a> <a href="http://www.air90suk.info/">Cheap Nike Air Max 90 UK</a></div></div>
+        <p>Get the MatafGroup App Soon</p><div class="links" style="display:none;"> <a href="#">Official Adidas NMD R1 Online</a> <a href="http://www.jerseyfanstore.com/">New Nike NBA jersey</a> <a href="http://www.air90suk.info/">Cheap Nike Air Max 90 UK</a></div></div>
     <div class="app_link"><a href="https://itunes.apple.com/us/app/supertechlimited/id1056104698?mt=8" target="_blank">Download</a></div>
     <div class="clr"></div>
 </div>
@@ -197,25 +203,26 @@
 </div>
 <!--end samresh-->
 <div class="content_home">
-
     <div class="hpbanner">
         <div class="hpbannerpic">
-            <div class="hpbannerslider"><div class="myban" id="myban25918"><a href="montana-view/index.html" target="_blank"><img src="{{url('front/realestate/svg/jadetowers1.jpg')}}" border="0" /></a></div>
-                <div class="myban"><a href="festive-offers/index.html" target="_blank"><img src="{{url('front/realestate/svg/popup-supertech.jpg')}}" alt="Doon Square" border="0" /></a></div>
-                <div class="myban"><a href="supernova-noida/index.html" target="_blank"><img src="{{url('front/realestate/svg/dd0f45de.jpg')}}" alt="Doon Square" border="0" /></a></div>
-                <div class="myban"><a href="supertech-doon-square-commercial-property/index.html" target="_blank"><img src="{{url('front/realestate/svg/doonsquare25219.jpg')}}" alt="Doon Square" border="0" /></a></div>
-                <div class="myban"><a href="property/Supertech-Capeluxe-Noida/index.html" target="_blank"><img src="{{url('front/realestate/svg/capeluxe25219.jpg')}}" alt="Supertech Capeluxe Noida" border="0" /></a></div>
-                <div class="myban"><a href="http://www.northeye.in/luxury-apartments-noida.php" target="_blank"><img src="{{url('front/realestate/svg/northeye25219.jpg')}}" alt="North Eye" border="0" /></a></div>
-                <div class="myban"><a href="montana-view/index.html" target="_blank"><img src="{{url('front/realestate/svg/jadetowers1.jpg')}}" alt="Jade Towers" border="0" /></a></div>
-                <div class="myban"><a href="javascript:;" target="_blank"><img src="{{url('front/realestate/svg/Golf-Mansion-Ad-01.jpg')}}" alt="Golf Mansion" border="0" /></a></div>
-                <div class="myban"><a href="http://supertech-sportsvillage.in/"><img src="{{url('front/realestate/svg/sports-village.jpg')}}" alt="supertech sports village" border="0"></a></div>
-                <div class="myban"><a href="http://www.supertech-yay.in/" target="_blank"><img src="{{url('front/realestate/svg/7th-feb-2018.jpg')}}" alt="supertech yay" border="0"></a></div>
-                <div class="clear"></div></div>
+            <div class="hpbannerslider">
+                <div class="myban" id="myban25918">
+                    <a href="#" target="_blank">
+                        <img src="{{url('front/realestate/svg/jadetowers1.jpg')}}" border="0" />
+                    </a>
+                </div>
+                <div class="myban">
+                    <a href="#" target="_blank">
+                        <img src="{{url('front/realestate/new/slider-s-1.jpg')}}" alt="Doon Square" border="0" />
+                    </a>
+                </div>
+               <div class="clear"></div>
+            </div>
         </div>
         <div class="hpbannerbut"></div>
         <div class="clear"></div>
         <a href="javascript:;" class="btnBanNext" style="float:right; margin:0px 40px 0px 1px;" ><img src="{{url('front/realestate/svg/hp_ban_next.gif')}}" alt="next" border="0"></a>
-        <a href="javascript:;" class="btnBanPre" style="float:right;" ><img src="{{url('front/realestate/svg/hp_ban_pre.gif')}}'" alt="pre" alt="banner"border="0"></a>
+        <a href="javascript:;" class="btnBanPre" style="float:right;" ><img src="{{url('front/realestate/svg/hp_ban_pre.gif')}}" alt="pre" alt="banner"border="0"></a>
     </div>
 
     <div class="hpboxes">
@@ -240,7 +247,6 @@
         <div class="hplk_txt" style="top:50px;">Completed<br>Projects</div>
         </a>
     </div>
-
 </div>
 <div class="content_subpage">
     <div class="hpSubPage">
@@ -321,13 +327,6 @@
                                         <img src="https://www.supertechlimited.com/front/realestate/svg/hplogos/logo_ritz.png')}}" border="0">
                                     </div>
                                 </a>-->
-
-
-
-
-
-
-
                                 <div class="clear"></div>
                             </div>
                             <div class="res_lucknow logocontainer">
@@ -399,7 +398,6 @@
             </div>
         </div>
         <div id="subPageCom">
-
             <div class="hpSubBg"><img src="{{url('front/realestate/svg/screen_hp3.jpg')}}" alt="screen" border="0"></div>
             <div class="sub_container">
                 <div class="sub_pic">
@@ -614,16 +612,16 @@
         <div class="hpbanner" style="left: -440px;">
             <div class="hpbannerpic">
                 <div class="hpbannerslider">?<div class="myban" id="myban25918"><a href="montana-view/index.html" target="_blank"><img src="images/jadetowers1.jpg')}}" border="0"></a></div>
-                    <div class="myban"><a href="festive-offers/index.html" target="_blank"><img src="images/popup-supertech.jpg')}}" alt="Doon Square" border="0"></a></div>
-                    <div class="myban"><a href="supernova-noida/index.html" target="_blank"><img src="images/dd0f45de.jpg')}}" alt="Doon Square" border="0"></a></div>
-                    <div class="myban"><a href="supertech-doon-square-commercial-property/index.html" target="_blank"><img src="images/doonsquare25219.jpg')}}" alt="Doon Square" border="0"></a></div>
-                    <div class="myban"><a href="property/Supertech-Capeluxe-Noida/index.html" target="_blank"><img src="images/capeluxe25219.jpg')}}" alt="Supertech Capeluxe Noida" border="0"></a></div>
-                    <div class="myban"><a href="http://www.northeye.in/luxury-apartments-noida.php" target="_blank"><img src="images/northeye25219.jpg')}}" alt="North Eye" border="0"></a></div>
-                    <div class="myban"><a href="montana-view/index.html" target="_blank"><img src="images/jadetowers1.jpg')}}" alt="Jade Towers" border="0"></a></div>
-                    <div class="myban"><a href="javascript:;" target="_blank"><img src="images/Golf-Mansion-Ad-01.jpg')}}" alt="Golf Mansion" border="0"></a></div>
-                    <div class="myban"><a href="http://supertech-sportsvillage.in/"><img src="images/sports-village.jpg')}}" alt="supertech sports village" border="0"></a></div>
-                    <div class="myban"><a href="http://www.supertech-yay.in/" target="_blank"><img src="images/7th-feb-2018.jpg')}}" alt="supertech yay" border="0"></a></div>
-                    <div class="clear"></div></div>
+                <div class="myban"><a href="festive-offers/index.html" target="_blank"><img src="images/popup-supertech.jpg')}}" alt="Doon Square" border="0"></a></div>
+                <div class="myban"><a href="supernova-noida/index.html" target="_blank"><img src="images/dd0f45de.jpg')}}" alt="Doon Square" border="0"></a></div>
+                <div class="myban"><a href="supertech-doon-square-commercial-property/index.html" target="_blank"><img src="images/doonsquare25219.jpg')}}" alt="Doon Square" border="0"></a></div>
+                <div class="myban"><a href="property/Supertech-Capeluxe-Noida/index.html" target="_blank"><img src="images/capeluxe25219.jpg')}}" alt="Supertech Capeluxe Noida" border="0"></a></div>
+                <div class="myban"><a href="http://www.northeye.in/luxury-apartments-noida.php" target="_blank"><img src="images/northeye25219.jpg')}}" alt="North Eye" border="0"></a></div>
+                <div class="myban"><a href="montana-view/index.html" target="_blank"><img src="images/jadetowers1.jpg')}}" alt="Jade Towers" border="0"></a></div>
+                <div class="myban"><a href="javascript:;" target="_blank"><img src="images/Golf-Mansion-Ad-01.jpg')}}" alt="Golf Mansion" border="0"></a></div>
+                <div class="myban"><a href="http://supertech-sportsvillage.in/"><img src="images/sports-village.jpg')}}" alt="supertech sports village" border="0"></a></div>
+                <div class="myban"><a href="http://www.supertech-yay.in/" target="_blank"><img src="images/7th-feb-2018.jpg')}}" alt="supertech yay" border="0"></a></div>
+                <div class="clear"></div></div>
             </div>
             <div class="hpbannerbut hpbannerbut_tog"></div>
             <div class="clear"></div>

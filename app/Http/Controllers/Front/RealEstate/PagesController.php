@@ -8,7 +8,7 @@ class PagesController extends Controller
 {
     public function index()
     {
-        return view('realestate.index');
+        return view('coming-soon');
     }
     public function about()
     {

@@ -378,7 +378,7 @@
           </span>
         </h2><!-- title end -->
         <p class="body-text-s anim-text-reveal js-scrollanim column-l-r-margin-10 mrgT10">
-          Mataf Group is a major multifarious group established in 1998 based in Indore, India, and operating across other parts of the world. Over the past 12 years, Mataf Group built an outstanding reputation for delivering excellent service to our partners and customers. With great success in the market, our company is in the stage of expanding its business overseas. We combine commitment, our local and multinational market knowledge with the technical expertise and diverse product ranges of our overseas partners to forge enduring fruitful relationships.
+          Mataf Group is a major multifarious group established in 1998 based in Indore, India, and operating across other parts of the world. Over the past 22 years, Mataf Group built an outstanding reputation for delivering excellent service to our partners and customers. With great success in the market, our company is in the stage of expanding its business overseas. We combine commitment, our local and multinational market knowledge with the technical expertise and diverse product ranges of our overseas partners to forge enduring fruitful relationships.
         </p><a href="{{url('about-us')}}" class="border-btn js-pointer-large column-l-r-margin-10 mrgT10">
           <span class="border-btn__inner">Read more</span>
           <span class="border-btn__lines-1"></span>
@@ -435,35 +435,6 @@
         </a>
       </div><!-- grid-item end -->
 
-      <!-- grid-item start -->
-      <div class="padding-top-60 grid-item-33-50-100 js-isotope-filter-grid-item marketing">
-        <a href="{{url('real-estate')}}" class="grid-margin-box hover-box js-animsition-link js-pointer-large">
-          <div class="anim-img-scale anim-img-scale_hover js-img-scale">
-            <img class="anim-img-scale__inner" src="images/sectors/real-estate.jpg" alt="project">
-          </div>
-          <div class="margin-top-10 js-scrollanim">
-
-            <h3 class="hidden-box">
-              <span class="headline-xxxs text-color-black anim-slide tr-delay-02">Real Estate</span>
-            </h3>
-          </div>
-        </a>
-      </div><!-- grid-item end -->
-
-      <!-- grid-item start -->
-      <div class="padding-top-60 grid-item-33-50-100 js-isotope-filter-grid-item marketing">
-        <a href="{{url('property-sharing')}}" class="grid-margin-box hover-box js-animsition-link js-pointer-large">
-          <div class="anim-img-scale anim-img-scale_hover js-img-scale">
-            <img class="anim-img-scale__inner" src="images/sectors/property-sharing.jpg" alt="project">
-          </div>
-          <div class="margin-top-10 js-scrollanim">
-
-            <h3 class="hidden-box">
-              <span class="headline-xxxs text-color-black anim-slide tr-delay-02">Property Sharing</span>
-            </h3>
-          </div>
-        </a>
-      </div><!-- grid-item end -->
 
       <!-- grid-item start -->
       <div class="padding-top-60 grid-item-33-50-100 js-isotope-filter-grid-item marketing">
@@ -521,7 +492,19 @@
           </div>
         </a>
       </div><!-- grid-item end -->
-
+      <!-- grid-item start -->
+      <div class="padding-top-60 grid-item-33-50-100 js-isotope-filter-grid-item photoshoot">
+        <a href="{{url('trading')}}" class="grid-margin-box hover-box js-animsition-link js-pointer-large">
+          <div class="anim-img-scale anim-img-scale_hover js-img-scale">
+            <img class="anim-img-scale__inner" src="images/sectors/trading.jpg" alt="project">
+          </div>
+          <div class="margin-top-10 js-scrollanim">
+            <h3 class="hidden-box">
+              <span class="headline-xxxs text-color-black anim-slide tr-delay-02">Trading (Import/Export)</span>
+            </h3>
+          </div>
+        </a>
+      </div><!-- grid-item end -->
       <!-- grid-item start -->
       <div class="padding-top-60 grid-item-33-50-100 js-isotope-filter-grid-item photoshoot">
         <a href="{{url('it-marketing')}}" class="grid-margin-box hover-box js-animsition-link js-pointer-large">
@@ -531,6 +514,34 @@
           <div class="margin-top-10 js-scrollanim">
             <h3 class="hidden-box">
               <span class="headline-xxxs text-color-black anim-slide tr-delay-02">IT & Marketing</span>
+            </h3>
+          </div>
+        </a>
+      </div><!-- grid-item end -->
+      <!-- grid-item start -->
+      <div class="padding-top-60 grid-item-33-50-100 js-isotope-filter-grid-item marketing">
+        <a href="{{url('real-estate')}}" class="grid-margin-box hover-box js-animsition-link js-pointer-large">
+          <div class="anim-img-scale anim-img-scale_hover js-img-scale">
+            <img class="anim-img-scale__inner" src="images/sectors/real-estate.jpg" alt="project">
+          </div>
+          <div class="margin-top-10 js-scrollanim">
+
+            <h3 class="hidden-box">
+              <span class="headline-xxxs text-color-black anim-slide tr-delay-02">Real Estate</span>
+            </h3>
+          </div>
+        </a>
+      </div><!-- grid-item end -->
+      <!-- grid-item start -->
+      <div class="padding-top-60 grid-item-33-50-100 js-isotope-filter-grid-item marketing">
+        <a href="{{url('property-sharing')}}" class="grid-margin-box hover-box js-animsition-link js-pointer-large">
+          <div class="anim-img-scale anim-img-scale_hover js-img-scale">
+            <img class="anim-img-scale__inner" src="images/sectors/property-sharing.jpg" alt="project">
+          </div>
+          <div class="margin-top-10 js-scrollanim">
+
+            <h3 class="hidden-box">
+              <span class="headline-xxxs text-color-black anim-slide tr-delay-02">Property Sharing</span>
             </h3>
           </div>
         </a>
@@ -597,12 +608,12 @@
         <div class="swiper-slide">
           <!-- anim-img-scale start -->
           <div class="anim-img-scale hover-box">
-            <img class="anim-img-scale__inner" src="images/projects/34-Pavilion.jpg" alt="34 Pavilion">
+            <img class="anim-img-scale__inner" src="{{url('projects/construction/balamand-university.png')}}" alt="Balamand University">
           </div><!-- anim-img-scale end -->
           <!-- content start -->
           <div class="margin-top-20 margin-left-20">
-            <h4 class="subhead-m anim-text-double-fill tr-delay-01" data-text="34 Pavilion">34 Pavilion</h4><br>
-            <p class="headline-xxxxs margin-top-5 anim-text-double-fill invert tr-delay-03" data-text="Real Estate">Real Estate</p>
+            <h4 class="subhead-m anim-text-double-fill tr-delay-01" data-text="Balamand University">Balamand University</h4><br>
+            <p class="headline-xxxxs margin-top-5 anim-text-double-fill invert tr-delay-03" data-text="Construction">Construction</p>
           </div><!-- content end -->
         </div>
         <!-- swiper-slide end -->
@@ -610,12 +621,12 @@
         <div class="swiper-slide">
           <!-- anim-img-scale start -->
           <div class="anim-img-scale hover-box">
-            <img class="anim-img-scale__inner" src="images/projects/North-Eye.jpg" alt="North Eye">
+            <img class="anim-img-scale__inner" src="{{url('projects/construction/gemstone-office.jpg')}}" alt="Gemstone Office">
           </div><!-- anim-img-scale end -->
           <!-- content start -->
           <div class="margin-top-20 margin-left-20">
-            <h4 class="subhead-m anim-text-double-fill tr-delay-01" data-text="North Eye">North Eye</h4><br>
-            <p class="headline-xxxxs margin-top-5 anim-text-double-fill invert tr-delay-03" data-text="Real Estate">Real Estate</p>
+            <h4 class="subhead-m anim-text-double-fill tr-delay-01" data-text="Gemstone Office">Gemstone Office</h4><br>
+            <p class="headline-xxxxs margin-top-5 anim-text-double-fill invert tr-delay-03" data-text="Construction">Construction</p>
           </div><!-- content end -->
         </div>
         <!-- swiper-slide end -->
@@ -623,12 +634,12 @@
         <div class="swiper-slide">
           <!-- anim-img-scale start -->
           <div class="anim-img-scale hover-box">
-            <img class="anim-img-scale__inner" src="images/projects/romano.jpg" alt="Romano">
+            <img class="anim-img-scale__inner" src="{{url('projects/construction/rashidiya-villa.jpg')}}" alt="Rashidiya Villa">
           </div><!-- anim-img-scale end -->
           <!-- content start -->
           <div class="margin-top-20 margin-left-20">
-            <h4 class="subhead-m anim-text-double-fill tr-delay-01" data-text="Romano">Romano</h4><br>
-            <p class="headline-xxxxs margin-top-5 anim-text-double-fill invert tr-delay-03" data-text="Real Estate">Real Estate</p>
+            <h4 class="subhead-m anim-text-double-fill tr-delay-01" data-text="Rashidiya Villa">Rashidiya Villa</h4><br>
+            <p class="headline-xxxxs margin-top-5 anim-text-double-fill invert tr-delay-03" data-text="Construction">Construction</p>
           </div><!-- content end -->
         </div>
         <!-- swiper-slide end -->
@@ -781,7 +792,7 @@
 </section><!-- clients end -->
 
 <!-- testimonials start -->
-<section class="pos-rel section-bg-light-1" data-midnight="black">
+<section class="pos-rel section-bg-light-1" data-midnight="black" style="display: none;">
   <!-- pos-rel start -->
   <div class="pos-rel flex-min-height-100vh">
     <!-- padding-top-bottom-120 start -->

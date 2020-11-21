@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Http\Controllers\Front\Education;
+namespace App\Http\Controllers\Front\Trading;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
@@ -11,9 +11,9 @@ class PagesController extends Controller
         return view('coming-soon');
     }
     public function services(){
-        return view('education.services');
+        return view('recycling.services');
     }
-    public function courses(){
-        return view('education.courses');
+    public function projects(){
+        return view('recycling.projects');
     }
 }
