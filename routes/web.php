@@ -59,3 +59,15 @@ Route::group(['prefix' => 'robotics-agriculture'], function() {
     Route::get('/','Front\RoboticsAgriculture\PagesController@index');
     Route::get('/services','Front\RoboticsAgriculture\PagesController@services');
 });
+
+Route::group(['prefix' => 'health-wellness'], function() {
+    /*Home*/
+    Route::get('/','Front\HealthWellness\PagesController@index');
+    Route::get('/services','Front\HealthWellness\PagesController@services');
+    Route::get('/courses','Front\HealthWellness\PagesController@courses');
+});Route::group(['prefix' => 'hospitality'], function() {
+    /*Home*/
+    Route::get('/','Front\Hospitality\PagesController@index');
+    Route::get('/services','Front\Hospitality\PagesController@services');
+    Route::get('/courses','Front\Hospitality\PagesController@courses');
+});
