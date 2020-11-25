@@ -56,7 +56,7 @@
                     <a href="mailto:info@matafgroup.com"><span class="icon-message"></span>info@matafgroup.com</a>
                 </div>
                 <div class="topbar-one__middle">
-                    <a href="index-2.html" class="main-nav__logo">
+                    <a href="{{url('/')}}" class="main-nav__logo">
                         <img src="{{url('images/logo.png')}}" class="main-logo" alt="Awesome Image" style="width: 200px;" />
                     </a>
                 </div>
