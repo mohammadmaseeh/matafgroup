@@ -165,7 +165,7 @@
                             <li><a href="{{url('it-marketing')}}">IT & Marketing</a></li>
                             <li><a href="{{url('health-wellness')}}">Health & Wellness</a></li>
                             <li><a href="{{url('consultation')}}">Consultation</a></li>
-                            <li><a href="{{url('robotic-agriculture')}}">Robotic Agriculture</a></li>
+                            <li><a href="{{url('robotics-agriculture')}}">Robotic Agriculture</a></li>
                         </ul>
 
                     </div>

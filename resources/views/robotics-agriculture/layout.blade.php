@@ -53,12 +53,11 @@
             <div class="topbar_bg" style="background-image: url(front/robotic/images/shapes/header-bg.png)"></div>
             <div class="container">
                 <div class="topbar-one__left">
-                    <a href="mailto:needhelp@tripo.com"><span class="icon-message"></span>needhelp@agrikol.com</a>
-                    <a href="tel:666-999-0000"><span class="icon-phone-call"></span>666 888 0000</a>
+                    <a href="mailto:info@matafgroup.com"><span class="icon-message"></span>info@matafgroup.com</a>
                 </div>
                 <div class="topbar-one__middle">
                     <a href="index-2.html" class="main-nav__logo">
-                        <img src="{{url('front/robotic/images/resources/logo.png')}}" class="main-logo" alt="Awesome Image" />
+                        <img src="{{url('images/logo.png')}}" class="main-logo" alt="Awesome Image" style="width: 200px;" />
                     </a>
                 </div>
                 <div class="topbar-one__right">
@@ -145,11 +144,12 @@
                                     <li class="list-item"><a href="{{url('/real-estate')}}">Real Estate</a></li>
                                     <li class="list-item"><a href="{{url('/hospitality')}}">Hospitality</a></li>
                                     <li class="list-item"><a href="{{url('/decorate')}}">Innovative Products</a></li>
-                                    <li class="list-item"><a href="{{url('/it-marketing')}}">IT & Marketing</a></li>
+                                    <li class="list-item"><a href="{{url('/trading')}}">International Trading</a></li>
                                 </ul>
                             </div>
                             <div class="col-md-6">
                                 <ul class="footer-widget__links-list list-unstyled">
+                                    <li class="list-item"><a href="{{url('/it-marketing')}}">IT & Marketing</a></li>
                                     <li class="list-item"><a href="{{url('/consultation')}}">Consultation</a></li>
                                     <li class="list-item"><a href="{{url('/education')}}">Education</a></li>
                                     <li class="list-item"><a href="{{url('/health-wellness')}}">Health & Wellness</a></li>

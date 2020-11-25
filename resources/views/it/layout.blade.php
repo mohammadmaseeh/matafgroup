@@ -107,6 +107,7 @@
                             <li class="list-item"><a href="{{url('/real-estate')}}">Real Estate</a></li>
                             <li class="list-item"><a href="{{url('/hospitality')}}">Hospitality</a></li>
                             <li class="list-item"><a href="{{url('/decorate')}}">Innovative Products</a></li>
+                            <li class="list-item"><a href="{{url('trading')}}">International Trading</a></li>
                         </ul>
                     </div>
                     <div class="col">
@@ -115,7 +116,7 @@
                             <li class="list-item"><a href="{{url('/education')}}">Education</a></li>
                             <li class="list-item"><a href="{{url('/health-wellness')}}">Health & Wellness</a></li>
                             <li class="list-item"><a href="{{url('/recycling')}}">Recycling</a></li>
-                            <li class="list-item"><a href="{{url('/robotic-agriculture')}}">Robotic Agriculture</a></li>
+                            <li class="list-item"><a href="{{url('/robotics-agriculture')}}">Robotic Agriculture</a></li>
                         </ul>
                     </div>
                 </div>
