@@ -8,7 +8,7 @@ use Illuminate\Http\Request;
 class PagesController extends Controller
 {
     public function index(){
-        return view('coming-soon');
+        return view('recycling.index');
     }
     public function services(){
         return view('recycling.services');

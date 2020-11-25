@@ -1,911 +1,663 @@
 @extends('recycling.layout')
-@section('content')
-    <!--Slider Start-->
-    <section id="home-slider" class="owl-carousel owl-theme wf100 owl-loaded owl-drag">
-
-
-
-        <div class="owl-stage-outer"><div class="owl-stage" style="transform: translate3d(-6076px, 0px, 0px); transition: all 0.25s ease 0s; width: 10635px;"><div class="owl-item cloned" style="width: 1519.2px;"><div class="item">
-                        <div class="slider-caption h2slider">
-                            <div class="container">
-                                <strong><span>Please</span> Stop Hunting &amp; </strong>
-                                <h1>Save WildLife</h1>
-                                <p>of <strong>endangered animals</strong> in the world</p>
-                                <a href="http://gramotech.net/html/ecova/#" class="active">Find Out More</a> <a href="http://gramotech.net/html/ecova/#">Join us Now</a>
-                            </div>
-                        </div>
-                        <img src="{{url('front/recycling/img/h2-slide2.jpg')}}" alt="">
-                    </div></div><div class="owl-item cloned" style="width: 1519.2px;"><div class="item">
-                        <div class="slider-caption h2slider">
-                            <div class="container">
-                                <strong>Save <span> &amp; don’t waste our life</span> partner</strong>
-                                <h1>Water Resource</h1>
-                                <p>Before <strong>it’s too late</strong> for us...</p>
-                                <a href="http://gramotech.net/html/ecova/#" class="active">Find Out More</a> <a href="http://gramotech.net/html/ecova/#">Join us Now</a>
-                            </div>
-                        </div>
-                        <img src="{{url('front/recycling/img/h2-slide3.jpg')}}" alt="">
-                    </div></div><div class="owl-item" style="width: 1519.2px;"><div class="item">
-                        <div class="slider-caption h2slider">
-                            <div class="container">
-                                <strong>Ecova<span> is the Best</span></strong>
-                                <h1>Eco Friendly</h1>
-                                <p>Nonprofit WordPress Theme</p>
-                                <a href="http://gramotech.net/html/ecova/#" class="active">Find Out More</a> <a href="http://gramotech.net/html/ecova/#">Join us Now</a>
-                            </div>
-                        </div>
-                        <img src="{{url('front/recycling/img/h2-slide1.jpg')}}" alt="">
-                    </div></div><div class="owl-item" style="width: 1519.2px;"><div class="item">
-                        <div class="slider-caption h2slider">
-                            <div class="container">
-                                <strong><span>Please</span> Stop Hunting &amp; </strong>
-                                <h1>Save WildLife</h1>
-                                <p>of <strong>endangered animals</strong> in the world</p>
-                                <a href="http://gramotech.net/html/ecova/#" class="active">Find Out More</a> <a href="http://gramotech.net/html/ecova/#">Join us Now</a>
-                            </div>
-                        </div>
-                        <img src="{{url('front/recycling/img/h2-slide2.jpg')}}" alt="">
-                    </div></div><div class="owl-item active" style="width: 1519.2px;"><div class="item">
-                        <div class="slider-caption h2slider">
-                            <div class="container">
-                                <strong>Save <span> &amp; don’t waste our life</span> partner</strong>
-                                <h1>Water Resource</h1>
-                                <p>Before <strong>it’s too late</strong> for us...</p>
-                                <a href="http://gramotech.net/html/ecova/#" class="active">Find Out More</a> <a href="http://gramotech.net/html/ecova/#">Join us Now</a>
-                            </div>
-                        </div>
-                        <img src="{{url('front/recycling/img/h2-slide3.jpg')}}" alt="">
-                    </div></div><div class="owl-item cloned" style="width: 1519.2px;"><div class="item">
-                        <div class="slider-caption h2slider">
-                            <div class="container">
-                                <strong>Ecova<span> is the Best</span></strong>
-                                <h1>Eco Friendly</h1>
-                                <p>Nonprofit WordPress Theme</p>
-                                <a href="http://gramotech.net/html/ecova/#" class="active">Find Out More</a> <a href="http://gramotech.net/html/ecova/#">Join us Now</a>
-                            </div>
-                        </div>
-                        <img src="{{url('front/recycling/img/h2-slide1.jpg')}}" alt="">
-                    </div></div><div class="owl-item cloned" style="width: 1519.2px;"><div class="item">
-                        <div class="slider-caption h2slider">
-                            <div class="container">
-                                <strong><span>Please</span> Stop Hunting &amp; </strong>
-                                <h1>Save WildLife</h1>
-                                <p>of <strong>endangered animals</strong> in the world</p>
-                                <a href="http://gramotech.net/html/ecova/#" class="active">Find Out More</a> <a href="http://gramotech.net/html/ecova/#">Join us Now</a>
-                            </div>
-                        </div>
-                        <img src="{{url('front/recycling/img/h2-slide2.jpg')}}" alt="">
-                    </div></div></div></div><div class="owl-nav"><button type="button" role="presentation" class="owl-prev"><span aria-label="Previous">‹</span></button><button type="button" role="presentation" class="owl-next"><span aria-label="Next">›</span></button></div><div class="owl-dots disabled"></div></section>
-    <!--Slider End-->
-    <!--Service Area Start-->
-    <section class="services-area wf100">
-        <div class="container">
-            <ul>
-                <!--box  start-->
-                <li>
-                    <div class="sinfo">
-                        <img src="{{url('front/recycling/img/sericon1.png')}}" alt="">
-                        <h6>Recycling</h6>
-                        <p>Waste Management</p>
-                    </div>
-                </li>
-                <!--box  end-->
-                <!--box  start-->
-                <li>
-                    <div class="sinfo">
-                        <img src="{{url('front/recycling/img/sericon2.png')}}" alt="">
-                        <h6>Wind Energy</h6>
-                        <p>Polar, Prevailing, Tropical</p>
-                    </div>
-                </li>
-                <!--box  end-->
-                <!--box  start-->
-                <li>
-                    <div class="sinfo">
-                        <img src="{{url('front/recycling/img/sericon3.png')}}" alt="">
-                        <h6>Pure Water</h6>
-                        <p>Save Water Resources</p>
-                    </div>
-                </li>
-                <!--box  end-->
-                <!--box  start-->
-                <li class="active">
-                    <div class="sinfo">
-                        <img src="{{url('front/recycling/img/sericon4.png')}}" alt="">
-                        <h6>Solar Panels</h6>
-                        <p>Save Natural Engery</p>
-                    </div>
-                </li>
-                <!--box  end-->
-                <!--box  start-->
-                <li>
-                    <div class="sinfo">
-                        <img src="{{url('front/recycling/img/sericon5.png')}}" alt="">
-                        <h6>Forest Planting</h6>
-                        <p>Make Plants Alive for Life</p>
-                    </div>
-                </li>
-                <!--box  end-->
-            </ul>
-        </div>
-    </section>
-    <!--Service Area End-->
-    <!--About Section Start-->
-    <section class="home2-about wf100 p100 gallery">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-5">
-                    <div class="video-img"> <a href="http://vimeo.com/43338103&amp;width=700" data-rel="prettyPhoto" title="Vimeo video"><i class="fas fa-play"></i></a> <img src="{{url('front/recycling/img/h2about.jpg')}}" alt=""> </div>
-                </div>
-                <div class="col-md-7">
-                    <div class="h2-about-txt">
-                        <h3>About ecova</h3>
-                        <h2>Eco-friendly products can be made from scratch.</h2>
-                        <p> If anything’s hot in today’s economy, it’s saving money, including a broad range of green businesses helping people save energy, water, and other resources. </p>
-                        <a class="aboutus" href="http://gramotech.net/html/ecova/#">More About us</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="home-facts counter pt80">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-3 col-sm-6 col-md-3">
-                        <div class="counter-box">
-                            <p class="counter-count">89000</p>
-                            <p class="ctxt">Trees Planted</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-sm-6 col-md-3">
-                        <div class="counter-box">
-                            <p class="counter-count">79000</p>
-                            <p class="ctxt">Solar Panels in 2017</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-sm-6 col-md-3">
-                        <div class="counter-box">
-                            <p class="counter-count">69000</p>
-                            <p class="ctxt">Wildlife Saved</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-sm-6 col-md-3">
-                        <div class="counter-box">
-                            <p class="counter-count">59000</p>
-                            <p class="ctxt">Served Water Gallons</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--About Section End-->
-    <!--Urgent Causes Start-->
-    <section class="urgent-causes wf100 p80">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="section-title-2 white">
-                        <h5>Urgent Cause</h5>
-                        <h2>Stop Global Warming</h2>
-                    </div>
-                    <p> We need your support and help to Stop Globar Warning. Few generations ago it to seemed like the world’s resources were infinite, and the people needed only. </p>
-                    <div class="progress">
-                        <div class="progress-bar" role="progressbar" style="width: 55%" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
-                    </div>
-                    <ul class="funds">
-                        <li class="text-left"><strong>73%</strong> Funded</li>
-                        <li class="text-center"><strong>$948.00</strong> Raised</li>
-                        <li class="text-right"><strong>$1750.00</strong> Required</li>
-                    </ul>
-                </div>
-                <div class="col-md-6">
-                    <div class="donation-amount">
-                        <h5>Donation Amount</h5>
-                        <form>
-                            <ul class="radio-boxes">
-                                <li>
-                                    <div class="radio custom">
-                                        <input name="donation" id="d1" type="radio" class="css-radio">
-                                        <label for="d1" class="css-label">$5</label>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="radio custom">
-                                        <input name="donation" id="d2" type="radio" class="css-radio">
-                                        <label for="d2" class="css-label">$20</label>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="radio custom">
-                                        <input name="donation" id="d3" type="radio" class="css-radio">
-                                        <label for="d3" class="css-label">$50</label>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="radio custom">
-                                        <input name="donation" id="d4" type="radio" class="css-radio">
-                                        <label for="d4" class="css-label">$100</label>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="radio custom">
-                                        <input name="donation" id="d5" type="radio" class="css-radio">
-                                        <label for="d5" class="css-label">$250</label>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="radio custom">
-                                        <input name="donation" id="d6" type="radio" class="css-radio">
-                                        <label for="d6" class="css-label">$500</label>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="radio custom">
-                                        <input name="donation" id="d7" type="radio" class="css-radio">
-                                        <label for="d7" class="css-label">$1000</label>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="inputs">
-                                        <input class="enter" type="text" placeholder="$ Other">
-                                    </div>
-                                </li>
-                                <li class="form-submit">
-                                    <button type="submit">Continue to Donate</button>
-                                </li>
-                            </ul>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--Urgent Causes End-->
-    <!--Current Projects Start-->
-    <section class="wf100 p80 current-projects">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6">
-                    <div class="section-title-2">
-                        <h5>We are working these</h5>
-                        <h2>Current Projects</h2>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <ul class="nav" id="myTab" role="tablist">
-                        <li class="nav-item"> <a class="nav-link active" id="wildlife-tab" data-toggle="tab" href="http://gramotech.net/html/ecova/#wildlife" role="tab" aria-controls="wildlife-tab" aria-selected="true">Wildlife</a> </li>
-                        <li class="nav-item"> <a class="nav-link" id="water-tab" data-toggle="tab" href="http://gramotech.net/html/ecova/#water" role="tab" aria-controls="water-tab" aria-selected="false">Water Resources</a> </li>
-                        <li class="nav-item"> <a class="nav-link" id="solar-tab" data-toggle="tab" href="http://gramotech.net/html/ecova/#solar" role="tab" aria-controls="solar-tab" aria-selected="false">Solar Energy</a> </li>
-                        <li class="nav-item"> <a class="nav-link" id="recycling-tab" data-toggle="tab" href="http://gramotech.net/html/ecova/#recycling" role="tab" aria-controls="recycling-tab" aria-selected="false">Recycling</a> </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="tab-content" id="myTabContent">
-                        <!--WildLife Slider Start-->
-                        <div class="tab-pane fade show active" id="wildlife" role="tabpanel" aria-labelledby="wildlife-tab">
-                            <div class="cpro-slider owl-carousel owl-theme owl-loaded owl-drag">
-                                <!--Pro Box-->
-
-                                <!--Pro Box End-->
-                                <!--Pro Box-->
-
-                                <!--Pro Box End-->
-                                <!--Pro Box-->
-
-                                <!--Pro Box End-->
-                                <!--Pro Box-->
-
-                                <!--Pro Box End-->
-                                <!--Pro Box-->
-
-                                <!--Pro Box End-->
-                                <!--Pro Box-->
-
-                                <!--Pro Box End-->
-                                <!--Pro Box-->
-
-                                <!--Pro Box End-->
-                                <!--Pro Box-->
-
-                                <!--Pro Box End-->
-                                <div class="owl-stage-outer"><div class="owl-stage" style="transform: translate3d(-575px, 0px, 0px); transition: all 0.25s ease 0s; width: 2300px;"><div class="owl-item" style="width: 277.5px; margin-right: 10px;"><div class="item">
-                                                <div class="pro-box">
-                                                    <img src="{{url('front/recycling/img/current-pro1.jpg')}}" alt="">
-                                                    <h5>Forest &amp; Tree Planting</h5>
-                                                    <div class="pro-hover">
-                                                        <h6>Forest &amp; Tree Planting</h6>
-                                                        <p>We are working over 20 years on Waste Management &amp; Material Recycling Projects.</p>
-                                                        <a href="http://gramotech.net/html/ecova/#">Read More</a>
-                                                    </div>
-                                                </div>
-                                            </div></div><div class="owl-item" style="width: 277.5px; margin-right: 10px;"><div class="item">
-                                                <div class="pro-box">
-                                                    <img src="{{url('front/recycling/img/current-pro2.jpg')}}" alt="">
-                                                    <h5>Recycling &amp; Waste Management</h5>
-                                                    <div class="pro-hover">
-                                                        <h6>Recycling &amp; Waste Management</h6>
-                                                        <p>We are working over 20 years on Waste Management &amp; Material Recycling Projects.</p>
-                                                        <a href="http://gramotech.net/html/ecova/#">Read More</a>
-                                                    </div>
-                                                </div>
-                                            </div></div><div class="owl-item active" style="width: 277.5px; margin-right: 10px;"><div class="item">
-                                                <div class="pro-box">
-                                                    <img src="{{url('front/recycling/img/current-pro3.jpg')}}" alt="">
-                                                    <h5>Solar &amp; Wind
-                                                        Energy
-                                                    </h5>
-                                                    <div class="pro-hover">
-                                                        <h6>Solar &amp; Wind
-                                                            Energy
-                                                        </h6>
-                                                        <p>We are working over 20 years on Waste Management &amp; Material Recycling Projects.</p>
-                                                        <a href="http://gramotech.net/html/ecova/#">Read More</a>
-                                                    </div>
-                                                </div>
-                                            </div></div><div class="owl-item active" style="width: 277.5px; margin-right: 10px;"><div class="item">
-                                                <div class="pro-box">
-                                                    <img src="{{url('front/recycling/img/current-pro4.jpg')}}" alt="">
-                                                    <h5>Saving Wildlife
-                                                        &amp; their Cubs
-                                                    </h5>
-                                                    <div class="pro-hover">
-                                                        <h6>Saving Wildlife
-                                                            &amp; their Cubs
-                                                        </h6>
-                                                        <p>We are working over 20 years on Waste Management &amp; Material Recycling Projects.</p>
-                                                        <a href="http://gramotech.net/html/ecova/#">Read More</a>
-                                                    </div>
-                                                </div>
-                                            </div></div><div class="owl-item active" style="width: 277.5px; margin-right: 10px;"><div class="item">
-                                                <div class="pro-box">
-                                                    <img src="{{url('front/recycling/img/current-pro5.jpg')}}" alt="">
-                                                    <h5>Forest &amp; Tree Planting</h5>
-                                                    <div class="pro-hover">
-                                                        <h6>Forest &amp; Tree Planting</h6>
-                                                        <p>We are working over 20 years on Waste Management &amp; Material Recycling Projects.</p>
-                                                        <a href="http://gramotech.net/html/ecova/#">Read More</a>
-                                                    </div>
-                                                </div>
-                                            </div></div><div class="owl-item active" style="width: 277.5px; margin-right: 10px;"><div class="item">
-                                                <div class="pro-box">
-                                                    <img src="{{url('front/recycling/img/current-pro6.jpg')}}" alt="">
-                                                    <h5>Recycling &amp; Waste Management</h5>
-                                                    <div class="pro-hover">
-                                                        <h6>Recycling &amp; Waste Management</h6>
-                                                        <p>We are working over 20 years on Waste Management &amp; Material Recycling Projects.</p>
-                                                        <a href="http://gramotech.net/html/ecova/#">Read More</a>
-                                                    </div>
-                                                </div>
-                                            </div></div><div class="owl-item" style="width: 277.5px; margin-right: 10px;"><div class="item">
-                                                <div class="pro-box">
-                                                    <img src="{{url('front/recycling/img/current-pro7.jpg')}}" alt="">
-                                                    <h5>Solar &amp; Wind
-                                                        Energy
-                                                    </h5>
-                                                    <div class="pro-hover">
-                                                        <h6>Solar &amp; Wind
-                                                            Energy
-                                                        </h6>
-                                                        <p>We are working over 20 years on Waste Management &amp; Material Recycling Projects.</p>
-                                                        <a href="http://gramotech.net/html/ecova/#">Read More</a>
-                                                    </div>
-                                                </div>
-                                            </div></div><div class="owl-item" style="width: 277.5px; margin-right: 10px;"><div class="item">
-                                                <div class="pro-box">
-                                                    <img src="{{url('front/recycling/img/current-pro8.jpg')}}" alt="">
-                                                    <h5>Saving Wildlife
-                                                        &amp; their Cubs
-                                                    </h5>
-                                                    <div class="pro-hover">
-                                                        <h6>Saving Wildlife
-                                                            &amp; their Cubs
-                                                        </h6>
-                                                        <p>We are working over 20 years on Waste Management &amp; Material Recycling Projects.</p>
-                                                        <a href="http://gramotech.net/html/ecova/#">Read More</a>
-                                                    </div>
-                                                </div>
-                                            </div></div></div></div><div class="owl-nav"><button type="button" role="presentation" class="owl-prev"><span aria-label="Previous">‹</span></button><button type="button" role="presentation" class="owl-next"><span aria-label="Next">›</span></button></div><div class="owl-dots disabled"></div></div>
-                        </div>
-                        <!--WildLife Slider End-->
-                        <!--Water Resources Slider Start-->
-                        <div class="tab-pane fade" id="water" role="tabpanel" aria-labelledby="water-tab">
-                            <div class="cpro-slider owl-carousel owl-theme owl-loaded owl-drag">
-                                <!--Pro Box-->
-
-                                <!--Pro Box End-->
-                                <!--Pro Box-->
-
-                                <!--Pro Box End-->
-                                <!--Pro Box-->
-
-                                <!--Pro Box End-->
-                                <!--Pro Box-->
-
-                                <!--Pro Box End-->
-                                <!--Pro Box-->
-
-                                <!--Pro Box End-->
-                                <!--Pro Box-->
-
-                                <!--Pro Box End-->
-                                <!--Pro Box-->
-
-                                <!--Pro Box End-->
-                                <!--Pro Box-->
-
-                                <!--Pro Box End-->
-                                <div class="owl-stage-outer"><div class="owl-stage" style="transform: translate3d(0px, 0px, 0px); transition: all 0s ease 0s;"><div class="owl-item"><div class="item">
-                                                <div class="pro-box">
-                                                    <img src="{{url('front/recycling/img/current-pro5.jpg')}}" alt="">
-                                                    <h5>Forest &amp; Tree Planting</h5>
-                                                    <div class="pro-hover">
-                                                        <h6>Forest &amp; Tree Planting</h6>
-                                                        <p>We are working over 20 years on Waste Management &amp; Material Recycling Projects.</p>
-                                                        <a href="http://gramotech.net/html/ecova/#">Read More</a>
-                                                    </div>
-                                                </div>
-                                            </div></div><div class="owl-item"><div class="item">
-                                                <div class="pro-box">
-                                                    <img src="{{url('front/recycling/img/current-pro6.jpg')}}" alt="">
-                                                    <h5>Recycling &amp; Waste Management</h5>
-                                                    <div class="pro-hover">
-                                                        <h6>Recycling &amp; Waste Management</h6>
-                                                        <p>We are working over 20 years on Waste Management &amp; Material Recycling Projects.</p>
-                                                        <a href="http://gramotech.net/html/ecova/#">Read More</a>
-                                                    </div>
-                                                </div>
-                                            </div></div><div class="owl-item"><div class="item">
-                                                <div class="pro-box">
-                                                    <img src="{{url('front/recycling/img/current-pro7.jpg')}}" alt="">
-                                                    <h5>Solar &amp; Wind
-                                                        Energy
-                                                    </h5>
-                                                    <div class="pro-hover">
-                                                        <h6>Solar &amp; Wind
-                                                            Energy
-                                                        </h6>
-                                                        <p>We are working over 20 years on Waste Management &amp; Material Recycling Projects.</p>
-                                                        <a href="http://gramotech.net/html/ecova/#">Read More</a>
-                                                    </div>
-                                                </div>
-                                            </div></div><div class="owl-item"><div class="item">
-                                                <div class="pro-box">
-                                                    <img src="{{url('front/recycling/img/current-pro8.jpg')}}" alt="">
-                                                    <h5>Saving Wildlife
-                                                        &amp; their Cubs
-                                                    </h5>
-                                                    <div class="pro-hover">
-                                                        <h6>Saving Wildlife
-                                                            &amp; their Cubs
-                                                        </h6>
-                                                        <p>We are working over 20 years on Waste Management &amp; Material Recycling Projects.</p>
-                                                        <a href="http://gramotech.net/html/ecova/#">Read More</a>
-                                                    </div>
-                                                </div>
-                                            </div></div><div class="owl-item"><div class="item">
-                                                <div class="pro-box">
-                                                    <img src="{{url('front/recycling/img/current-pro1.jpg')}}" alt="">
-                                                    <h5>Forest &amp; Tree Planting</h5>
-                                                    <div class="pro-hover">
-                                                        <h6>Forest &amp; Tree Planting</h6>
-                                                        <p>We are working over 20 years on Waste Management &amp; Material Recycling Projects.</p>
-                                                        <a href="http://gramotech.net/html/ecova/#">Read More</a>
-                                                    </div>
-                                                </div>
-                                            </div></div><div class="owl-item"><div class="item">
-                                                <div class="pro-box">
-                                                    <img src="{{url('front/recycling/img/current-pro2.jpg')}}" alt="">
-                                                    <h5>Recycling &amp; Waste Management</h5>
-                                                    <div class="pro-hover">
-                                                        <h6>Recycling &amp; Waste Management</h6>
-                                                        <p>We are working over 20 years on Waste Management &amp; Material Recycling Projects.</p>
-                                                        <a href="http://gramotech.net/html/ecova/#">Read More</a>
-                                                    </div>
-                                                </div>
-                                            </div></div><div class="owl-item"><div class="item">
-                                                <div class="pro-box">
-                                                    <img src="{{url('front/recycling/img/current-pro3.jpg')}}" alt="">
-                                                    <h5>Solar &amp; Wind
-                                                        Energy
-                                                    </h5>
-                                                    <div class="pro-hover">
-                                                        <h6>Solar &amp; Wind
-                                                            Energy
-                                                        </h6>
-                                                        <p>We are working over 20 years on Waste Management &amp; Material Recycling Projects.</p>
-                                                        <a href="http://gramotech.net/html/ecova/#">Read More</a>
-                                                    </div>
-                                                </div>
-                                            </div></div><div class="owl-item"><div class="item">
-                                                <div class="pro-box">
-                                                    <img src="{{url('front/recycling/img/current-pro4.jpg')}}" alt="">
-                                                    <h5>Saving Wildlife
-                                                        &amp; their Cubs
-                                                    </h5>
-                                                    <div class="pro-hover">
-                                                        <h6>Saving Wildlife
-                                                            &amp; their Cubs
-                                                        </h6>
-                                                        <p>We are working over 20 years on Waste Management &amp; Material Recycling Projects.</p>
-                                                        <a href="http://gramotech.net/html/ecova/#">Read More</a>
-                                                    </div>
-                                                </div>
-                                            </div></div></div></div><div class="owl-nav"><button type="button" role="presentation" class="owl-prev"><span aria-label="Previous">‹</span></button><button type="button" role="presentation" class="owl-next"><span aria-label="Next">›</span></button></div><div class="owl-dots disabled"></div></div>
-                        </div>
-                        <!--Water Resources Slider End-->
-                        <!--Solar Energy Slider Start-->
-                        <div class="tab-pane fade" id="solar" role="tabpanel" aria-labelledby="solar-tab">
-                            <div class="cpro-slider owl-carousel owl-theme owl-loaded owl-drag">
-                                <!--Pro Box-->
-
-                                <!--Pro Box End-->
-                                <!--Pro Box-->
-
-                                <!--Pro Box End-->
-                                <!--Pro Box-->
-
-                                <!--Pro Box End-->
-                                <!--Pro Box-->
-
-                                <!--Pro Box End-->
-                                <!--Pro Box-->
-
-                                <!--Pro Box End-->
-                                <!--Pro Box-->
-
-                                <!--Pro Box End-->
-                                <!--Pro Box-->
-
-                                <!--Pro Box End-->
-                                <!--Pro Box-->
-
-                                <!--Pro Box End-->
-                                <div class="owl-stage-outer"><div class="owl-stage" style="transform: translate3d(0px, 0px, 0px); transition: all 0s ease 0s;"><div class="owl-item"><div class="item">
-                                                <div class="pro-box">
-                                                    <img src="{{url('front/recycling/img/current-pro7.jpg')}}" alt="">
-                                                    <h5>Solar &amp; Wind
-                                                        Energy
-                                                    </h5>
-                                                    <div class="pro-hover">
-                                                        <h6>Solar &amp; Wind
-                                                            Energy
-                                                        </h6>
-                                                        <p>We are working over 20 years on Waste Management &amp; Material Recycling Projects.</p>
-                                                        <a href="http://gramotech.net/html/ecova/#">Read More</a>
-                                                    </div>
-                                                </div>
-                                            </div></div><div class="owl-item"><div class="item">
-                                                <div class="pro-box">
-                                                    <img src="{{url('front/recycling/img/current-pro8.jpg')}}" alt="">
-                                                    <h5>Saving Wildlife
-                                                        &amp; their Cubs
-                                                    </h5>
-                                                    <div class="pro-hover">
-                                                        <h6>Saving Wildlife
-                                                            &amp; their Cubs
-                                                        </h6>
-                                                        <p>We are working over 20 years on Waste Management &amp; Material Recycling Projects.</p>
-                                                        <a href="http://gramotech.net/html/ecova/#">Read More</a>
-                                                    </div>
-                                                </div>
-                                            </div></div><div class="owl-item"><div class="item">
-                                                <div class="pro-box">
-                                                    <img src="{{url('front/recycling/img/current-pro5.jpg')}}" alt="">
-                                                    <h5>Forest &amp; Tree Planting</h5>
-                                                    <div class="pro-hover">
-                                                        <h6>Forest &amp; Tree Planting</h6>
-                                                        <p>We are working over 20 years on Waste Management &amp; Material Recycling Projects.</p>
-                                                        <a href="http://gramotech.net/html/ecova/#">Read More</a>
-                                                    </div>
-                                                </div>
-                                            </div></div><div class="owl-item"><div class="item">
-                                                <div class="pro-box">
-                                                    <img src="{{url('front/recycling/img/current-pro6.jpg')}}" alt="">
-                                                    <h5>Recycling &amp; Waste Management</h5>
-                                                    <div class="pro-hover">
-                                                        <h6>Recycling &amp; Waste Management</h6>
-                                                        <p>We are working over 20 years on Waste Management &amp; Material Recycling Projects.</p>
-                                                        <a href="http://gramotech.net/html/ecova/#">Read More</a>
-                                                    </div>
-                                                </div>
-                                            </div></div><div class="owl-item"><div class="item">
-                                                <div class="pro-box">
-                                                    <img src="{{url('front/recycling/img/current-pro3.jpg')}}" alt="">
-                                                    <h5>Solar &amp; Wind
-                                                        Energy
-                                                    </h5>
-                                                    <div class="pro-hover">
-                                                        <h6>Solar &amp; Wind
-                                                            Energy
-                                                        </h6>
-                                                        <p>We are working over 20 years on Waste Management &amp; Material Recycling Projects.</p>
-                                                        <a href="http://gramotech.net/html/ecova/#">Read More</a>
-                                                    </div>
-                                                </div>
-                                            </div></div><div class="owl-item"><div class="item">
-                                                <div class="pro-box">
-                                                    <img src="{{url('front/recycling/img/current-pro4.jpg')}}" alt="">
-                                                    <h5>Saving Wildlife
-                                                        &amp; their Cubs
-                                                    </h5>
-                                                    <div class="pro-hover">
-                                                        <h6>Saving Wildlife
-                                                            &amp; their Cubs
-                                                        </h6>
-                                                        <p>We are working over 20 years on Waste Management &amp; Material Recycling Projects.</p>
-                                                        <a href="http://gramotech.net/html/ecova/#">Read More</a>
-                                                    </div>
-                                                </div>
-                                            </div></div><div class="owl-item"><div class="item">
-                                                <div class="pro-box">
-                                                    <img src="{{url('front/recycling/img/current-pro1.jpg')}}" alt="">
-                                                    <h5>Forest &amp; Tree Planting</h5>
-                                                    <div class="pro-hover">
-                                                        <h6>Forest &amp; Tree Planting</h6>
-                                                        <p>We are working over 20 years on Waste Management &amp; Material Recycling Projects.</p>
-                                                        <a href="http://gramotech.net/html/ecova/#">Read More</a>
-                                                    </div>
-                                                </div>
-                                            </div></div><div class="owl-item"><div class="item">
-                                                <div class="pro-box">
-                                                    <img src="{{url('front/recycling/img/current-pro2.jpg')}}" alt="">
-                                                    <h5>Recycling &amp; Waste Management</h5>
-                                                    <div class="pro-hover">
-                                                        <h6>Recycling &amp; Waste Management</h6>
-                                                        <p>We are working over 20 years on Waste Management &amp; Material Recycling Projects.</p>
-                                                        <a href="http://gramotech.net/html/ecova/#">Read More</a>
-                                                    </div>
-                                                </div>
-                                            </div></div></div></div><div class="owl-nav"><button type="button" role="presentation" class="owl-prev"><span aria-label="Previous">‹</span></button><button type="button" role="presentation" class="owl-next"><span aria-label="Next">›</span></button></div><div class="owl-dots disabled"></div></div>
-                        </div>
-                        <!--Solar Energy Slider End-->
-                        <!--Recycling Slider Start-->
-                        <div class="tab-pane fade" id="recycling" role="tabpanel" aria-labelledby="recycling-tab">
-                            <div class="cpro-slider owl-carousel owl-theme owl-loaded owl-drag">
-                                <!--Pro Box-->
-
-                                <!--Pro Box End-->
-                                <!--Pro Box-->
-
-                                <!--Pro Box End-->
-                                <!--Pro Box-->
-
-                                <!--Pro Box End-->
-                                <!--Pro Box-->
-
-                                <!--Pro Box End-->
-                                <!--Pro Box-->
-
-                                <!--Pro Box End-->
-                                <!--Pro Box-->
-
-                                <!--Pro Box End-->
-                                <div class="owl-stage-outer"><div class="owl-stage" style="transform: translate3d(0px, 0px, 0px); transition: all 0s ease 0s;"><div class="owl-item"><div class="item">
-                                                <div class="pro-box">
-                                                    <img src="{{url('front/recycling/img/current-pro7.jpg')}}" alt="">
-                                                    <h5>Solar &amp; Wind
-                                                        Energy
-                                                    </h5>
-                                                    <div class="pro-hover">
-                                                        <h6>Solar &amp; Wind
-                                                            Energy
-                                                        </h6>
-                                                        <p>We are working over 20 years on Waste Management &amp; Material Recycling Projects.</p>
-                                                        <a href="http://gramotech.net/html/ecova/#">Read More</a>
-                                                    </div>
-                                                </div>
-                                            </div></div><div class="owl-item"><div class="item">
-                                                <div class="pro-box">
-                                                    <img src="{{url('front/recycling/img/current-pro8.jpg')}}" alt="">
-                                                    <h5>Saving Wildlife
-                                                        &amp; their Cubs
-                                                    </h5>
-                                                    <div class="pro-hover">
-                                                        <h6>Saving Wildlife
-                                                            &amp; their Cubs
-                                                        </h6>
-                                                        <p>We are working over 20 years on Waste Management &amp; Material Recycling Projects.</p>
-                                                        <a href="http://gramotech.net/html/ecova/#">Read More</a>
-                                                    </div>
-                                                </div>
-                                            </div></div><div class="owl-item"><div class="item">
-                                                <div class="pro-box">
-                                                    <img src="{{url('front/recycling/img/current-pro3.jpg')}}" alt="">
-                                                    <h5>Solar &amp; Wind
-                                                        Energy
-                                                    </h5>
-                                                    <div class="pro-hover">
-                                                        <h6>Solar &amp; Wind
-                                                            Energy
-                                                        </h6>
-                                                        <p>We are working over 20 years on Waste Management &amp; Material Recycling Projects.</p>
-                                                        <a href="http://gramotech.net/html/ecova/#">Read More</a>
-                                                    </div>
-                                                </div>
-                                            </div></div><div class="owl-item"><div class="item">
-                                                <div class="pro-box">
-                                                    <img src="{{url('front/recycling/img/current-pro4.jpg')}}" alt="">
-                                                    <h5>Saving Wildlife
-                                                        &amp; their Cubs
-                                                    </h5>
-                                                    <div class="pro-hover">
-                                                        <h6>Saving Wildlife
-                                                            &amp; their Cubs
-                                                        </h6>
-                                                        <p>We are working over 20 years on Waste Management &amp; Material Recycling Projects.</p>
-                                                        <a href="http://gramotech.net/html/ecova/#">Read More</a>
-                                                    </div>
-                                                </div>
-                                            </div></div><div class="owl-item"><div class="item">
-                                                <div class="pro-box">
-                                                    <img src="{{url('front/recycling/img/current-pro1.jpg')}}" alt="">
-                                                    <h5>Forest &amp; Tree Planting</h5>
-                                                    <div class="pro-hover">
-                                                        <h6>Forest &amp; Tree Planting</h6>
-                                                        <p>We are working over 20 years on Waste Management &amp; Material Recycling Projects.</p>
-                                                        <a href="http://gramotech.net/html/ecova/#">Read More</a>
-                                                    </div>
-                                                </div>
-                                            </div></div><div class="owl-item"><div class="item">
-                                                <div class="pro-box">
-                                                    <img src="{{url('front/recycling/img/current-pro2.jpg')}}" alt="">
-                                                    <h5>Recycling &amp; Waste Management</h5>
-                                                    <div class="pro-hover">
-                                                        <h6>Recycling &amp; Waste Management</h6>
-                                                        <p>We are working over 20 years on Waste Management &amp; Material Recycling Projects.</p>
-                                                        <a href="http://gramotech.net/html/ecova/#">Read More</a>
-                                                    </div>
-                                                </div>
-                                            </div></div></div></div><div class="owl-nav"><button type="button" role="presentation" class="owl-prev"><span aria-label="Previous">‹</span></button><button type="button" role="presentation" class="owl-next disabled"><span aria-label="Next">›</span></button></div><div class="owl-dots disabled"></div></div>
-                        </div>
-                        <!--Recycling Slider End-->
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--Current Projects End-->
-    <!--News & Articles Start-->
-    <section class="h2-news wf100 p80">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="section-title-2">
-                        <h5>Read Our Latest</h5>
-                        <h2>News &amp; Articles</h2>
-                    </div>
-                </div>
-                <div class="col-md-6"> <a href="http://gramotech.net/html/ecova/#" class="view-more">View More News</a> </div>
-            </div>
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="blog-post-large">
-                        <div class="post-thumb"> <a href="http://gramotech.net/html/ecova/#"><i class="fas fa-link"></i></a> <img src="{{url('front/recycling/img/h2news1.jpg')}}" alt=""></div>
-                        <div class="post-txt">
-                            <ul class="post-meta">
-                                <li><i class="fas fa-calendar-alt"></i> 29 September, 2018</li>
-                                <li><i class="fas fa-comments"></i> 134 Comments</li>
-                            </ul>
-                            <h5><a href="http://gramotech.net/html/ecova/#">Planting Trees for Better Future</a></h5>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <!--Blog Small Post Start-->
-                    <div class="blog-small-post">
-                        <div class="post-thumb"> <a href="http://gramotech.net/html/ecova/#"><i class="fas fa-link"></i></a> <img src="{{url('front/recycling/img/h2news2.jpg')}}" alt=""> </div>
-                        <div class="post-txt">
-                            <span class="pdate"> <i class="fas fa-calendar-alt"></i> 29 September, 2018</span>
-                            <h5><a href="http://gramotech.net/html/ecova/#">How you can keep alive wildlife long.</a></h5>
-                            <p>According to a survey the perceived higher cost of environmentally.</p>
-                            <a href="http://gramotech.net/html/ecova/#" class="rm">Read More</a>
-                        </div>
-                    </div>
-                    <!--Blog Small Post End-->
-                    <!--Blog Small Post Start-->
-                    <div class="blog-small-post">
-                        <div class="post-thumb"> <a href="http://gramotech.net/html/ecova/#"><i class="fas fa-link"></i></a> <img src="{{url('front/recycling/img/h2news3.jpg')}}" alt=""> </div>
-                        <div class="post-txt">
-                            <span class="pdate"> <i class="fas fa-calendar-alt"></i> 29 September, 2018</span>
-                            <h5><a href="http://gramotech.net/html/ecova/#">The effort GoGreen has been felt across</a></h5>
-                            <p>Majority have suffered alteration in some form by injected humour.</p>
-                            <a href="http://gramotech.net/html/ecova/#" class="rm">Read More</a>
-                        </div>
-                    </div>
-                    <!--Blog Small Post End-->
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--News & Articles End-->
-    <!--Why Ecova + Facts Start-->
-    <section class="why-ecova wf100">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <h1> Why Ecova!</h1>
-                    <p>Let’s Join us to do something awesome to Save Water, Energey, Control Pollution &amp;
-                        Environment, Wildlife, Forest Planting Implant for Solar System.
-                    </p>
-                    <a href="http://gramotech.net/html/ecova/#" class="cus">Signup to Join us</a>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--Why Ecova + Facts End-->
-    <!--Online Products Start-->
-    <section class="online-shop wf100 p80">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="section-title-2 text-center">
-                        <h5>Read Our Latest</h5>
-                        <h2>News &amp; Articles</h2>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <!--Pro Box Start-->
-                <div class="col-md-3 col-sm-6">
-                    <div class="product-box">
-                        <div class="pro-thumb"> <a href="http://gramotech.net/html/ecova/#">Add To Cart</a> <img src="{{url('front/recycling/img/pro1.jpg')}}" alt=""></div>
-                        <div class="pro-txt">
-                            <h6><a href="http://gramotech.net/html/ecova/#">Happy Ninja Shirt</a></h6>
-                            <p class="pro-price"><del>$25.00</del> $19.00</p>
-                        </div>
-                    </div>
-                </div>
-                <!--Pro Box End-->
-                <!--Pro Box Start-->
-                <div class="col-md-3 col-sm-6">
-                    <div class="product-box">
-                        <div class="pro-thumb"> <a href="http://gramotech.net/html/ecova/#">Add To Cart</a> <img src="{{url('front/recycling/img/pro2.jpg')}}" alt=""></div>
-                        <div class="pro-txt">
-                            <h6><a href="http://gramotech.net/html/ecova/#">Woo corlor shirt</a></h6>
-                            <p class="pro-price"><del>$25.00</del> $19.00</p>
-                        </div>
-                    </div>
-                </div>
-                <!--Pro Box End-->
-                <!--Pro Box Start-->
-                <div class="col-md-3 col-sm-6">
-                    <div class="product-box">
-                        <div class="pro-thumb"> <a href="http://gramotech.net/html/ecova/#">Add To Cart</a> <img src="{{url('front/recycling/img/pro3.jpg')}}" alt=""></div>
-                        <div class="pro-txt">
-                            <h6><a href="http://gramotech.net/html/ecova/#">Premium Quality</a></h6>
-                            <p class="pro-price"><del>$25.00</del> $19.00</p>
-                        </div>
-                    </div>
-                </div>
-                <!--Pro Box End-->
-                <!--Pro Box Start-->
-                <div class="col-md-3 col-sm-6">
-                    <div class="product-box">
-                        <div class="pro-thumb"> <a href="http://gramotech.net/html/ecova/#">Add To Cart</a> <img src="{{url('front/recycling/img/pro4.jpg')}}" alt=""></div>
-                        <div class="pro-txt">
-                            <h6><a href="http://gramotech.net/html/ecova/#">Ninja Silhouette</a></h6>
-                            <p class="pro-price"><del>$25.00</del> $19.00</p>
-                        </div>
-                    </div>
-                </div>
-                <!--Pro Box End-->
-            </div>
-        </div>
-    </section>
-    <!--Online Products End-->
-    <!--InstaGram Start-->
-    <div class="instagram">
-        <ul>
-            <li> <a href="http://gramotech.net/html/ecova/#"> <i class="fas fa-search"></i> </a> <img src="{{url('front/recycling/img/insta1.jpg')}}" alt=""> </li>
-            <li> <a href="http://gramotech.net/html/ecova/#"> <i class="fas fa-search"></i> </a> <img src="{{url('front/recycling/img/insta2.jpg')}}" alt=""> </li>
-            <li> <a href="http://gramotech.net/html/ecova/#"> <i class="fas fa-search"></i> </a> <img src="{{url('front/recycling/img/insta3.jpg')}}" alt=""> </li>
-            <li> <a href="http://gramotech.net/html/ecova/#"> <i class="fas fa-search"></i> </a> <img src="{{url('front/recycling/img/insta4.jpg')}}" alt=""> </li>
-            <li> <a href="http://gramotech.net/html/ecova/#"> <i class="fas fa-search"></i> </a> <img src="{{url('front/recycling/img/insta5.jpg')}}" alt=""> </li>
-            <li> <a href="http://gramotech.net/html/ecova/#"> <i class="fas fa-search"></i> </a> <img src="{{url('front/recycling/img/insta6.jpg')}}" alt=""> </li>
-            <li> <a href="http://gramotech.net/html/ecova/#"> <i class="fas fa-search"></i> </a> <img src="{{url('front/recycling/img/insta7.jpg')}}" alt=""> </li>
-        </ul>
+@section('content')<!--sw slider wrapper start-->
+<div class="slider-area">
+    <div class="slider_shape">
+        <img src="front/recycling/images/slider_bg_4.png" class="img-responsive " alt="img">
     </div>
-    <!--InstaGram End-->
-    @endsection
+    <div class="container">
+
+        <div class="icon_6">
+            <img src="front/recycling/images/icon_6.png" alt="img">
+        </div>
+        <div class="icon_5">
+            <img src="front/recycling/images/icon_5.png" alt="img">
+        </div>
+        <div class="slider_main_wrapper">
+            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel" data-interval="false">
+                <div class="carousel-inner" role="listbox">
+                    <div class="item active">
+                        <div class="carousel-captions caption-1">
+                            <div class="row">
+                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                    <div class="content">
+
+                                        <h2 data-animation="animated fadeInUp">
+                                            MatafGroup is a provider of integrated environmental solutions.</h2>
+                                        <p data-animation="animated fadeInUp">We are a environmental solutions provider in South India, serving many, commercial and industrial customers.</p>
+
+                                          <div data-animation="animated fadeInUp" class="disc_btn slider_btn">
+                                            <ul>
+                                                <li>
+                                                    <a href="{{url('recycling/services')}}" class="waves-effect waves-purple waves-ripple">read more</a>
+                                                </li>
+                                            </ul>
+
+                                        </div>
+                                        <div class="clear"></div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class=" carousel-captions caption-2">
+
+                            <div class="row">
+                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                    <div class="content">
+                                        <h2 data-animation="animated fadeInUp">Providing the industry-leading solutions you need</h2>
+                                        <p data-animation="animated fadeInUp">Our reliable services protect the environment while allowing your home or business to run like clockwork.</p>
+                                        <div data-animation="animated fadeInUp" class="disc_btn slider_btn">
+                                            <ul>
+                                                <li>
+                                                    <a href="#!" class="waves-effect waves-purple waves-ripple">read more</a>
+                                                </li>
+                                            </ul>
+
+                                        </div>
+                                        <div class="clear"></div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <ol class="carousel-indicators">
+                        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"><span class="number"></span></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="1" class=""><span class="number"></span></li>
+                    </ol>
+                    <div class="carousel-nevigation">
+                        <a class="prev" href="#carousel-example-generic" role="button" data-slide="prev"> <i class="fa fa-angle-left"></i>
+                            <span>PR<br>EV</span>
+                        </a>
+                        <a class="next" href="#carousel-example-generic" role="button" data-slide="next"> <span>NE<br>XT</span>
+                            <i class="fa fa-angle-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="slider_main_img">
+            <div class="slider_imges">
+                <img src="front/recycling/images/slider_img2.gif" alt="img" class="img-responsive">
+            </div>
+        </div>
+        <div class="icon_7">
+            <img src="front/recycling/images/icon_7.png" alt="img">
+        </div>
+        <div class="icon_8">
+            <img src="front/recycling/images/icon_8.png" alt="img">
+        </div>
+        <div class="icon_1">
+            <img src="front/recycling/images/icon_1.png" alt="img">
+        </div>
+        <div class="icon_2">
+            <img src="front/recycling/images/icon_2.png" alt="img">
+        </div>
+        <div class="icon_3">
+            <img src="front/recycling/images/icon_3.png" alt="img">
+        </div>
+    </div>
+</div>
+<!-- sw slider section end-->
+<!-- sw spectrum section start-->
+<div class="sw_spectrum_wrapper">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-xs-12 col-sm-12">
+                <div class="sw_left_heading_wraper sw_center_heading_wrapper">
+                    <h1>We Cover the Whole Spectrum</h1>
+                    <img src="front/recycling/images/heading_line2.png" alt="title">
+                </div>
+            </div>
+            <!-- slider start -->
+            <div class="col-lg-12 col-md-12 col-xs-12 col-sm-12 sw_spectrum_padding">
+                <div class="row text-center">
+                    <div class="col-md-4">
+                        <div class="feature_icon_wrapper">
+                            <i class="flaticon-wind-turbine"></i>
+                        </div>
+                        <h2><a href="#">Industrial Waste</a></h2>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="feature_icon_wrapper">
+                            <i class="flaticon-sun"></i>
+                        </div>
+                        <h2><a href="#">Recycling</a></h2>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="feature_icon_wrapper">
+                            <i class="flaticon-wind-turbine"></i>
+                        </div>
+                        <h2><a href="#">Medical Waste</a></h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--sw spectrum wrapper end-->
+<!--sw discover wrapper start-->
+<div class="sw_discver_wrapper">
+    <div class="shape_1_wrapper">
+        <img src="front/recycling/images/shape4.png" alt="img">
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12">
+                <div class="sw_disc_txt_wrapper">
+
+                    <div class="sw_left_heading_wraper">
+                        <h1>Discover About Us</h1>
+                        <img src="front/recycling/images/heading_line2.png" alt="title">
+                        <p>Our company is a leadng environmental solutions provider serving many municipal, commercial and industrial customers in all over the India. </p>
+                    </div>
+                    <div class="sw_desc_btm_txt">
+                        <div class="sw_disc_image">
+                            <i class="flaticon-sun"></i>
+                        </div>
+                        <div class="sw_disc_head_text">
+                            <h5><a href="#">Our Mission</a></h5>
+                            <p>
+                                We have invested in developing waste solutions for a changing world. Today, this includes not just disposal and recycling, but personal counseling to help customers achieve their green goals, including zero waste.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="sw_desc_btm_txt">
+                        <div class="sw_disc_image">
+                            <i class="flaticon-wind-turbine"></i>
+                        </div>
+                        <div class="sw_disc_head_text">
+                            <h5><a href="#">Adaption</a></h5>
+                            <p>
+                                Our Company is  residential recycler and a renewable energy provider. We recover the naturally occurring gas inside landfills to generate electricity, called landfill-gas-to-energy. With the largest network of recycling facilities, transfer stations and landfills in the industry, our entire business can adapt to meet the needs of every distinct customer segment.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="sw_desc_btm_txt">
+                        <div class="sw_disc_image">
+                            <i class="flaticon-power"></i>
+                        </div>
+                        <div class="sw_disc_head_text">
+                            <h5><a href="#">Sustainability</a></h5>
+                            <p>
+                                As a Indian's leading provider of comprehensive waste management services, our mission is to maximize resource value while minimizing impact in order to further both economic and environmental sustainability for all of our stakeholders.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-5 col-md-offset-1 col-lg-5 col-lg-offset-1 col-sm-12 col-xs-12 clm_img">
+                <div class="sw_right_img_wrapper">
+                    <div class="sw_disc_img_overlay"></div>
+                    <img src="front/recycling/images/services-bg.jpg" alt="About" class="img-responsive sw_right_img_div">
+
+                    <div class="sw_disc_img_btm">
+                        <img src="front/recycling/images/services.jpg" alt="About" class="img-responsive">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="icon2">
+        <img src="front/recycling/images/icon_2.png" alt="img">
+    </div>
+    <div class="icon_4">
+        <img src="front/recycling/images/icon_4.png" alt="img">
+    </div>
+</div>
+<!-- sw discover section end-->
+<!--sw newsletter wrapper start-->
+<div class="sw_news_letter_wrapper">
+    <div class="container">
+        <div class="sw_nl_heading_wrapper">
+            <i class="flaticon-rocket"></i>
+            <h2>Get Free Consultancy About Your Project</h2>
+
+        </div>
+
+        <div class="sw_nl_form_wrapper">
+
+            <div class="header_btn ltr_btn">
+                <ul>
+                    <li>
+                        <a href="{{url('contact-us')}}" class="waves-effect waves-purple waves-ripple">ask a question</a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </div>
+
+</div>
+<!--sw newsletter wrapper end-->
+<!-- sw project section start-->
+<div class="sw_project_wrapper" style="display: none;">
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-md-12 col-xs-12 col-sm-12 col-lg-offset-3">
+                <div class="sw_left_heading_wraper sw_center_heading_wrapper">
+                    <h1>Our Incredible Projects</h1>
+                    <img src="front/recycling/images/heading_line2.png" alt="title">
+                    <p>Donec quis magna sit amet risus vulputate maximus eget eget arcu. Praesent sed molestie tortor. </p>
+                </div>
+            </div>
+
+            <div class="gallery-area">
+
+                <div id="gallery">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <div class="filter filter-demo portfolio-nav galery_2_wraper my_slide_filter">
+                            <ul>
+                                <li class="button galery_hover_div is-checked waves-effect waves-purple waves-ripple" data-filter="*">
+                                    all
+                                </li>
+                                <li class="button galery_hover_div waves-effect waves-purple waves-ripple" data-filter=".branding">
+                                    household
+                                </li>
+
+                                <li class="button galery_hover_div waves-effect waves-purple waves-ripple" data-filter=".ux">
+                                    organization</li>
+                                <li class="button galery_hover_div waves-effect waves-purple waves-ripple" data-filter=".rresentation">
+                                    research</li>
+
+                                <li class="button galery_hover_div waves-effect waves-purple waves-ripple" data-filter=".web">
+                                    solar pannels</li>
+
+                                <li class="button galery_hover_div waves-effect waves-purple waves-ripple" data-filter=".photoshop">
+                                    wind energy</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="grid galler_2_btm_section">
+
+                        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 grid-item rresentation branding * project_pdr_btm">
+                            <div class="gallery-list img-effect zoom-slow">
+                                <div class="sp_img_box_overlay sp_img_index_overlay"></div>
+                                <div class="over">
+
+                                    <img src="front/recycling/images/pj_1.jpg" alt="" class="img-responsive" />
+
+                                    <div class="tab_img_overlay tab_img_overlay_2 tab_img_overlay_3">
+                                        <a href="front/recycling/images/pj_1.jpg" class="venobox info" data-title="PROJECT TITTLE" data-gall="gall12">
+                                            <i class="fa fa-arrows-alt"></i> </a>
+                                        <h1>project title here</h1>
+                                        <p>(solar pannels)</p>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 grid-item rresentation web branding * project_pdr_btm">
+                            <div class="gallery-list img-effect zoom-slow">
+                                <div class="sp_img_box_overlay sp_img_index_overlay"></div>
+                                <div class="over">
+
+                                    <img src="front/recycling/images/pj_4.jpg" alt="" class="img-responsive" />
+                                    <div class="tab_img_overlay tab_img_overlay_2 tab_img_overlay_3">
+
+                                        <a href="front/recycling/images/pj_4.jpg" class="venobox info" data-title="PROJECT TITTLE" data-gall="gall12">
+                                            <i class="fa fa-arrows-alt"></i> </a>
+                                        <h1>project title here</h1>
+                                        <p>(solar pannels)</p>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 grid-item web branding project_pdr_btm">
+                            <div class="gallery-list img-effect zoom-slow">
+                                <div class="sp_img_box_overlay sp_img_index_overlay"></div>
+                                <div class="over">
+
+                                    <img src="front/recycling/images/pj_6.jpg" alt="" class="img-responsive" />
+                                    <div class="tab_img_overlay tab_img_overlay_2 tab_img_overlay_3">
+
+                                        <a href="front/recycling/images/pj_6.jpg" class="venobox info" data-title="PROJECT TITTLE" data-gall="gall12">
+                                            <i class="fa fa-arrows-alt"></i> </a>
+                                        <h1>project title here</h1>
+                                        <p>(solar pannels)</p>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 grid-item web ux branding project_pdr_btm">
+                            <div class="gallery-list img-effect zoom-slow">
+                                <div class="sp_img_box_overlay sp_img_index_overlay"></div>
+                                <div class="over">
+
+                                    <img src="front/recycling/images/pj_11.jpg" alt="" class="img-responsive" />
+                                    <div class="tab_img_overlay tab_img_overlay_2 tab_img_overlay_3">
+
+                                        <a href="front/recycling/images/pj_11.jpg" class="venobox info" data-title="PROJECT TITTLE" data-gall="gall12">
+                                            <i class="fa fa-arrows-alt"></i> </a>
+                                        <h1>project title here</h1>
+                                        <p>(solar pannels)</p>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 grid-item web branding ux project_pdr_btm">
+                            <div class="gallery-list img-effect zoom-slow">
+                                <div class="sp_img_box_overlay sp_img_index_overlay"></div>
+                                <div class="over">
+
+                                    <img src="front/recycling/images/pj_9.jpg" alt="" class="img-responsive" />
+                                    <div class="tab_img_overlay tab_img_overlay_2 tab_img_overlay_3">
+
+                                        <a href="front/recycling/images/pj_9.jpg" class="venobox info" data-title="PROJECT TITTLE" data-gall="gall12">
+                                            <i class="fa fa-arrows-alt"></i> </a>
+                                        <h1>project title here</h1>
+                                        <p>(solar pannels)</p>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 grid-item photoshop branding ux project_pdr_btm">
+                            <div class="gallery-list img-effect zoom-slow">
+                                <div class="sp_img_box_overlay sp_img_index_overlay"></div>
+                                <div class="over">
+
+                                    <img src="front/recycling/images/pj_10.jpg" alt="" class="img-responsive" />
+                                    <div class="tab_img_overlay tab_img_overlay_2 tab_img_overlay_3">
+
+                                        <a href="front/recycling/images/pj_10.jpg" class="venobox info" data-title="PROJECT TITTLE" data-gall="gall12">
+                                            <i class="fa fa-arrows-alt"></i> </a>
+                                        <h1>project title here</h1>
+                                        <p>(solar pannels)</p>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                        <div class="disc_btn">
+                            <ul>
+                                <li>
+                                    <a href="#!" class="waves-effect waves-purple waves-ripple">load more</a>
+                                </li>
+                            </ul>
+
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    <div class="shape_2_wrapper">
+        <img src="front/recycling/images/shape3.png" alt="img">
+    </div>
+    <div class="icon_10">
+        <img src="front/recycling/images/icon_1.png" alt="img">
+    </div>
+</div>
+<!-- sw project section end-->
+
+<!-- sw choose service wrapper start-->
+<div class="sw_chose_service_wrapper">
+    <div class="icon3">
+        <img src="front/recycling/images/icon-13.png" alt="img">
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-md-12 col-xs-12 col-sm-12 col-lg-offset-3">
+                <div class="sw_left_heading_wraper sw_center_heading_wrapper">
+                    <h1>Our Services</h1>
+                    <img src="front/recycling/images/heading_line2.png" alt="title">
+                    <p>Our company is a leadng environmental solutions provider serving many municipal, commercial and industrial customers in all over the India.</p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-xs-12 col-sm-12">
+                <div class="chose_text_wrapper_left">
+                    <div class="chose_icon_wrapper_list">
+
+                        <div class="chose_icon_img_list">
+                            <i class="flaticon-idea"></i>
+                        </div>
+
+                        <div class="chose_icon_content_left">
+                            <h4><a href="#">Waste Pickup</a></h4>
+                            <p>Scheduled Waste Pickup Dumpster Rental Hazardous Waste Disposal</p>
+                        </div>
+
+                    </div>
+                    <div class="chose_icon_wrapper_list">
+
+                        <div class="chose_icon_img_list">
+                            <i class="flaticon-pinwheel"></i>
+                        </div>
+
+                        <div class="chose_icon_content_left">
+                            <h4><a href="#">Recycling Services</a></h4>
+                            <p>Food and Organic Waste Pickup Recycling Pickup Battery Recycling.</p>
+                        </div>
+
+                    </div>
+                    <div class="chose_icon_wrapper_list">
+                        <div class="chose_icon_img_list">
+                            <i class="flaticon-wind-turbine"></i>
+                        </div>
+
+                        <div class="chose_icon_content_left">
+                            <h4><a href="#">Other Waste Services</a></h4>
+                            <p>Landfill & Facilities Bulk Waste Pickup Document and Product Destruction</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-xs-12 hidden-sm hidden-xs wow  bounceIn animated" data-wow-duration="1.3s" style="visibility: visible; animation-duration: 1.3s; animation-name: bounceIn;">
+                <div class="section2_img_wrapper">
+                    <img class="img-responsive" src="front/recycling/images/services.jpg" alt="img">
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-xs-12 col-sm-12 hidden-sm hidden-xs">
+                <div class="chose_text_wrapper_right">
+                    <div class="chose_icon_wrapper_list">
+                        <div class="icon_content_right">
+                            <h4><a href="#">Construction Waste</a></h4>
+                            <p>Portable Toilets, Universal Waste Recycling, LEED,Certification</p>
+                        </div>
+
+                        <div class="chose_icon_img_list">
+                            <i class="flaticon-power"></i>
+                        </div>
+
+                    </div>
+                    <div class="chose_icon_wrapper_list">
+
+                        <div class="icon_content_right">
+                            <h4><a href="#">Recycle By Mail</a></h4>
+                            <p>Battery Recycling, Dental Waste, Aerosol Cans</p>
+                        </div>
+
+                        <div class="chose_icon_img_list">
+                            <i class="flaticon-powerpoint"></i>
+                        </div>
+
+                    </div>
+                    <div class="chose_icon_wrapper_list">
+
+                        <div class="icon_content_right">
+                            <h4><a href="#">Medical Waste</a></h4>
+                            <p>Medical Waste, Disposal Containers, Sharps Containers, PACK-RAT Units</p>
+                        </div>
+
+                        <div class="chose_icon_img_list">
+                            <i class="flaticon-rocket"></i>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-xs-12 col-sm-12 visible-sm visible-xs">
+                <div class="chose_text_wrapper_right">
+                    <div class="chose_icon_wrapper_list">
+                        <div class="chose_icon_img_list">
+                            <i class="flaticon-power"></i>
+                        </div>
+
+                        <div class="icon_content_right">
+                            <h4><a href="#">Used for Many Purposes</a></h4>
+                            <p>Quisque ut nunc elit. Lorem ipsum dolor Sit amet consectetur.</p>
+                        </div>
+                    </div>
+                    <div class="chose_icon_wrapper_list">
+
+                        <div class="chose_icon_img_list">
+                            <i class="flaticon-powerpoint"></i>
+                        </div>
+
+                        <div class="icon_content_right">
+                            <h4><a href="#">Low Installation Costs</a></h4>
+                            <p>Quisque ut nunc elit. Lorem ipsum dolor Sit amet consectetur.</p>
+                        </div>
+                    </div>
+                    <div class="chose_icon_wrapper_list">
+                        <div class="chose_icon_img_list">
+                            <i class="flaticon-rocket"></i>
+                        </div>
+
+                        <div class="icon_content_right">
+                            <h4><a href="#">Easy Installation</a></h4>
+                            <p>Quisque ut nunc elit. Lorem ipsum dolor Sit amet consectetur.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 visible-sm visible-xs">
+                <div class="section2_img_wrapper wow  bounceIn animated" data-wow-duration="1.3s" style="visibility: visible; animation-duration: 1.3s; animation-name: bounceIn;">
+                    <img class="img-responsive" src="front/recycling/images/cs_service.png" alt="img">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="shape_3_wrapper">
+        <img src="front/recycling/images/shape4.png" alt="img">
+    </div>
+</div>
+<!-- sw choose service wrapper end-->
+<!--sw testimonial wrapper start-->
+<div class="sw_testimonial_wrapper">
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-md-12 col-xs-12 col-sm-12 col-lg-offset-3">
+                <div class="sw_left_heading_wraper sw_dark_heading_wraper dark_heading_center">
+                    <h1>Why Choose Us</h1>
+                    <img src="front/recycling/images/heading_line3.png" alt="title">
+                    <p>Recycling is easier than ever with MatafGroup. Put all of your accepted recyclables in one bin and leave the sorting to us. One bin, multiple benefits.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="icon_4">
+        <img src="front/recycling/images/icon_4.png" alt="img">
+    </div>
+    <div class="icon_5">
+        <img src="front/recycling/images/icon_5.png" alt="img">
+    </div>
+</div>
+
+<!--sw testimonial wrapper end-->
+
+<!--sw leads wrapper start-->
+<div class="sw_leads_wrapper" style="padding-top: 70px;">
+    <div class="shape_2_wrapper sw_leadd_shape">
+        <img src="front/recycling/images/shape3.png" alt="img">
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12">
+                <div class="sw_disc_txt_wrapper">
+
+                    <div class="sw_left_heading_wraper sw_dark_heading_wraper">
+                        <h1>FAQs!</h1>
+                        <img src="front/recycling/images/heading_line2.png" alt="title">
+                        <p>All Roads Lead to Recycling</p>
+                    </div>
+
+                    <div class="sw_leads_accordian">
+                        <div class="panel-group" id="accordionFifteenLeft" role="tablist">
+                            <div class="panel panel-default">
+                                <div class="panel-heading desktop">
+                                    <h4 class="panel-title">
+                                        <a data-toggle="collapse" data-parent="#accordionFifteenLeft" href="#collapseFifteenLeftone" aria-expanded="true">How do I dispose of hazardous materials?</a>
+                                    </h4>
+                                </div>
+                                <div id="collapseFifteenLeftone" class="panel-collapse collapse in" aria-expanded="true" role="tabpanel">
+                                    <div class="panel-body">
+
+                                        <div class="panel_cont">
+                                            <p>To check the availability of these services in your area, enter your zip code in the residential service finder.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /.panel-default -->
+                            <div class="panel panel-default">
+                                <div class="panel-heading horn">
+                                    <h4 class="panel-title">
+                                        <a class="collapsed" data-toggle="collapse" data-parent="#accordionFifteenLeft" href="#collapseFifteenLeftTwo" aria-expanded="false">What are the hours of the collection?</a>
+                                    </h4>
+                                </div>
+                                <div id="collapseFifteenLeftTwo" class="panel-collapse collapse" aria-expanded="false" role="tabpanel">
+                                    <div class="panel-body">
+
+                                        <div class="panel_cont">
+                                            <p>Service hours are Monday - Friday from 8:00 am to 6:00 pm.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /.panel-default -->
+                            <div class="panel panel-default">
+                                <div class="panel-heading bell">
+                                    <h4 class="panel-title">
+                                        <a class="collapsed" data-toggle="collapse" data-parent="#accordionFifteenLeft" href="#collapseFifteenLeftThree" aria-expanded="false">How do I recycle used motor oil & othe fluids?</a>
+                                    </h4>
+                                </div>
+                                <div id="collapseFifteenLeftThree" class="panel-collapse collapse" aria-expanded="false" role="tabpanel">
+                                    <div class="panel-body">
+
+                                        <div class="panel_cont">
+                                            <p>Place one-gallon screw-top containers, curbside beside the carts you have set out.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12">
+                <div class="sw_road_leads_img">
+                    <img src="front/recycling/images/leads.gif" alt="img">
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+<!-- sw leads section end-->
+@endsection
