@@ -166,7 +166,7 @@
     <div class="site-footer_bottom">
         <div class="container">
             <div class="site-footer_bottom_copyright">
-                <p>@ All copyright 2020, <a href="#">Layerdrops.com</a></p>
+                <p>@ All right reserver 1998-{{date('Y')}}, <a href="{{url('/')}}">MatafGroup - Robotics Agriculture</a></p>
             </div>
             <div class="site-footer_bottom_menu">
                 <ul class="list-unstyled">
@@ -198,8 +198,7 @@
         <div class="side-menu__sep"></div><!-- /.side-menu__sep -->
 
         <div class="side-menu__content">
-            <p><a href="mailto:needhelp@tripo.com">needhelp@agricol.com</a> <br> <a href="tel:888-999-0000">888 999
-                    0000</a></p>
+            <p><a href="mailto:info@matafgroup.com">info@matafgroup.com</a> <br> <a href="tel:+919977999777">+91 997 7999 777</a></p>
             <div class="side-menu__social">
                 <a href="#"><i class="fab fa-facebook-square"></i></a>
                 <a href="#"><i class="fab fa-twitter"></i></a>

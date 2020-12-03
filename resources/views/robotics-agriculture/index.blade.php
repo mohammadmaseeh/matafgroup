@@ -237,7 +237,7 @@
             </div>
         </section>
 
-        <div class="brand-one">
+        <div class="brand-one" style="display: none;">
             <div class="container">
                 <div class="row">
                     <div class="col-xl-12">
@@ -283,14 +283,14 @@
                 <div class="row">
                     <div class="col-xl-6 wow slideInLeft" data-wow-delay="100ms">
                         <div class="single_featured_box">
-                            <img src="{{url('front/robotic/images/resources/featured-leaf.png')}}" alt=""><span>We Deal in Best Agriculture Robots
+                            <img src="{{url('front/robotic/images/resources/featured-leaf.png')}}" alt=""><span>We Deal in Best Agriculture Robotics
                                 Products</span><img src="{{url('front/robotic/images/resources/featured-leaf.png')}}" alt="">
                         </div>
                     </div>
                     <div class="col-xl-6 wow slideInRight" data-wow-delay="100ms">
                         <div class="single_featured_box">
                             <img src="{{url('front/robotic/images/resources/featured-leaf.png')}}" alt=""><span>We’ve 10 years experience
-                                in field</span><img src="{{url('front/robotic/images/resources/featured-leaf.png')}}" alt="">
+                                in field. Working in Uganda & Nigeria.</span><img src="{{url('front/robotic/images/resources/featured-leaf.png')}}" alt="">
                         </div>
                     </div>
                 </div>
@@ -410,7 +410,7 @@
                                     <h3>organic<br>solutions</h3>
                                 </div>
                                 <div class="hover_box">
-                                    <a href="projects_detail.html"><span class="icon-left-arrow"></span></a>
+                                    <a href="#"><span class="icon-left-arrow"></span></a>
                                 </div>
                             </div>
                         </div>
@@ -423,7 +423,7 @@
                                     <h3>Harvest<br>Innovations</h3>
                                 </div>
                                 <div class="hover_box">
-                                    <a href="projects_detail.html"><span class="icon-left-arrow"></span></a>
+                                    <a href="#"><span class="icon-left-arrow"></span></a>
                                 </div>
                             </div>
                         </div>
@@ -436,7 +436,7 @@
                                     <h3>Agriculture<br>farming</h3>
                                 </div>
                                 <div class="hover_box">
-                                    <a href="projects_detail.html"><span class="icon-left-arrow"></span></a>
+                                    <a href="#"><span class="icon-left-arrow"></span></a>
                                 </div>
                             </div>
                         </div>
