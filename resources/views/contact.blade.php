@@ -46,15 +46,14 @@
 								<div class="flex-container country_wise">
 									<div class="four-columns">
 										<div class="card-body">
-											<canvas id="timezone"></canvas>
-											<div class = "date_time">
-
-												<h6>20 Sep 2020</h6>
+											<canvas id="timezone_uae"></canvas>
+											<div class="date_time">
+												<h6>{{date('d-m-Y')}}</h6>
 											</div>
 										</div>
 									</div>
 									<div class="six-columns">
-										<div class = "watch_address">
+										<div class="watch_address">
 											<h4>UAE(Dubai)</h4>
 											<p><i class="fa fa-phone"></i> +971 50 654 2916</p>
 											<p><i class="fa fa-envelope"></i> ae@matafgroup.com</p>
@@ -71,14 +70,13 @@
 									<div class="four-columns">
 										<div class="card-body">
 											<canvas id="timezone_india"></canvas>
-											<div class = "date_time">
-
-												<h6>20 Sep 2020</h6>
+											<div class="date_time">
+												<h6>{{date('d-m-Y')}}</h6>
 											</div>
 										</div>
 									</div>
 									<div class="six-columns">
-										<div class = "watch_address">
+										<div class="watch_address">
 											<h4>India(New Delhi)</h4>
 											<p><i class="fa fa-phone"></i>  +91 99779 99777</p>
 											<p><i class="fa fa-envelope"></i> in@matafgroup.com</p>
@@ -94,14 +92,13 @@
 									<div class="four-columns">
 										<div class="card-body">
 											<canvas id="timezone_ksa"></canvas>
-											<div class = "date_time">
-
-												<h6>20 Sep 2020</h6>
+											<div class="date_time">
+												<h6>{{date('d-m-Y')}}</h6>
 											</div>
 										</div>
 									</div>
 									<div class="six-columns">
-										<div class = "watch_address">
+										<div class="watch_address">
 											<h4>KSA(Jeddash)</h4>
 											<p><i class="fa fa-phone"></i> +966 5492 57550</p>
 											<p><i class="fa fa-envelope"></i> sa@matafgroup.com</p>
@@ -118,14 +115,13 @@
 									<div class="four-columns">
 										<div class="card-body">
 											<canvas id="timezone_bah"></canvas>
-											<div class = "date_time">
-
-												<h6>20 Sep 2020</h6>
+											<div class="date_time">
+												<h6>{{date('d-m-Y')}}</h6>
 											</div>
 										</div>
 									</div>
 									<div class="six-columns">
-										<div class = "watch_address">
+										<div class="watch_address">
 											<h4>Bahrain(Manama)</h4>
 											<p><i class="fa fa-phone"></i> +966 54 925 7550</p>
 											<p><i class="fa fa-envelope"></i> bh@matafgroup.com</p>
@@ -142,15 +138,14 @@
 									<div class="four-columns">
 										<div class="card-body">
 											<canvas id="timezone_mal"></canvas>
-											<div class = "date_time">
-
-												<h6>20 Sep 2020</h6>
+											<div class="date_time">
+												<h6>{{date('d-m-Y')}}</h6>
 											</div>
 										</div>
 									</div>
 									<div class="six-columns">
-										<div class = "watch_address">
-											<h4>Malaysia(Kula Lampur)</h4>
+										<div class="watch_address">
+											<h4>Malaysia(Kuala Lumpur)</h4>
 											<p><i class="fa fa-phone"></i>  +60 19 232 5688</p>
 											<p><i class="fa fa-envelope"></i> my@matafgroup.com</p>
 											<p><i class="fa fa-globe"></i>  www.matafgroup.com</p>
@@ -165,15 +160,14 @@
 									<div class="four-columns">
 										<div class="card-body">
 											<canvas id="timezone_chi"></canvas>
-											<div class = "date_time">
-
-												<h6>20 Sep 2020</h6>
+											<div class="date_time">
+												<h6>{{date('d-m-Y')}}</h6>
 											</div>
 										</div>
 									</div>
 									<div class="six-columns">
-										<div class = "watch_address">
-											<h4>China(Sanghai)</h4>
+										<div class="watch_address">
+											<h4>China(Shanghai)</h4>
 											<p><i class="fa fa-phone"></i> +91 99779 99777</p>
 											<p><i class="fa fa-envelope"></i> cn@matafgroup.com</p>
 											<p><i class="fa fa-globe"></i>  www.matafgroup.com</p>

@@ -299,7 +299,7 @@
 
 <section class="video-one" style="background-image:url('{{url('front/robotic/images/resources/video-bg-1.jpg')}}');">
     <div class="container text-center">
-        <a href="https://www.youtube.com/watch?v=i9E_Blai8vk" class="video-one__btn video-popup"><i
+        <a href="https://www.youtube.com/watch?v=4qrlFse5I1U" class="video-one__btn video-popup"><i
                     class="fa fa-play"></i></a>
         <p>Modern agriculture types</p>
         <h3>Agriculture matters to the<br>future of development</h3>
@@ -698,47 +698,26 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-xl-3 col-lg-3 col-md-3">
+            <div class="col-md-6">
                 <div class="team_one_single wow fadeInUp">
                     <div class="team_one_image">
                         <img src="{{url('images/gallery/img1.jpeg')}}" alt="">
                     </div>
                     <div class="team_one_deatils">
-                        <p>His Excellency</p>
-                        <h2><a href="#">with President of Uganda</a></h2>
+                        <p>Conceptualising Robitic Agriculture with His Highness</p>
+                        <h2><a href="#">MINISTER OF Science and Agriculture - UGANDA</a></h2>
                     </div>
                 </div>
             </div>
-            <div class="col-xl-3 col-lg-3 col-md-3">
-                <div class="team_one_single wow fadeInUp">
-                    <div class="team_one_image">
-                        <img src="{{url('images/gallery/img2.jpeg')}}" alt="">
-                    </div>
-                    <div class="team_one_deatils">
-                        <p>His Excellency</p>
-                        <h2><a href="#">with President</a></h2>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xl-3 col-lg-3 col-md-3">
-                <div class="team_one_single wow fadeInUp">
-                    <div class="team_one_image">
-                        <img src="{{url('images/gallery/img4.jpeg')}}" alt="">
-                    </div>
-                    <div class="team_one_deatils">
-                        <p>His Excellency</p>
-                        <h2><a href="#">with President</a></h2>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xl-3 col-lg-3 col-md-3">
+
+            <div class="col-md-6">
                 <div class="team_one_single wow fadeInUp">
                     <div class="team_one_image">
                         <img src="{{url('images/gallery/img5.jpeg')}}" alt="">
                     </div>
                     <div class="team_one_deatils">
-                        <p>His Highness</p>
-                        <h2><a href="#">with Vice President</a></h2>
+                        <p>Finalizing Project for Robitic Agriculture with His Highness</p>
+                        <h2><a href="#">VICE PRESIDENT - UGANDA</a></h2>
                     </div>
                 </div>
             </div>

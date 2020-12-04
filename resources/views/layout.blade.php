@@ -178,19 +178,20 @@
                 </a>
                 <!-- dropdown start -->
                 <ul class="menu-box dropdown js-dropdown">
-                    <li class="nav-btn-box">
-                        <a href="{{url('/real-estate')}}" class="nav-btn js-animsition-link js-pointer-large">
-                            <span class="nav-btn__inner" data-text="Real Estate">Real Estate</span>
-                        </a>
-                    </li>
+
                     <li class="nav-btn-box">
                         <a href="{{url('/construction')}}" class="nav-btn js-animsition-link js-pointer-large">
                             <span class="nav-btn__inner" data-text="Construction">Construction</span>
                         </a>
                     </li>
                     <li class="nav-btn-box">
-                        <a href="{{url('/hospitality')}}" class="nav-btn js-animsition-link js-pointer-large">
-                            <span class="nav-btn__inner" data-text="Hospitality">Hospitality</span>
+                        <a href="{{url('/robotics-agriculture')}}" class="nav-btn js-animsition-link js-pointer-large">
+                            <span class="nav-btn__inner" data-text="Robotics Agriculture">Robotics Agriculture</span>
+                        </a>
+                    </li>
+                    <li class="nav-btn-box">
+                        <a href="{{url('/international-trading')}}" class="nav-btn js-animsition-link js-pointer-large">
+                            <span class="nav-btn__inner" data-text="International Trading">International Trading</span>
                         </a>
                     </li>
                     <li class="nav-btn-box">
@@ -223,6 +224,17 @@
                             <span class="nav-btn__inner" data-text="Consultation">Consultation</span>
                         </a>
                     </li>
+                    <li class="nav-btn-box">
+                        <a href="{{url('/real-estate')}}" class="nav-btn js-animsition-link js-pointer-large">
+                            <span class="nav-btn__inner" data-text="Real Estate">Real Estate</span>
+                        </a>
+                    </li>
+                    <li class="nav-btn-box">
+                        <a href="{{url('/hospitality')}}" class="nav-btn js-animsition-link js-pointer-large">
+                            <span class="nav-btn__inner" data-text="Hospitality">Hospitality</span>
+                        </a>
+                    </li>
+
                 </ul><!-- dropdown end -->
             </li>
             <!-- nav-btn-box end -->
@@ -316,7 +328,7 @@
             <!-- flex-container start -->
             <div class="flex-container flex-align-center">
                 <!-- column start -->
-                <div class="eight-columns">
+                <div class="four-columns">
                     <h4 class="column-l-r-margin-10 headline-l footer-title">
                         The <span class="text-color-red">Best<br>Agency</span> for<br>Your Businnes
                     </h4>
@@ -324,24 +336,21 @@
                 <!-- column start -->
                 <div class="four-columns footer-nav-mobile-padding">
                     <ul class="column-l-r-margin-10 footer-nav-list js-footer-hover-box">
-                        <li>
-                            <a href="#" class="footer-nav__btn js-pointer-small js-footer-hover-link">Home</a>
-                        </li>
-                        <li>
-                            <a href="#" class="footer-nav__btn js-pointer-small js-footer-hover-link">About</a>
-                        </li>
-                        <li>
-                            <a href="#" class="footer-nav__btn js-pointer-small js-footer-hover-link">Services</a>
-                        </li>
-                        <li>
-                            <a href="#" class="footer-nav__btn js-pointer-small js-footer-hover-link">Portfolio</a>
-                        </li>
-                        <li>
-                            <a href="#" class="footer-nav__btn js-pointer-small js-footer-hover-link">Blog</a>
-                        </li>
-                        <li>
-                            <a href="#" class="footer-nav__btn js-pointer-small js-footer-hover-link">Contact</a>
-                        </li>
+                        <li><a class="footer-nav__btn js-pointer-small js-footer-hover-link" href="{{url('construction')}}">Construction</a></li>
+                        <li><a class="footer-nav__btn js-pointer-small js-footer-hover-link" href="{{url('real-estate')}}">Real Estate</a></li>
+                        <li><a class="footer-nav__btn js-pointer-small js-footer-hover-link" href="{{url('hospitality')}}">Hospitality</a></li>
+                        <li><a class="footer-nav__btn js-pointer-small js-footer-hover-link" href="{{url('decorate')}}">Innovative Products</a></li>
+                        <li><a class="footer-nav__btn js-pointer-small js-footer-hover-link" href="{{url('trading')}}">International Trading</a></li>
+                    </ul>
+                </div><!-- column end -->
+                <!-- column start -->
+                <div class="four-columns footer-nav-mobile-padding">
+                    <ul class="column-l-r-margin-10 footer-nav-list js-footer-hover-box">
+                        <li><a class="footer-nav__btn js-pointer-small js-footer-hover-link" href="{{url('education')}}">Education</a></li>
+                        <li><a class="footer-nav__btn js-pointer-small js-footer-hover-link" href="{{url('it-marketing')}}">IT & Marketing</a></li>
+                        <li><a class="footer-nav__btn js-pointer-small js-footer-hover-link" href="{{url('health-wellness')}}">Health & Wellness</a></li>
+                        <li><a class="footer-nav__btn js-pointer-small js-footer-hover-link" href="{{url('consultation')}}">Consultation</a></li>
+                        <li><a class="footer-nav__btn js-pointer-small js-footer-hover-link" href="{{url('robotics-agriculture')}}">Robotic Agriculture</a></li>
                     </ul>
                 </div><!-- column end -->
             </div><!-- flex-container end -->
@@ -419,23 +428,23 @@
 <script>
     $(function () {
         $("#basic").htAnalogClock();
-        $("#timezone").htAnalogClock({}, {
-            timezone: "America/Los_Angeles"
+        $("#timezone_uae").htAnalogClock({}, {
+            timezone: "Asia/Dubai"
         });
         $("#timezone_india").htAnalogClock({}, {
-            timezone: "America/Los_Angeles"
+            timezone: "Asia/Kolkata"
         });
         $("#timezone_ksa").htAnalogClock({}, {
-            timezone: "America/Los_Angeles"
+            timezone: "Asia/Riyadh"
         });
         $("#timezone_bah").htAnalogClock({}, {
-            timezone: "America/Los_Angeles"
+            timezone: "Asia/Bahrain"
         });
         $("#timezone_mal").htAnalogClock({}, {
-            timezone: "America/Los_Angeles"
+            timezone: "Asia/Kuala_Lumpur"
         });
         $("#timezone_chi").htAnalogClock({}, {
-            timezone: "America/Los_Angeles"
+            timezone: "Asia/Shanghai"
         });
         $("#custom").htAnalogClock({
             fillColor: "rgba(255, 100, 255, 0.2)",
