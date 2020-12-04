@@ -58,7 +58,7 @@
 							<a href="#" data-toggle="modal" data-target="#login">Sign in</a>
 						</li>
 						<li class="login_click bg-green">
-							<a href="submit-property.html">Sign up</a>
+							<a href="#" data-toggle="modal" data-target="#signup">Sign up</a>
 						</li>
 					</ul>
 				</div>
@@ -180,7 +180,7 @@
 				<div class="row align-items-center">
 
 					<div class="col-lg-6 col-md-6">
-						<p class="mb-0">© 2020 LearnUp. Designd By <a href="https://themezhub.com/">Themezhub</a>.</p>
+						<p class="mb-0">© 1998-{{date('Y')}} <a href="https://www.matafGroup.com/">MatafGroup - Education Sector</a>.</p>
 					</div>
 
 					<div class="col-lg-6 col-md-6 text-right">
