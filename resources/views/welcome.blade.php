@@ -562,14 +562,14 @@
       </div><!-- grid-item end -->
       <!-- grid-item start -->
       <div class="padding-top-60 grid-item-33-50-100 js-isotope-filter-grid-item marketing">
-        <a href="{{url('property-sharing')}}" class="grid-margin-box hover-box js-animsition-link js-pointer-large">
+        <a href="{{url('investment-portfolio')}}" class="grid-margin-box hover-box js-animsition-link js-pointer-large">
           <div class="anim-img-scale anim-img-scale_hover js-img-scale">
             <img class="anim-img-scale__inner" src="images/sectors/property-sharing.jpg" alt="project">
           </div>
           <div class="margin-top-10 js-scrollanim">
 
             <h3 class="hidden-box">
-              <span class="headline-xxxs text-color-black anim-slide tr-delay-02">Property Sharing</span>
+              <span class="headline-xxxs text-color-black anim-slide tr-delay-02">Investment Portfolio</span>
             </h3>
           </div>
         </a>

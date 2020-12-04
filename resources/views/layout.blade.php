@@ -230,6 +230,11 @@
                         </a>
                     </li>
                     <li class="nav-btn-box">
+                        <a href="{{url('/investment-portfolio')}}" class="nav-btn js-animsition-link js-pointer-large">
+                            <span class="nav-btn__inner" data-text="Investment Portfolio">Investment Portfolio</span>
+                        </a>
+                    </li>
+                    <li class="nav-btn-box">
                         <a href="{{url('/hospitality')}}" class="nav-btn js-animsition-link js-pointer-large">
                             <span class="nav-btn__inner" data-text="Hospitality">Hospitality</span>
                         </a>
@@ -338,6 +343,7 @@
                     <ul class="column-l-r-margin-10 footer-nav-list js-footer-hover-box">
                         <li><a class="footer-nav__btn js-pointer-small js-footer-hover-link" href="{{url('construction')}}">Construction</a></li>
                         <li><a class="footer-nav__btn js-pointer-small js-footer-hover-link" href="{{url('real-estate')}}">Real Estate</a></li>
+                        <li><a class="footer-nav__btn js-pointer-small js-footer-hover-link" href="{{url('investment-portfolio')}}">Investment Portfolio</a></li>
                         <li><a class="footer-nav__btn js-pointer-small js-footer-hover-link" href="{{url('hospitality')}}">Hospitality</a></li>
                         <li><a class="footer-nav__btn js-pointer-small js-footer-hover-link" href="{{url('decorate')}}">Innovative Products</a></li>
                         <li><a class="footer-nav__btn js-pointer-small js-footer-hover-link" href="{{url('trading')}}">International Trading</a></li>

@@ -65,9 +65,18 @@ Route::group(['prefix' => 'health-wellness'], function() {
     Route::get('/','Front\HealthWellness\PagesController@index');
     Route::get('/services','Front\HealthWellness\PagesController@services');
     Route::get('/courses','Front\HealthWellness\PagesController@courses');
-});Route::group(['prefix' => 'hospitality'], function() {
+});
+
+Route::group(['prefix' => 'hospitality'], function() {
     /*Home*/
     Route::get('/','Front\Hospitality\PagesController@index');
     Route::get('/services','Front\Hospitality\PagesController@services');
     Route::get('/courses','Front\Hospitality\PagesController@courses');
+});
+
+Route::group(['prefix' => 'investment-portfolio'], function() {
+    /*Home*/
+    Route::get('/','Front\Investment\PagesController@index');
+    Route::get('/services','Front\Investment\PagesController@services');
+    Route::get('/courses','Front\Investment\PagesController@courses');
 });
