@@ -80,3 +80,10 @@ Route::group(['prefix' => 'investment-portfolio'], function() {
     Route::get('/services','Front\Investment\PagesController@services');
     Route::get('/courses','Front\Investment\PagesController@courses');
 });
+
+Route::group(['prefix' => 'trading'], function() {
+    /*Home*/
+    Route::get('/','Front\Investment\PagesController@index');
+    Route::get('/services','Front\Investment\PagesController@services');
+    Route::get('/courses','Front\Investment\PagesController@courses');
+});
