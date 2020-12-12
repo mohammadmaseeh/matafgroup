@@ -54,9 +54,9 @@
                 <nav id="primary-nav" class="dropdown nav_left_margin">
                     <ul class="dropdown menu navigation cart_dropdown_wrapper">
                         <li><a href="{{url('/')}}" title="Home">Home</a></li>
-                        <li><a href="{{url('/recycling')}}" title="Home">About (Recycling)</a></li>
-                        <li><a href="{{url('/recycling/services')}}" title="Home">Services (Recycling)</a></li>
-                        <li><a href="{{url('/contact-us')}}" title="Home">Contact Us</a></li>
+                        <li><a href="{{url('/recycling')}}" title="About (Recycling)">About (Recycling)</a></li>
+                        <li><a href="{{url('/recycling/services')}}" title="Services (Recycling)">Services (Recycling)</a></li>
+                        <li><a href="{{url('/contact-us')}}" title="Contact Us">Contact Us</a></li>
                     </ul>
                     <div class="header_right_main_wrapper">
                         <div class="header_btn">
