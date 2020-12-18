@@ -144,7 +144,7 @@
                                     <li class="list-item"><a href="{{url('/real-estate')}}">Real Estate</a></li>
                                     <li class="list-item"><a href="{{url('/hospitality')}}">Hospitality</a></li>
                                     <li class="list-item"><a href="{{url('/decorate')}}">Innovative Products</a></li>
-                                    <li class="list-item"><a href="{{url('/trading')}}">International Trading</a></li>
+                                    <li class="list-item"><a href="{{url('/international-trading')}}">International Trading</a></li>
                                 </ul>
                             </div>
                             <div class="col-md-6">

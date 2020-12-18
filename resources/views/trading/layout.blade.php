@@ -130,7 +130,7 @@
             <button class="navbar-toggler ml-n2 mr-2" type="button" data-toggle="offcanvas" data-offcanvas-id="primaryMenu">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <a class="navbar-brand order-lg-1 mx-auto ml-lg-0 pr-lg-2 mr-lg-4" href="index-2.html">
+            <a class="navbar-brand order-lg-1 mx-auto ml-lg-0 pr-lg-2 mr-lg-4" href="{{url('/')}}">
                 <img class="d-none d-lg-block" width="153" src="{{url('images/logo.png')}}" alt="MatafGroup - Internation Trading"/>
                 <img class="d-lg-none" width="58" src="{{url('images/logo.png')}}" alt="MatafGroup - Internation Trading"/>
             </a>

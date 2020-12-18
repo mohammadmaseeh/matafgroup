@@ -211,7 +211,7 @@
                                     <li><a href="{{url('real-estate')}}">Real Estate</a></li>
                                     <li><a href="{{url('hospitality')}}">Hospitality</a></li>
                                     <li><a href="{{url('decorate')}}">Innovative Products</a></li>
-                                    <li><a href="{{url('trading')}}">International Trading</a></li>
+                                    <li><a href="{{url('international-trading')}}">International Trading</a></li>
                                     <li><a href="{{url('investment')}}">Investment</a></li>
                                 </ul>
                                 <ul class="nav-right">

@@ -35,6 +35,66 @@
       </div><!-- content end -->
     </div>
     <!-- swiper-slide end -->
+    <div class="swiper-slide">
+      <!-- slide-bg -->
+      <div class="js-parallax-slide-bg bg-img-cover" style="background-image:url('{{url('images/sliders/uganda-1.jpg')}}')"></div>
+      <!-- bg-overlay -->
+      <div class="bg-overlay-black"></div>
+      <!-- content start -->
+      <div class="flex-min-height-100vh pos-rel" data-swiper-parallax-x="30%">
+        <div class="container small padding-top-bottom-120">
+          <h5 class="headline-sm">
+            <span class="hidden-box d-block">
+                <span class="anim-slide tr-delay-02 text-color-red">MINISTER OF SCIENCE AND AGRICULTURE - UGANDA</span>
+            </span>
+            <span class="hidden-box d-block">
+                <span class="anim-slide tr-delay-03">CONCEPTUALISING ROBOTIC AGRICULTURE</span>
+            </span>
+            <span class="hidden-box d-block">
+                <span class="anim-slide tr-delay-04">HIS EXCELLENCY</span>
+            </span>
+          </h5>
+          <div class="margin-top-30 anim-fade tr-delay-08">
+            <a href="{{url('robotics-agriculture')}}" class="border-btn js-pointer-large">
+              <span class="border-btn__inner">Read more</span>
+              <span class="border-btn__lines-1"></span>
+              <span class="border-btn__lines-2"></span>
+            </a>
+          </div>
+        </div>
+      </div><!-- content end -->
+    </div>
+    <!-- swiper-slide end -->
+    <div class="swiper-slide">
+      <!-- slide-bg -->
+      <div class="js-parallax-slide-bg bg-img-cover" style="background-image:url('{{url('images/sliders/uganda-2.jpg')}}')"></div>
+      <!-- bg-overlay -->
+      <div class="bg-overlay-black"></div>
+      <!-- content start -->
+      <div class="flex-min-height-100vh pos-rel" data-swiper-parallax-x="30%">
+        <div class="container small padding-top-bottom-120">
+          <h5 class="headline-sm">
+            <span class="hidden-box d-block">
+                <span class="anim-slide tr-delay-02 text-color-red">FINALIZING PROJECT FOR ROBOTIC AGRICULTURE</span>
+            </span>
+            <span class="hidden-box d-block">
+                <span class="anim-slide tr-delay-03">WITH HIS HIGHNESS</span>
+            </span>
+            <span class="hidden-box d-block">
+                <span class="anim-slide tr-delay-04">VICE PRESIDENT - UGANDA</span>
+            </span>
+          </h5>
+          <div class="margin-top-30 anim-fade tr-delay-08">
+            <a href="{{url('robotics-agriculture')}}" class="border-btn js-pointer-large">
+              <span class="border-btn__inner">Read more</span>
+              <span class="border-btn__lines-1"></span>
+              <span class="border-btn__lines-2"></span>
+            </a>
+          </div>
+        </div>
+      </div><!-- content end -->
+    </div>
+    <!-- swiper-slide end -->
     <!-- swiper-slide start -->
     <div class="swiper-slide">
       <!-- slide-bg -->
