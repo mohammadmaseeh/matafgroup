@@ -346,7 +346,7 @@
                         <li><a class="footer-nav__btn js-pointer-small js-footer-hover-link" href="{{url('investment-portfolio')}}">Investment Portfolio</a></li>
                         <li><a class="footer-nav__btn js-pointer-small js-footer-hover-link" href="{{url('hospitality')}}">Hospitality</a></li>
                         <li><a class="footer-nav__btn js-pointer-small js-footer-hover-link" href="{{url('decorate')}}">Innovative Products</a></li>
-                        <li><a class="footer-nav__btn js-pointer-small js-footer-hover-link" href="{{url('trading')}}">International Trading</a></li>
+                        <li><a class="footer-nav__btn js-pointer-small js-footer-hover-link" href="{{url('international-trading')}}">International Trading</a></li>
                     </ul>
                 </div><!-- column end -->
                 <!-- column start -->

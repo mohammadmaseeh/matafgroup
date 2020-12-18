@@ -498,7 +498,7 @@
 
             <!-- grid-item start -->
       <div class="padding-top-60 grid-item-33-50-100 js-isotope-filter-grid-item photoshoot">
-        <a href="{{url('trading')}}" class="grid-margin-box hover-box js-animsition-link js-pointer-large">
+        <a href="{{url('international-trading')}}" class="grid-margin-box hover-box js-animsition-link js-pointer-large">
           <div class="anim-img-scale anim-img-scale_hover js-img-scale">
             <img class="anim-img-scale__inner" src="images/sectors/trading.jpg" alt="project">
           </div>
