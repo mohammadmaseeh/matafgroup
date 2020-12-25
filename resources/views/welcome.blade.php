@@ -498,7 +498,7 @@
               <img src="{{url('images/recent-activities/img1.jpeg')}}" alt="CONCEPTUALISING ROBOTIC AGRICULTURE">
               <!-- content start -->
               <div class="padding-20 text-center">
-                <h4 class="headline-xxxs anim-text-double-fill invert tr-delay-02" data-text="CONCEPTUALISING ROBOTIC AGRICULTURE">CONCEPTUALISING ROBOTIC AGRICULTURE</h4>
+                <h4 class="headline-xxxxs anim-text-double-fill invert tr-delay-02" data-text="CONCEPTUALISING ROBOTIC AGRICULTURE">CONCEPTUALISING ROBOTIC AGRICULTURE</h4>
                 <!-- list start -->
                 <ul class="list list_row list_center list_margin-20px padding-top-20 anim-fade tr-delay-04">
                   <li class="list__item">
@@ -513,7 +513,7 @@
               <img src="{{url('images/recent-activities/img3.jpeg')}}" alt="AFTER PROJECT DISCUSSION">
               <!-- content start -->
               <div class="padding-20 text-center">
-                <h4 class="headline-xxxs anim-text-double-fill invert tr-delay-02" data-text="AFTER PROJECT DISCUSSION">AFTER PROJECT DISCUSSION</h4>
+                <h4 class="headline-xxxxs anim-text-double-fill invert tr-delay-02" data-text="AFTER PROJECT DISCUSSION">AFTER PROJECT DISCUSSION</h4>
                 <!-- list start -->
                 <ul class="list list_row list_center list_margin-20px padding-top-20 anim-fade tr-delay-04">
                   <li class="list__item">
@@ -529,7 +529,7 @@
               <img src="{{url('images/recent-activities/img2.jpeg')}}" alt="FINALIZING PROJECT FOR ROBOTIC AGRICULTURE">
               <!-- content start -->
               <div class="padding-20 text-center">
-                <h4 class="headline-xxxs anim-text-double-fill invert tr-delay-02" data-text="FINALIZING PROJECT FOR ROBOTIC AGRICULTURE">FINALIZING PROJECT FOR ROBOTIC AGRICULTURE</h4>
+                <h4 class="headline-xxxxs anim-text-double-fill invert tr-delay-02" data-text="FINALIZING PROJECT FOR ROBOTIC AGRICULTURE">FINALIZING PROJECT FOR ROBOTIC AGRICULTURE</h4>
                 <!-- list start -->
                 <ul class="list list_row list_center list_margin-20px padding-top-20 anim-fade tr-delay-04">
                   <li class="list__item">
