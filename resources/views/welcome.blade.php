@@ -510,7 +510,7 @@
           </div><!-- swiper-slide end -->
           <!-- swiper-slide start -->
           <div class="swiper-slide slide-scale-anim content-bg-dark-1">
-            <img src="{{url('images/recent-activities/img1.jpeg')}}" alt="CONCEPTUALISING ROBOTIC AGRICULTURE">
+            <img src="{{url('images/recent-activities/img3.jpeg')}}" alt="CONCEPTUALISING ROBOTIC AGRICULTURE">
             <!-- content start -->
             <div class="padding-20 text-center">
               <h4 class="headline-xxxs anim-text-double-fill invert tr-delay-02" data-text="AFTER PROJECT DISCUSSION">AFTER PROJECT DISCUSSION</h4>
