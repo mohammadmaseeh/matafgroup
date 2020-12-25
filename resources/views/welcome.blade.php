@@ -502,12 +502,28 @@
               <!-- list start -->
               <ul class="list list_row list_center list_margin-20px padding-top-20 anim-fade tr-delay-04">
                 <li class="list__item">
-                  <span class="subhead-xs text-color-red">Mr. Tress Bucyanayandi</span><br>
-                  <span class="headline-xxxxs">MINISTER OF SCIENCE AND AGRICULTURE - UGANDA</span>
+                  <span class="subhead-xs text-color-red">Dr. Elioda Tumwesigye</span><br>
+                  <span class="headline-xxxxs">MINISTER OF SCIENCE AND TECHNOLOGY - UGANDA</span>
                 </li>
               </ul><!-- list end -->
             </div><!-- content end -->
           </div><!-- swiper-slide end -->
+          <!-- swiper-slide start -->
+          <div class="swiper-slide slide-scale-anim content-bg-dark-1">
+            <img src="{{url('images/recent-activities/img1.jpeg')}}" alt="CONCEPTUALISING ROBOTIC AGRICULTURE">
+            <!-- content start -->
+            <div class="padding-20 text-center">
+              <h4 class="headline-xxxs anim-text-double-fill invert tr-delay-02" data-text="AFTER PROJECT DISCUSSION">AFTER PROJECT DISCUSSION</h4>
+              <!-- list start -->
+              <ul class="list list_row list_center list_margin-20px padding-top-20 anim-fade tr-delay-04">
+                <li class="list__item">
+                  <span class="subhead-xs text-color-red">Dr. Elioda Tumwesigye</span><br>
+                  <span class="headline-xxxxs">MINISTER OF SCIENCE AND TECHNOLOGY - UGANDA</span>
+                </li>
+              </ul><!-- list end -->
+            </div><!-- content end -->
+          </div><!-- swiper-slide end -->
+
           <!-- swiper-slide start -->
           <div class="swiper-slide slide-scale-anim content-bg-dark-1">
             <img src="{{url('images/recent-activities/img2.jpeg')}}" alt="FINALIZING PROJECT FOR ROBOTIC AGRICULTURE">
@@ -523,7 +539,6 @@
               </ul><!-- list end -->
             </div><!-- content end -->
           </div><!-- swiper-slide end -->
-
 
           <!-- swiper-button-prev start -->
           <div class="swiper-button-prev-box">
