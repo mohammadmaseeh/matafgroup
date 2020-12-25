@@ -1,5 +1,13 @@
 @extends('layout')
 @section('content')
+<style>
+  @media all and (max-width: 767px){
+    .desktop-only{
+      display: none;
+    }
+  }
+
+</style>
         <!-- home slider start -->
 <section id="up" class="pos-rel section-bg-dark-1 js-home-slider fullscreen-slider">
   <!-- swiper-wrapper start -->
@@ -34,68 +42,68 @@
         </div>
       </div><!-- content end -->
     </div>
-    <!-- swiper-slide end -->
-    <div class="swiper-slide">
-      <!-- slide-bg -->
-      <div class="js-parallax-slide-bg bg-img-cover" style="background-image:url('{{url('images/sliders/uganda-1.jpg')}}')"></div>
-      <!-- bg-overlay -->
-      <div class="bg-overlay-black"></div>
-      <!-- content start -->
-      <div class="flex-min-height-100vh pos-rel" data-swiper-parallax-x="30%">
-        <div class="container small padding-top-bottom-120">
-          <h5 class="headline-sm">
-            <span class="hidden-box d-block">
-                <span class="anim-slide tr-delay-02 text-color-red">MINISTER OF SCIENCE AND AGRICULTURE - UGANDA</span>
-            </span>
-            <span class="hidden-box d-block">
-                <span class="anim-slide tr-delay-03">CONCEPTUALISING ROBOTIC AGRICULTURE</span>
-            </span>
-            <span class="hidden-box d-block">
-                <span class="anim-slide tr-delay-04">HIS EXCELLENCY</span>
-            </span>
-          </h5>
-          <div class="margin-top-30 anim-fade tr-delay-08">
-            <a href="{{url('robotics-agriculture')}}" class="border-btn js-pointer-large">
-              <span class="border-btn__inner">Read more</span>
-              <span class="border-btn__lines-1"></span>
-              <span class="border-btn__lines-2"></span>
-            </a>
-          </div>
-        </div>
-      </div><!-- content end -->
-    </div>
-    <!-- swiper-slide end -->
-    <div class="swiper-slide">
-      <!-- slide-bg -->
-      <div class="js-parallax-slide-bg bg-img-cover" style="background-image:url('{{url('images/sliders/uganda-2.jpg')}}')"></div>
-      <!-- bg-overlay -->
-      <div class="bg-overlay-black"></div>
-      <!-- content start -->
-      <div class="flex-min-height-100vh pos-rel" data-swiper-parallax-x="30%">
-        <div class="container small padding-top-bottom-120">
-          <h5 class="headline-sm">
-            <span class="hidden-box d-block">
-                <span class="anim-slide tr-delay-02 text-color-red">FINALIZING PROJECT FOR ROBOTIC AGRICULTURE</span>
-            </span>
-            <span class="hidden-box d-block">
-                <span class="anim-slide tr-delay-03">WITH HIS HIGHNESS</span>
-            </span>
-            <span class="hidden-box d-block">
-                <span class="anim-slide tr-delay-04">VICE PRESIDENT - UGANDA</span>
-            </span>
-          </h5>
-          <div class="margin-top-30 anim-fade tr-delay-08">
-            <a href="{{url('robotics-agriculture')}}" class="border-btn js-pointer-large">
-              <span class="border-btn__inner">Read more</span>
-              <span class="border-btn__lines-1"></span>
-              <span class="border-btn__lines-2"></span>
-            </a>
-          </div>
-        </div>
-      </div><!-- content end -->
-    </div>
-    <!-- swiper-slide end -->
-    <!-- swiper-slide start -->
+    {{--<!-- swiper-slide end -->--}}
+    {{--<div class="swiper-slide desktop-only">--}}
+      {{--<!-- slide-bg -->--}}
+      {{--<div class="js-parallax-slide-bg bg-img-cover" style="background-image:url('{{url('images/sliders/uganda-1.jpg')}}')"></div>--}}
+      {{--<!-- bg-overlay -->--}}
+      {{--<div class="bg-overlay-black"></div>--}}
+      {{--<!-- content start -->--}}
+      {{--<div class="flex-min-height-100vh pos-rel" data-swiper-parallax-x="30%">--}}
+        {{--<div class="container small padding-top-bottom-120">--}}
+          {{--<h5 class="headline-sm">--}}
+            {{--<span class="hidden-box d-block">--}}
+                {{--<span class="anim-slide tr-delay-02 text-color-red">MINISTER OF SCIENCE AND AGRICULTURE - UGANDA</span>--}}
+            {{--</span>--}}
+            {{--<span class="hidden-box d-block">--}}
+                {{--<span class="anim-slide tr-delay-03">CONCEPTUALISING ROBOTIC AGRICULTURE</span>--}}
+            {{--</span>--}}
+            {{--<span class="hidden-box d-block">--}}
+                {{--<span class="anim-slide tr-delay-04">HIS EXCELLENCY</span>--}}
+            {{--</span>--}}
+          {{--</h5>--}}
+          {{--<div class="margin-top-30 anim-fade tr-delay-08">--}}
+            {{--<a href="{{url('robotics-agriculture')}}" class="border-btn js-pointer-large">--}}
+              {{--<span class="border-btn__inner">Read more</span>--}}
+              {{--<span class="border-btn__lines-1"></span>--}}
+              {{--<span class="border-btn__lines-2"></span>--}}
+            {{--</a>--}}
+          {{--</div>--}}
+        {{--</div>--}}
+      {{--</div><!-- content end -->--}}
+    {{--</div>--}}
+    {{--<!-- swiper-slide end -->--}}
+    {{--<div class="swiper-slide desktop-only">--}}
+      {{--<!-- slide-bg -->--}}
+      {{--<div class="js-parallax-slide-bg bg-img-cover" style="background-image:url('{{url('images/sliders/uganda-2.jpg')}}')"></div>--}}
+      {{--<!-- bg-overlay -->--}}
+      {{--<div class="bg-overlay-black"></div>--}}
+      {{--<!-- content start -->--}}
+      {{--<div class="flex-min-height-100vh pos-rel" data-swiper-parallax-x="30%">--}}
+        {{--<div class="container small padding-top-bottom-120">--}}
+          {{--<h5 class="headline-sm">--}}
+            {{--<span class="hidden-box d-block">--}}
+                {{--<span class="anim-slide tr-delay-02 text-color-red">FINALIZING PROJECT FOR ROBOTIC AGRICULTURE</span>--}}
+            {{--</span>--}}
+            {{--<span class="hidden-box d-block">--}}
+                {{--<span class="anim-slide tr-delay-03">WITH HIS HIGHNESS</span>--}}
+            {{--</span>--}}
+            {{--<span class="hidden-box d-block">--}}
+                {{--<span class="anim-slide tr-delay-04">VICE PRESIDENT - UGANDA</span>--}}
+            {{--</span>--}}
+          {{--</h5>--}}
+          {{--<div class="margin-top-30 anim-fade tr-delay-08">--}}
+            {{--<a href="{{url('robotics-agriculture')}}" class="border-btn js-pointer-large">--}}
+              {{--<span class="border-btn__inner">Read more</span>--}}
+              {{--<span class="border-btn__lines-1"></span>--}}
+              {{--<span class="border-btn__lines-2"></span>--}}
+            {{--</a>--}}
+          {{--</div>--}}
+        {{--</div>--}}
+      {{--</div><!-- content end -->--}}
+    {{--</div>--}}
+    {{--<!-- swiper-slide end -->--}}
+    {{--<!-- swiper-slide start -->--}}
     <div class="swiper-slide">
       <!-- slide-bg -->
       <div class="js-parallax-slide-bg bg-img-cover" style="background-image:url('{{url('images/sliders/construction.jpg')}}')"></div>
@@ -422,7 +430,7 @@
 </section><!-- home slider end -->
 
 <!-- about us start -->
-<section id="down" class="pos-rel section-bg-dark-2">
+<section id="down" class="pos-rel section-bg-dark-1">
   <!-- pos-rel start -->
   <div class="pos-rel padding-top-bottom-120">
     <!-- flex-container start -->
@@ -466,6 +474,75 @@
 
   </div><!-- pos-rel end -->
 </section><!-- about us end -->
+<!-- new faces start -->
+<section class="pos-rel section-bg-dark-2">
+  <!-- pos-rel start -->
+  <div class="pos-rel flex-min-height-100vh">
+    <!-- width-100perc start -->
+    <div class="width-100perc padding-top-bottom-120">
+      <!-- title start -->
+      <h3 class="text-center js-scrollanim">
+        <span class="subhead-s text-color-red d-block hidden-box">
+            <span class="anim-slide">Top Loaded</span>
+        </span>
+        <span class="headline-xxs d-block hidden-box">
+            <span class="anim-slide tr-delay-02">Our Recent Activities</span>
+        </span>
+      </h3><!-- title end -->
+      <!-- js-2-view-slider start -->
+      <div class="js-2-view-slider padding-top-bottom-90 hidden-box pos-rel">
+        <!-- swiper-wrapper start -->
+        <div class="swiper-wrapper">
+          <!-- swiper-slide start -->
+          <div class="swiper-slide slide-scale-anim content-bg-dark-1">
+            <img src="{{url('images/recent-activities/img1.jpeg')}}" alt="CONCEPTUALISING ROBOTIC AGRICULTURE">
+            <!-- content start -->
+            <div class="padding-20 text-center">
+              <h4 class="headline-xxxs anim-text-double-fill invert tr-delay-02" data-text="CONCEPTUALISING ROBOTIC AGRICULTURE">CONCEPTUALISING ROBOTIC AGRICULTURE</h4>
+              <!-- list start -->
+              <ul class="list list_row list_center list_margin-20px padding-top-20 anim-fade tr-delay-04">
+                <li class="list__item">
+                  <span class="subhead-xs text-color-red">Mr. Tress Bucyanayandi</span><br>
+                  <span class="headline-xxxxs">MINISTER OF SCIENCE AND AGRICULTURE - UGANDA</span>
+                </li>
+              </ul><!-- list end -->
+            </div><!-- content end -->
+          </div><!-- swiper-slide end -->
+          <!-- swiper-slide start -->
+          <div class="swiper-slide slide-scale-anim content-bg-dark-1">
+            <img src="{{url('images/recent-activities/img2.jpeg')}}" alt="FINALIZING PROJECT FOR ROBOTIC AGRICULTURE">
+            <!-- content start -->
+            <div class="padding-20 text-center">
+              <h4 class="headline-xxxs anim-text-double-fill invert tr-delay-02" data-text="FINALIZING PROJECT FOR ROBOTIC AGRICULTURE">FINALIZING PROJECT FOR ROBOTIC AGRICULTURE</h4>
+              <!-- list start -->
+              <ul class="list list_row list_center list_margin-20px padding-top-20 anim-fade tr-delay-04">
+                <li class="list__item">
+                  <span class="subhead-xs text-color-red">MR. EDWARD SSEKANDI</span><br>
+                  <span class="headline-xxxxs">WITH HIS HIGHNESS, VICE PRESIDENT - UGANDA</span>
+                </li>
+              </ul><!-- list end -->
+            </div><!-- content end -->
+          </div><!-- swiper-slide end -->
+
+
+          <!-- swiper-button-prev start -->
+          <div class="swiper-button-prev-box">
+            <div class="swiper-button-prev"></div>
+          </div><!-- swiper-button-prev end -->
+          <!-- swiper-button-next start -->
+          <div class="swiper-button-next-box">
+            <div class="swiper-button-next"></div>
+          </div><!-- swiper-button-next end -->
+
+          <!-- swiper-pagination start -->
+          <div class="pagination-box">
+            <div class="swiper-pagination counter-pagination"></div>
+          </div><!-- swiper-pagination end -->
+        </div><!-- js-2-view-slider end -->
+      </div><!-- width-100perc end -->
+    </div><!-- pos-rel end -->
+  </div>
+</section><!-- new faces end -->
 
 <!-- portfolio start -->
 <section class="pos-rel section-bg-light-2" data-midnight="black">
@@ -496,7 +573,7 @@
       </div><!-- grid-item end -->
 
 
-            <!-- grid-item start -->
+      <!-- grid-item start -->
       <div class="padding-top-60 grid-item-33-50-100 js-isotope-filter-grid-item photoshoot">
         <a href="{{url('international-trading')}}" class="grid-margin-box hover-box js-animsition-link js-pointer-large">
           <div class="anim-img-scale anim-img-scale_hover js-img-scale">
@@ -962,15 +1039,6 @@
   </div><!-- pos-rel end -->
 </section><!-- testimonials end -->
 
-<!-- video content start -->
-<!--<div class="pos-rel bg-img-cover height-100vh" style="background-image:url(images/projects/neon-lights/woman-wearing-beige-and-gray-hoodie-portrait-2272855.jpg)">
-  <div class="bg-overlay-black"></div>
-  <div class="pos-rel height-100perc">
-    <a href="https://www.youtube.com/watch?v=hitNXU4PoRU" class="play-button js-popup-youtube js-pointer-large">
-      <span class="play-button__inner"></span>
-    </a>
-  </div>
-</div>---><!-- video content end -->
 
 <!-- latest news start -->
 <section class="pos-rel section-bg-light-2" data-midnight="black">
