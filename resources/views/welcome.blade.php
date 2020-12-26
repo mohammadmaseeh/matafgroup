@@ -816,7 +816,7 @@
   </section><!-- team end -->
 
   <!-- clients start -->
-  <section class="pos-rel section-bg-dark-1">
+  <section class="pos-rel section-bg-dark-1" style="display: none;">
     <!-- pos-rel start -->
     <div class="pos-rel flex-min-height-100vh">
       <!-- container start -->
