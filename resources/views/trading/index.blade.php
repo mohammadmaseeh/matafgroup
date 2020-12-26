@@ -16,8 +16,10 @@
         <div class="bg-overlay-content container-fluid">
             <div class="row align-items-center">
                 <div class="col-lg-7 col-md-7 order-md-2 overflow-hidden">
-                    <div class="cs-parallax mr-n7 mr-md-0" style="max-width: 1030px;"><img class="d-block" src="{{url('front/trading/img/demo/marketing-seo/hero/lines.png')}}" alt="Lines"/>
-                        <div class="cs-parallax-layer" style="z-index: 2;" data-depth="0.13"><img src="{{url('front/trading/img/demo/marketing-seo/hero/image.png')}}" alt="Image"/>
+                    <div class="cs-parallax mr-n7 mr-md-0" style="max-width: 1030px;">
+                        <img class="d-block" src="{{url('front/trading/img/demo/marketing-seo/hero/lines.png')}}" alt="Lines"/>
+                        <div class="cs-parallax-layer" style="z-index: 2;" data-depth="0.13">
+                            <img src="{{url('front/trading/img/demo/marketing-seo/hero/image.png')}}" alt="Mataf Group - International Trading"/>
                         </div>
                         <div class="cs-parallax-layer" style="z-index: 3;" data-depth="0.25"><img src="{{url('front/trading/img/demo/marketing-seo/hero/shape-1.png')}}" alt="Badge"/>
                         </div>
@@ -35,8 +37,8 @@
                         <h3 class="text-light mb-3">Get more with us </h3>
                         <p class="text-light font-size-lg">We offer flexible Import/Export Deals</p>
                         <div class="d-flex align-items-center justify-content-center justify-content-md-start">
-                            <div class="mr-4"><img width="102" src="{{url('front/trading/img/demo/marketing-seo/hero/award-1.png')}}" alt="Award"/></div>
-                            <div><img width="72" src="{{url('front/trading/img/demo/marketing-seo/hero/award-2.png')}}" alt="Award"/>
+                            <div class="mr-4">
+                                <h4>Mataf Group - International Trading</h4>
                             </div>
                         </div>
                     </div>
@@ -70,7 +72,7 @@
                     <div class="card card-flip">
                         <div class="card-flip-inner">
                             <div class="card-flip-front">
-                                <img class="card-img" src="{{url('front/trading/img/portfolio/12.jpg')}}" alt="Portfolio thumb"/>
+                                <img class="card-img" src="{{url('images/trading/categories/metal.jpg')}}" alt="Portfolio thumb"/>
                                 <div class="card-body">
                                     <div class="card-body-inner">
                                         <div class="content-inner">
@@ -98,7 +100,7 @@
                     <div class="card card-flip">
                         <div class="card-flip-inner">
                             <div class="card-flip-front">
-                                <img class="card-img" src="{{url('front/trading/img/portfolio/18.jpg')}}" alt="Portfolio thumb"/>
+                                <img class="card-img" src="{{url('images/trading/categories/polymer.jpg')}}" alt="Portfolio thumb"/>
                                 <div class="card-body">
                                     <div class="card-body-inner">
                                         <div class="content-inner">
@@ -126,7 +128,7 @@
                     <div class="card card-flip">
                         <div class="card-flip-inner">
                             <div class="card-flip-front">
-                                <img class="card-img" src="{{url('front/trading/img/portfolio/09.jpg')}}" alt="Portfolio thumb"/>
+                                <img class="card-img" src="{{url('images/trading/categories/health.jpg')}}" alt="Portfolio thumb"/>
                                 <div class="card-body">
                                     <div class="card-body-inner">
                                         <div class="content-inner">
@@ -154,7 +156,7 @@
                     <div class="card card-flip">
                         <div class="card-flip-inner">
                             <div class="card-flip-front">
-                                <img class="card-img" src="{{url('front/trading/img/portfolio/09.jpg')}}" alt="Portfolio thumb"/>
+                                <img class="card-img" src="{{url('images/trading/categories/veg.jpg')}}" alt="Portfolio thumb"/>
                                 <div class="card-body">
                                     <div class="card-body-inner">
                                         <div class="content-inner">
@@ -182,7 +184,7 @@
                     <div class="card card-flip">
                         <div class="card-flip-inner">
                             <div class="card-flip-front">
-                                <img class="card-img" src="{{url('front/trading/img/portfolio/10.jpg')}}" alt="Portfolio thumb"/>
+                                <img class="card-img" src="{{url('images/trading/categories/agro-commodities.jpg')}}" alt="Portfolio thumb"/>
                                 <div class="card-body">
                                     <div class="card-body-inner">
                                         <div class="content-inner">
@@ -210,7 +212,7 @@
                     <div class="card card-flip">
                         <div class="card-flip-inner">
                             <div class="card-flip-front">
-                                <img class="card-img" src="{{url('front/trading/img/portfolio/15.jpg')}}" alt="Portfolio thumb"/>
+                                <img class="card-img" src="{{url('images/trading/categories/surgical.jpg')}}" alt="Portfolio thumb"/>
                                 <div class="card-body">
                                     <div class="card-body-inner">
                                         <div class="content-inner">
@@ -238,7 +240,7 @@
                     <div class="card card-flip">
                         <div class="card-flip-inner">
                             <div class="card-flip-front">
-                                <img class="card-img" src="{{url('front/trading/img/portfolio/13.jpg')}}" alt="Portfolio thumb"/>
+                                <img class="card-img" src="{{url('images/trading/categories/grow.jpg')}}" alt="Portfolio thumb"/>
                                 <div class="card-body">
                                     <div class="card-body-inner">
                                         <div class="content-inner">
@@ -266,7 +268,7 @@
                     <div class="card card-flip">
                         <div class="card-flip-inner">
                             <div class="card-flip-front">
-                                <img class="card-img" src="{{url('front/trading/img/portfolio/17.jpg')}}" alt="Portfolio thumb"/>
+                                <img class="card-img" src="{{url('images/trading/categories/other.jpg')}}" alt="Portfolio thumb"/>
                                 <div class="card-body">
                                     <div class="card-body-inner">
                                         <div class="content-inner">
@@ -292,13 +294,13 @@
                 </div>
             </div>
         </div>
-        <div class="text-center"><a class="btn btn-primary" href="#">See All Categories</a></div>
+        <div class="text-center"><a class="btn btn-primary" href="{{url('international-trading/services')}}">See All Categories</a></div>
     </section>
     <!-- Testimonials-->
     <section class="container py-5 py-md-6 py-lg-7">
         <div class="row align-items-center cs-carousel py-4 py-md-2">
-            <div class="col-md-8">
-                <h2 class="pb-2 mb-4 text-center text-md-left">What people say about us</h2>
+            <div class="col-md-7">
+                <h2 class="pb-2 mb-4 text-center text-md-left">Our Message</h2>
                 <div class="cs-carousel-inner" data-carousel-options="{&quot;nav&quot;: false, &quot;gutter&quot;: 20}">
                     <blockquote class="blockquote mt-3 mb-0">
                         <p>Increase international business with us as we are recommended as highly reputed international trading company by our esteemed customers.</p>
@@ -308,20 +310,24 @@
                     </blockquote>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-4 offset-lg-1">
-                <div class="cs-carousel-pager d-flex flex-wrap flex-md-column justify-content-center align-items-center align-items-md-start border-left pt-4 mt-4 pl-md-3 pt-md-0 mt-md-0"><a class="cs-swap-image active mx-4 my-3 my-md-4" href="#" data-goto="1"><img class="cs-swap-to" width="136" src="{{url('front/trading/img/demo/gadget-landing/logos/01_color.png')}}" alt="Logo"/><img class="cs-swap-from" width="136" src="{{url('front/trading/img/demo/gadget-landing/logos/01_gray.png')}}" alt="Logo"/></a><a class="cs-swap-image mx-4 my-3 my-md-4" href="#" data-goto="2"><img class="cs-swap-to" width="130" src="{{url('front/trading/img/demo/gadget-landing/logos/02_color.png')}}" alt="Logo"/><img class="cs-swap-from" width="130" src="{{url('front/trading/img/demo/gadget-landing/logos/02_gray.png')}}" alt="Logo"/></a><a class="cs-swap-image mx-4 my-3 my-md-4" href="#" data-goto="3"><img class="cs-swap-to" width="114" src="{{url('front/trading/img/demo/gadget-landing/logos/05_color.png')}}" alt="Logo"/><img class="cs-swap-from" width="114" src="{{url('front/trading/img/demo/gadget-landing/logos/05_gray.png')}}" alt="Logo"/></a><a class="cs-swap-image mx-4 my-3 my-md-4" href="#" data-goto="4"><img class="cs-swap-to" width="103" src="{{url('front/trading/img/demo/gadget-landing/logos/03_color.png')}}" alt="Logo"/><img class="cs-swap-from" width="103" src="{{url('front/trading/img/demo/gadget-landing/logos/03_gray.png')}}" alt="Logo"/></a><a class="cs-swap-image mx-4 my-3 my-md-4" href="#" data-goto="5"><img class="cs-swap-to" width="143" src="{{url('front/trading/img/demo/gadget-landing/logos/04_color.png')}}" alt="Logo"/><img class="cs-swap-from" width="143" src="{{url('front/trading/img/demo/gadget-landing/logos/04_gray.png')}}" alt="Logo"/></a></div>
+            <div class="col-md-5">
+                <div class="cs-carousel-pager d-flex flex-wrap flex-md-column justify-content-center align-items-center align-items-md-start border-left pt-4 mt-4 pl-md-3 pt-md-0 mt-md-0">
+                    <div class="cs-swap-image active" href="#" data-goto="1">
+                        <img src="{{url('images/trading/import-export.jpg')}}">
+                    </div>
+                </div>
             </div>
         </div>
     </section>
-    <!-- News-->
-    <div class="position-relative bg-secondary" style="height: 420px;">
-        <div class="cs-shape cs-shape-bottom cs-shape-curve bg-body">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3000 185.4">
-                <path fill="currentColor" d="M3000,0v185.4H0V0c496.4,115.6,996.4,173.4,1500,173.4S2503.6,115.6,3000,0z"></path>
-            </svg>
-        </div>
-    </div>
-    <section class="container bg-overlay-content pt-5 pt-md-6" style="margin-top: -420px;">
+    {{--<!-- News-->--}}
+    {{--<div class="position-relative bg-secondary" style="height: 420px;">--}}
+        {{--<div class="cs-shape cs-shape-bottom cs-shape-curve bg-body">--}}
+            {{--<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3000 185.4">--}}
+                {{--<path fill="currentColor" d="M3000,0v185.4H0V0c496.4,115.6,996.4,173.4,1500,173.4S2503.6,115.6,3000,0z"></path>--}}
+            {{--</svg>--}}
+        {{--</div>--}}
+    {{--</div>--}}
+    <section class="container bg-overlay-content pt-5 pt-md-6" style="margin-top: -420px;display: none; ">
         <h2 class="text-center pt-3 pt-md-2 mb-5">Latest news &amp; insights</h2>
         <div class="cs-carousel">
             <div class="cs-carousel-inner" data-carousel-options="{&quot;items&quot;: 2, &quot;controls&quot;: false, &quot;autoHeight&quot;: true, &quot;responsive&quot;: {&quot;0&quot;:{&quot;items&quot;:1, &quot;gutter&quot;: 16},&quot;500&quot;:{&quot;items&quot;:2, &quot;gutter&quot;: 16},&quot;850&quot;:{&quot;items&quot;:3, &quot;gutter&quot;: 16}, &quot;1100&quot;:{&quot;items&quot;:3, &quot;gutter&quot;: 23}}}">

@@ -11,9 +11,6 @@ class PagesController extends Controller
         return view('trading.index');
     }
     public function services(){
-        return view('recycling.services');
-    }
-    public function projects(){
-        return view('recycling.projects');
+        return view('trading.services');
     }
 }
