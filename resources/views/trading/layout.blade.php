@@ -148,10 +148,20 @@
                         <li class="nav-item">
                             <a class="nav-link {{request()->path() == 'international-trading' ?'active':''}}" href="{{url('/international-trading')}}" >International Trading</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link {{request()->path() == 'international-trading/categories' ?'active':''}}" href="{{url('/international-trading/categories')}}" >Services (Import/Export)</a>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link nav-link dropdown-toggle {{request()->path() == 'international-trading/categories*' ?'active':''}}" href="{{url('/international-trading/categories')}}" >Categories/Services</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="{{url('international-trading/categories/metal')}}">Metal</a></li>
+                                <li><a class="dropdown-item" href="{{url('international-trading/categories/polymers')}}">Polymers</a></li>
+                                <li><a class="dropdown-item" href="{{url('international-trading/categories/health-supplements')}}">Health Supplements</a></li>
+                                <li><a class="dropdown-item" href="{{url('international-trading/categories/fruits-and-vegetables')}}">Fruits and Vegetables</a></li>
+                                <li><a class="dropdown-item" href="{{url('international-trading/categories/surgical-equipment')}}">Surgical Equipment</a></li>
+                                <li><a class="dropdown-item" href="{{url('international-trading/categories/agro-commodities')}}">Agro Commodities</a></li>
+                                <li><hr></li>
+                                <li><a class="dropdown-item" href="{{url('international-trading/categories')}}">All Categories</a></li>
+                            </ul>
                         </li>
-                        <li class="nav-item">
+                       <li class="nav-item">
                             <a class="nav-link " href="{{url('/contact-us')}}">Contact Us</a>
                         </li>
                     </ul>
