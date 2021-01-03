@@ -13,7 +13,7 @@ class PagesController extends Controller
     public function categories(){
         return view('trading.categories');
     }
-    public function category($type){
-        return view('trading.category',compact('type'));
+    public function category($category){
+        return view('trading.category',compact('category'));
     }
 }
