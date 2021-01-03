@@ -10,7 +10,10 @@ class PagesController extends Controller
     public function index(){
         return view('trading.index');
     }
-    public function services(){
-        return view('trading.services');
+    public function categories(){
+        return view('trading.categories');
+    }
+    public function category($type){
+        return view('trading.category',compact('type'));
     }
 }

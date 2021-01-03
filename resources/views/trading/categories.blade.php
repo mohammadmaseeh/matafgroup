@@ -27,7 +27,8 @@
                 <div class="card-img-top" style="background-image: url('{{url('images/trading/categories/metal.jpg')}}');"></div>
                 <div class="card-body">
                     <h2>Metal Import/Export</h2>
-                    <p>Mineral is a naturally occurring, solid, inorganic element or compound having a uniform composition and a regularly repeating internal structure. We offer multiple types of Minerals and Ore in bulk quantity.</p>
+                    <p>Metals and Mineral are  naturally occurring, solid, inorganic elements or compounds having a uniform composition and a regularly repeating internal structure. We offer multiple types of Metals/Minerals and Ore in bulk quantity.</p>
+                    <p><a class="btn btn-primary btn-sm" href="{{url('international-trading/categories/metal')}}">Read More..</a></p>
                 </div>
             </div>
             <div class="card card-horizontal card-hover mb-grid-gutter">
@@ -35,13 +36,15 @@
                 <div class="card-body">
                     <h2>Polymer Import/Export</h2>
                     <p>We deal with polymer products. Visit us to get your chance.</p>
+                    <p><a class="btn btn-primary btn-sm" href="{{url('international-trading/categories/polymers')}}">Read More..</a></p>
                 </div>
             </div>
             <div class="card card-horizontal card-hover mb-grid-gutter">
                 <div class="card-img-top" style="background-image: url('{{url('images/trading/categories/health.jpg')}}');"></div>
                 <div class="card-body">
                     <h2>Health Supplements Import/Export</h2>
-                    <p>Health suppliments are tranding products for modern era of fitness. We deal with best entities all around the world.</p>
+                    <p>Health supplements are tranding products for modern era of fitness. We deal with best entities all around the world.</p>
+                    <p><a class="btn btn-primary btn-sm" href="{{url('international-trading/categories/health-supplements')}}">Read More..</a></p>
                 </div>
             </div>
             <div class="card card-horizontal card-hover mb-grid-gutter">
@@ -49,6 +52,7 @@
                 <div class="card-body">
                     <h2>Fruits & Vegetables Import/Export</h2>
                     <p>Fruits & Vegetables are necessary daily usage products. We export many products to many countries & import some fruits as well.</p>
+                    <p><a class="btn btn-primary btn-sm" href="{{url('international-trading/categories/fruits-and-vegetables')}}">Read More..</a></p>
                 </div>
             </div>
             <div class="card card-horizontal card-hover mb-grid-gutter">
@@ -56,13 +60,15 @@
                 <div class="card-body">
                     <h2>Surgical Equipment Import/Export</h2>
                     <p>India is making cheap & best qualtiy surgical products to fulfill the needs of worlds and we deal in it.</p>
+                    <p><a class="btn btn-primary btn-sm" href="{{url('international-trading/categories/surgical-equipment')}}">Read More..</a></p>
                 </div>
             </div>
             <div class="card card-horizontal card-hover mb-grid-gutter">
                 <div class="card-img-top order-sm-2" style="background-image: url('{{url('images/trading/categories/agro-commodities.jpg')}}');"></div>
                 <div class="card-body">
                     <h2>Agro Commodities Import/Export</h2>
-                    <p>he major agro products can be broadly grouped into foods, fibers, fuels, and raw materials. We cater for ALL types of Agriculture Products in any quantity required.</p>
+                    <p>The major agro products can be broadly grouped into foods, fibers, fuels, and raw materials. We cater for ALL types of Agriculture Products in any quantity required.</p>
+                    <p><a class="btn btn-primary btn-sm" href="{{url('international-trading/categories/agro-commodities')}}">Read More..</a></p>
                 </div>
             </div>
             <div class="card card-horizontal card-hover mb-grid-gutter">
@@ -70,6 +76,7 @@
                 <div class="card-body">
                     <h2>Other Products</h2>
                     <p>Our product team always search & achive new opportunities to deal with different kind of products. You can contact us regarding your idea.</p>
+                    <p><a class="btn btn-primary btn-sm" href="{{url('international-trading/categories/other-products')}}">Read More..</a></p>
                 </div>
             </div>
             <div class="card card-horizontal card-hover mb-grid-gutter">
@@ -77,6 +84,7 @@
                 <div class="card-body">
                     <h2>Grow with us</h2>
                     <p>We always welcome startups & new ideas to work all over the world and grow with us.</p>
+                    <p><a class="btn btn-primary btn-sm" href="{{url('international-trading/categories/grow-with-us')}}">Read More..</a></p>
                 </div>
             </div>
         </div>

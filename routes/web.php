@@ -84,6 +84,6 @@ Route::group(['prefix' => 'investment-portfolio'], function() {
 Route::group(['prefix' => 'international-trading'], function() {
     /*Home*/
     Route::get('/','Front\Trading\PagesController@index');
-    Route::get('/services','Front\Trading\PagesController@services');
-    Route::get('/courses','Front\Trading\PagesController@courses');
+    Route::get('/categories','Front\Trading\PagesController@categories');
+    Route::get('/categories/{category}','Front\Trading\PagesController@category');
 });

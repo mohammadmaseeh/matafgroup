@@ -62,6 +62,34 @@
             </div>
         </div>
     </section>
+    <!-- Features section #1-->
+    <section class="bg-secondary mt-5">
+        <div class="container py-5 py-md-6 py-lg-7 ">
+            <div class="row pt-2">
+                <div class="col-sm-3 mb-grid-gutter pb-1">
+                    <div class="mx-auto text-center" style="max-width: 278px;"><img class="d-inline-block mb-3" width="56" src="{{url('images/icons/globe.svg')}}" alt="Simple"/>
+                        <h3 class="h5">Worldwide Services</h3>
+                    </div>
+                </div>
+                <div class="col-sm-3 mb-grid-gutter pb-1">
+                    <div class="mx-auto text-center" style="max-width: 278px;"><img class="d-inline-block mb-3" width="56" src="{{url('images/icons/trusted.svg')}}" alt="Simple"/>
+                        <h3 class="h5">Trust Worthiness</h3>
+                    </div>
+                </div>
+                <div class="col-sm-3 mb-grid-gutter pb-1">
+                    <div class="mx-auto text-center" style="max-width: 278px;"><img class="d-inline-block mb-3" width="56" src="{{url('images/icons/quality.svg')}}" alt="Fast"/>
+                        <h3 class="h5">High Quality</h3>
+                    </div>
+                </div>
+                <div class="col-sm-3 mb-grid-gutter pb-1">
+                    <div class="mx-auto text-center" style="max-width: 278px;"><img class="d-inline-block mb-3" width="67" src="{{url('images/icons/fast.svg')}}" alt="Organized"/>
+                        <h3 class="h5">Fast Delivery</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- About-->
     <!-- Portfolio-->
     <section class="container pt-5 pt-md-6 pt-lg-7">
         <h2 class="text-center pt-3 pt-md-2 pb-4">Our Services/Categories</h2>
@@ -82,12 +110,12 @@
                                     </div>
                                 </div>
                             </div>
-                            <a class="card-flip-back" href="{{url('international-trading/services')}}">
+                            <a class="card-flip-back" href="{{url('international-trading/categories')}}">
                                 <div class="card-body">
                                     <div class="card-body-inner">
                                         <div class="content-inner">
                                             <h3 class="h5 card-title mb-2">Metal</h3>
-                                            <p class="font-size-sm text-blue">Import/Export</p>
+                                            <p class="font-size-sm text-blue">Metals and Mineral are  naturally occurring, solid, inorganic elements or compounds having a uniform composition and a regularly repeating internal structure. We offer multiple types of Metals/Minerals and Ore in bulk quantity.</p>
                                             <span class="btn btn-primary btn-sm">Read More..</span>
                                         </div>
                                     </div>
@@ -110,12 +138,12 @@
                                     </div>
                                 </div>
                             </div>
-                            <a class="card-flip-back" href="{{url('international-trading/services')}}">
+                            <a class="card-flip-back" href="{{url('international-trading/categories')}}">
                                 <div class="card-body">
                                     <div class="card-body-inner">
                                         <div class="content-inner">
                                             <h3 class="h5 card-title mb-2">Polymers</h3>
-                                            <p class="font-size-sm text-blue">Polymers (Plastic) - Import/Export</p>
+                                            <p class="font-size-sm text-blue">We deal with polymer products. Visit us to get your chance.</p>
                                             <span class="btn btn-primary btn-sm">>Read More..</span>
                                         </div>
                                     </div>
@@ -138,12 +166,12 @@
                                     </div>
                                 </div>
                             </div>
-                            <a class="card-flip-back" href="{{url('international-trading/services')}}">
+                            <a class="card-flip-back" href="{{url('international-trading/categories')}}">
                                 <div class="card-body">
                                     <div class="card-body-inner">
                                         <div class="content-inner">
                                             <h3 class="h5 card-title mb-2">Health Supplements</h3>
-                                            <p class="font-size-sm text-blue">Import/Export</p>
+                                            <p class="font-size-sm text-blue">Health supplements are tranding products for modern era of fitness. We deal with best entities all around the world.</p>
                                             <span class="btn btn-primary btn-sm">Read More..</span>
                                         </div>
                                     </div>
@@ -161,12 +189,12 @@
                                     <div class="card-body-inner">
                                         <div class="content-inner">
                                             <h3 class="h5 card-title mb-2">Fruits & Vegetables</h3>
-                                            <p class="font-size-sm text-blue">Import/Export</p>
+                                            <p class="font-size-sm text-blue">Fruits & Vegetables are necessary daily usage products. We export many products to many countries & import some fruits as well.</p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <a class="card-flip-back" href="{{url('international-trading/services')}}">
+                            <a class="card-flip-back" href="{{url('international-trading/categories')}}">
                                 <div class="card-body">
                                     <div class="card-body-inner">
                                         <div class="content-inner">
@@ -194,12 +222,12 @@
                                     </div>
                                 </div>
                             </div>
-                            <a class="card-flip-back" href="{{url('international-trading/services')}}">
+                            <a class="card-flip-back" href="{{url('international-trading/categories')}}">
                                 <div class="card-body">
                                     <div class="card-body-inner">
                                         <div class="content-inner">
                                             <h3 class="h5 card-title mb-2">Agro Commodities</h3>
-                                            <p class="font-size-sm text-blue">Import/Export</p>
+                                            <p class="font-size-sm text-blue">The major agro products can be broadly grouped into foods, fibers, fuels, and raw materials. We cater for ALL types of Agriculture Products in any quantity required.</p>
                                             <span class="btn btn-primary btn-sm">Read More..</span>
                                         </div>
                                     </div>
@@ -222,12 +250,12 @@
                                     </div>
                                 </div>
                             </div>
-                            <a class="card-flip-back" href="{{url('international-trading/services')}}">
+                            <a class="card-flip-back" href="{{url('international-trading/categories')}}">
                                 <div class="card-body">
                                     <div class="card-body-inner">
                                         <div class="content-inner">
                                             <h3 class="h5 card-title mb-2">Surgical Equipment</h3>
-                                            <p class="font-size-sm text-blue">Import/Export</p>
+                                            <p class="font-size-sm text-blue">India is making cheap & best qualtiy surgical products to fulfill the needs of worlds and we deal in it.</p>
                                             <span class="btn btn-primary btn-sm">Read More..</span>
                                         </div>
                                     </div>
@@ -250,12 +278,12 @@
                                     </div>
                                 </div>
                             </div>
-                            <a class="card-flip-back" href="{{url('international-trading/services')}}">
+                            <a class="card-flip-back" href="{{url('international-trading/categories')}}">
                                 <div class="card-body">
                                     <div class="card-body-inner">
                                         <div class="content-inner">
                                             <h3 class="h5 card-title mb-2">Grow with us</h3>
-                                            <p class="font-size-sm text-blue">We will enhance your Idea & Products for Import/Export</p>
+                                            <p class="font-size-sm text-blue">We always welcome startups & new ideas to work all over the world and grow with us.</p>
                                             <span class="btn btn-primary btn-sm">Read More..</span>
                                         </div>
                                     </div>
@@ -278,12 +306,12 @@
                                     </div>
                                 </div>
                             </div>
-                            <a class="card-flip-back" href="{{url('international-trading/services')}}">
+                            <a class="card-flip-back" href="{{url('international-trading/categories')}}">
                                 <div class="card-body">
                                     <div class="card-body-inner">
                                         <div class="content-inner">
                                             <h3 class="h5 card-title mb-2">Other Products</h3>
-                                            <p class="font-size-sm text-blue">Import/Export</p>
+                                            <p class="font-size-sm text-blue">Our product team always search & achive new opportunities to deal with different kind of products. You can contact us regarding your idea.</p>
                                             <span class="btn btn-primary btn-sm">Read More..</span>
                                         </div>
                                     </div>
@@ -294,7 +322,7 @@
                 </div>
             </div>
         </div>
-        <div class="text-center"><a class="btn btn-primary" href="{{url('international-trading/services')}}">See All Categories</a></div>
+        <div class="text-center"><a class="btn btn-primary" href="{{url('international-trading/categories')}}">See All Categories</a></div>
     </section>
     <!-- Testimonials-->
     <section class="container py-5 py-md-6 py-lg-7">

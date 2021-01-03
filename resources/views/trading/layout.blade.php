@@ -149,7 +149,7 @@
                             <a class="nav-link {{request()->path() == 'international-trading' ?'active':''}}" href="{{url('/international-trading')}}" >International Trading</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link {{request()->path() == 'international-trading/services' ?'active':''}}" href="{{url('/international-trading/services')}}" >Services (Import/Export)</a>
+                            <a class="nav-link {{request()->path() == 'international-trading/categories' ?'active':''}}" href="{{url('/international-trading/categories')}}" >Services (Import/Export)</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link " href="{{url('/contact-us')}}">Contact Us</a>
