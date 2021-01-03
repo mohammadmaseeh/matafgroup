@@ -215,7 +215,7 @@
                         </a>
                     </li>
                     <li class="nav-btn-box">
-                        <a href="{{url('innovative-products')}}" class="nav-btn js-animsition-link js-pointer-large">
+                        <a href="{{url('decorate')}}" class="nav-btn js-animsition-link js-pointer-large">
                             <span class="nav-btn__inner" data-text="Innovative Products">Innovative Products</span>
                         </a>
                     </li>
