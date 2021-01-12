@@ -204,7 +204,7 @@
         <div class="row pb-3">
             <div class="col-md-4 ml-auto pb-1 mb-4">
                 <div class="cs-widget cs-widget-light">
-                    <h4 class="cs-widget-title mb-3">Support</h4>
+                    <h4 class="cs-widget-title mb-3">Contacts</h4>
                     <div class="d-lg-flex">
                         <ul class="mr-lg-5">
                             <li><a class="cs-widget-link" href="mailto:impex@matafgroup.com"><i class="fe-mail font-size-lg mr-2"></i>impex@matafgroup.com</a></li>
