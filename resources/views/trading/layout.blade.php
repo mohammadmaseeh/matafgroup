@@ -202,51 +202,57 @@
 <footer class="cs-footer bg-dark pt-5 pt-md-6">
     <div class="container pt-3 pt-md-0">
         <div class="row pb-3">
-            <div class="col-md-4 mt-n2 pb-3 pb-md-0 mb-4">
-                <a class="d-block mb-3" href="{{url('/')}}" style="width: 153px;">
-                    <img src="{{url('images/logo.png')}}" alt="Around"/>
-                </a>
-                <p class="font-size-sm text-light opacity-60 pb-2 pb-sm-3">
-                    We have very healthy relations with our stakeholders because of the trust they have on us.
-                </p>
-                <a class="social-btn sb-outline sb-facebook sb-light sb-lg mr-2 mb-2" href="#"><i class="fe-facebook"></i></a>
-                <a class="social-btn sb-outline sb-twitter sb-light sb-lg mr-2 mb-2" href="#"><i class="fe-twitter"></i></a>
-                <a class="social-btn sb-outline sb-instagram sb-light sb-lg mr-2 mb-2" href="#"><i class="fe-instagram"></i></a>
-                <a class="social-btn sb-outline sb-google sb-light sb-lg mr-2 mb-2" href="#"><i class="fe-google"></i></a>
-            </div>
-            <div class="col-md-2 col-sm-4 ml-auto pb-1 mb-4">
+            <div class="col-md-4 ml-auto pb-1 mb-4">
                 <div class="cs-widget cs-widget-light">
-                    <h4 class="cs-widget-title">Important Links</h4>
-                    <ul>
-                        <li><a class="cs-widget-link" href="{{url('/')}}">Home</a></li>
-                        <li><a class="cs-widget-link" href="{{url('/international-trading')}}">International Trading</a></li>
-                        <li><a class="cs-widget-link" href="{{url('/about-us')}}">About Us</a></li>
-                        <li><a class="cs-widget-link" href="{{url('/contact-us')}}">Contact us</a></li>
-                    </ul>
+                    <h4 class="cs-widget-title mb-3">Support</h4>
+                    <div class="d-lg-flex">
+                        <ul class="mr-lg-5">
+                            <li><a class="cs-widget-link" href="mailto:impex@matafgroup.com"><i class="fe-mail font-size-lg mr-2"></i>impex@matafgroup.com</a></li>
+                        </ul>
+                    </div>
+                    <div class="d-lg-flex">
+                        <ul class="mr-lg-5">
+                            <li><a class="cs-widget-link" href="mailto:international-trading@matafgroup.com"><i class="fe-mail font-size-lg mr-2"></i>international-trading@matafgroup.com</a></li>
+                        </ul>
+                    </div>
+                    <div class="d-lg-flex">
+                        <ul>
+                            <li><a class="cs-widget-link" href="tel:9107848015"><i class="fe-phone font-size-lg mr-2"></i>+91-62-6262-3636</a></li>
+                        </ul>
+                    </div>
                 </div>
             </div>
-            <div class="col-lg-2 col-md-3 col-sm-4 pb-1 mb-4">
-                <div class="cs-widget cs-widget-light">
-                    <h4 class="cs-widget-title">Other Sectors</h4>
-                    <ul>
-                        <li><a class="cs-widget-link" href="{{url('construction')}}">Construction</a></li>
-                        <li><a class="cs-widget-link" href="{{url('real-estate')}}">Real Estate</a></li>
-                        <li><a class="cs-widget-link" href="{{url('hospitality')}}">Hospitality</a></li>
-                        <li><a class="cs-widget-link" href="{{url('decorate')}}">Innovative Products</a></li>
-                        <li><a class="cs-widget-link" href="{{url('recycling')}}">Recycling</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="col-lg-2 col-md-3 col-sm-4 mb-4">
-                <div class="cs-widget cs-widget-light">
-                    <h4 class="cs-widget-title">&nbsp;</h4>
-                    <ul>
-                        <li><a class="cs-widget-link" href="{{url('education')}}">Education</a></li>
-                        <li><a class="cs-widget-link" href="{{url('it-marketing')}}">IT & Marketing</a></li>
-                        <li><a class="cs-widget-link" href="{{url('health-wellness')}}">Health & Wellness</a></li>
-                        <li><a class="cs-widget-link" href="{{url('consultation')}}">Consultation</a></li>
-                        <li><a class="cs-widget-link" href="{{url('robotics-agriculture')}}">Robotic Agriculture</a></li>
-                    </ul>
+            <div class="col-md-8 ml-auto pb-1 mb-4">
+                <div class="row">
+                    <div class="col-md-4 cs-widget cs-widget-light">
+                        <h4 class="cs-widget-title">Important Links</h4>
+                        <ul>
+                            <li><a class="cs-widget-link" href="{{url('/')}}">Home</a></li>
+                            <li><a class="cs-widget-link" href="{{url('/international-trading')}}">International Trading</a></li>
+                            <li><a class="cs-widget-link" href="{{url('/about-us')}}">About Us</a></li>
+                            <li><a class="cs-widget-link" href="{{url('/contact-us')}}">Contact us</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4 cs-widget cs-widget-light">
+                        <h4 class="cs-widget-title">Other Sectors</h4>
+                        <ul>
+                            <li><a class="cs-widget-link" href="{{url('construction')}}">Construction</a></li>
+                            <li><a class="cs-widget-link" href="{{url('real-estate')}}">Real Estate</a></li>
+                            <li><a class="cs-widget-link" href="{{url('hospitality')}}">Hospitality</a></li>
+                            <li><a class="cs-widget-link" href="{{url('decorate')}}">Innovative Products</a></li>
+                            <li><a class="cs-widget-link" href="{{url('recycling')}}">Recycling</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4 cs-widget cs-widget-light">
+                        <h4 class="cs-widget-title">&nbsp;</h4>
+                        <ul>
+                            <li><a class="cs-widget-link" href="{{url('education')}}">Education</a></li>
+                            <li><a class="cs-widget-link" href="{{url('it-marketing')}}">IT & Marketing</a></li>
+                            <li><a class="cs-widget-link" href="{{url('health-wellness')}}">Health & Wellness</a></li>
+                            <li><a class="cs-widget-link" href="{{url('consultation')}}">Consultation</a></li>
+                            <li><a class="cs-widget-link" href="{{url('robotics-agriculture')}}">Robotic Agriculture</a></li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
