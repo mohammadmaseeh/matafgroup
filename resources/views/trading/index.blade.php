@@ -4,49 +4,47 @@
         .card-flip-front .card-body{position:absolute;top:0;left:0;display:table;width:100%;min-height: 100%;}
         .card-flip-front .card-body .card-body-inner{display:table-cell;text-align:center;vertical-align:middle!important;}
         .card-flip-front .card-body .card-body-inner .content-inner {width:100%; padding:15px; padding-bottom:10px; background: #fff;border-radius: 10px;opacity: 0.9}
+        .slide{position: relative}
+        .caption{position: absolute; top: 30%;width: 100%;text-align: center;}
     </style>
-    <!-- Hero with parallax effect-->
-    <section class="position-relative pb-5">
-        <div class="cs-shape cs-shape-bottom cs-shape-curve bg-body">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3000 185.4">
-                <path fill="currentColor" d="M3000,0v185.4H0V0c496.4,115.6,996.4,173.4,1500,173.4S2503.6,115.6,3000,0z"></path>
-            </svg>
-        </div>
-        <div class="bg-overlay bg-primary opacity-65"></div>
-        <div class="bg-overlay-content container-fluid">
-            <div class="row align-items-center">
-                <div class="col-lg-7 col-md-7 order-md-2 overflow-hidden">
-                    <div class="cs-parallax mr-n7 mr-md-0" style="max-width: 1030px;">
-                        <img class="d-block" src="{{url('front/trading/img/demo/marketing-seo/hero/lines.png')}}" alt="Lines"/>
-                        <div class="cs-parallax-layer" style="z-index: 2;" data-depth="0.13">
-                            <img src="{{url('front/trading/img/demo/marketing-seo/hero/image.png')}}" alt="Mataf Group - International Trading"/>
-                        </div>
-                        <div class="cs-parallax-layer" style="z-index: 3;" data-depth="0.25"><img src="{{url('front/trading/img/demo/marketing-seo/hero/shape-1.png')}}" alt="Badge"/>
-                        </div>
-                        <div class="cs-parallax-layer" data-depth="0.2"><img src="{{url('front/trading/img/demo/marketing-seo/hero/shape-2.png')}}" alt="Shape"/>
-                        </div>
-                        <div class="cs-parallax-layer" style="z-index: 3;" data-depth="0.5"><img src="{{url('front/trading/img/demo/marketing-seo/hero/shape-3.png')}}" alt="Badge"/>
-                        </div>
-                        <div class="cs-parallax-layer" style="z-index: 3;" data-depth="0.45"><img src="{{url('front/trading/img/demo/marketing-seo/hero/shape-4.png')}}" alt="Badge"/>
-                        </div>
+    <section class="bg-position-left-bottom bg-no-repeat" style="max-height: 100vh; background: #000000;">
+        <div class="cs-carousel cs-controls-inside cs-controls-onhover">
+            <div class="cs-carousel-inner" data-carousel-options="{&quot;items&quot;: 1, &quot;controls&quot;: true, &quot;nav&quot;: true}">
+                <div class="slide">
+                    <img class="w-100" src="{{url('images/trading/slider/slide-1.jpg')}}" style="opacity: 0.4"/>
+                    <div class="caption text-center">
+                        <h5 class="text-light pb-4">WELCOME</h5>
+                        <h1 class="display-4 pb-4 text-white"><span>MATAF GROUP - INTERNATIONAL TRADING</span></h1>
+                        <h3 class="text-light pb-4"><span>---</span>&nbsp;All You need Quality Services with Integrity and Professionalism&nbsp;<span>---</span></h3>
                     </div>
                 </div>
-                <div class="col-lg-5 col-md-5 pt-4 pb-5 py-md-5">
-                    <div class="mx-auto mr-lg-4 pl-xl-3 order-md-1 text-center text-md-left" style="max-width: 420px;">
-                        <h1 class="text-light mb-3">International Trading</h1>
-                        <h3 class="text-light mb-3">Get more with us </h3>
-                        <p class="text-light font-size-lg">We offer flexible Import/Export Deals</p>
-                        <div class="d-flex align-items-center justify-content-center justify-content-md-start">
-                            <div class="mr-4">
-                                <h4>Mataf Group - International Trading</h4>
-                            </div>
-                        </div>
+                <div class="slide">
+                    <img class="w-100" src="{{url('images/trading/slider/slide-2.jpg')}}" style="opacity: 0.4"/>
+                    <div class="caption text-center">
+                        <h5 class="text-light pb-4">METAL</h5>
+                        <h1 class="display-4 text-warning pb-4"><span>INTERNATIONAL METAL IMPORT/EXPORT</span></h1>
+                        <h3 class="text-light pb-4"><span>---</span>&nbsp;We have adequate metals for the future&nbsp;<span>---</span></h3>
+                    </div>
+                </div>
+                <div class="slide">
+                    <img class="w-100" src="{{url('images/trading/slider/slide-3.jpg')}}" style="opacity: 0.4"/>
+                    <div class="caption  text-center">
+                        <h5 class="text-light pb-4">METAL</h5>
+                        <h1 class="display-4 pb-4 text-success"><span>E-WASTE MANAGEMENT</span></h1>
+                        <h3 class="text-light pb-4"><span>---</span>&nbsp;We manage e-waste with multiple partners&nbsp;<span>---</span></h3>
+                    </div>
+                </div>
+                <div class="slide">
+                    <img class="w-100" src="{{url('images/trading/slider/slide-4.jpg')}}" style="opacity: 0.4"/>
+                    <div class="caption  text-center">
+                        <h5 class="text-light pb-4">HEALTH</h5>
+                        <h1 class="display-4 pb-4 text-success"><span>HEALTH SUPPLEMENT</span></h1>
+                        <h3 class="text-light pb-4"><span>---</span>&nbsp;We deal internationaly with multiple sources in health supplements&nbsp;<span>---</span></h3>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <!-- Clients (carousel)-->
     <!-- Hero-->
     <!-- About-->
     <section class="container bg-overlay-content" style="margin-top: -100px;">
@@ -144,7 +142,7 @@
                                         <div class="content-inner">
                                             <h3 class="h5 card-title mb-2">Polymers</h3>
                                             <p class="font-size-sm text-blue">We deal with polymer products. Visit us to get your chance.</p>
-                                            <span class="btn btn-primary btn-sm">>Read More..</span>
+                                            <span class="btn btn-primary btn-sm">Read More..</span>
                                         </div>
                                     </div>
                                 </div>
@@ -189,7 +187,7 @@
                                     <div class="card-body-inner">
                                         <div class="content-inner">
                                             <h3 class="h5 card-title mb-2">Fruits & Vegetables</h3>
-                                            <p class="font-size-sm text-blue">Fruits & Vegetables are necessary daily usage products. We export many products to many countries & import some fruits as well.</p>
+                                            <p class="font-size-sm text-blue">Import/Export</p>
                                         </div>
                                     </div>
                                 </div>
@@ -199,7 +197,7 @@
                                     <div class="card-body-inner">
                                         <div class="content-inner">
                                             <h3 class="h5 card-title mb-2">Fruits & Vegetables</h3>
-                                            <p class="font-size-sm text-blue">Import/Export</p>
+                                            <p class="font-size-sm text-blue">Fruits & Vegetables are necessary daily usage products. We export many products to many countries & import some fruits as well.</p>
                                             <span class="btn btn-primary btn-sm">Read More..</span>
                                         </div>
                                     </div>

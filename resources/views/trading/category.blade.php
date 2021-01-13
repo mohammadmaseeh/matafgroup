@@ -1,13 +1,28 @@
 @extends('trading.layout')
 @section('content')
+        <style>
+            section.container{
+            }
+            .breadcrumb{
+                border-radius: 0px;
+            }
+            @media all and (min-width: 676px){
+                .breadcrumb{
+                    height: 300px;
+                }
+            }
+            @media all and (max-width: 676px){
+                .breadcrumb{
+                    max-height: 300px;
+                }
+            }
+        </style>
         <!-- Page title-->
-<section class="position-relative bg-dark pt-7 pb-5 pb-md-7 bg-size-cover bg-fixed" style="background-image: url('{{url('images/trading/cubes-bg.jpg')}}');">
-    <div class="cs-shape cs-shape-bottom cs-shape-curve bg-body">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3000 185.4">
-            <path fill="currentColor" d="M3000,0v185.4H0V0c496.4,115.6,996.4,173.4,1500,173.4S2503.6,115.6,3000,0z"></path>
-        </svg>
+<section class="position-relative breadcrumb" style="background: #000000;">
+    <div class="cs-shape bg-body" style="opacity: 0.4; height: 300px!important;">
+        <img src="{{url('images/trading/slider/slide-1.jpg')}}" style="width: 100%;"/>
     </div>
-    <div class="container bg-overlay-content text-center pt-md-6 pt-lg-7 py-5 my-lg-3">
+    <div class="container bg-overlay-content text-center  pt-md-6 pt-lg-7 py-5 my-lg-3">
         <h1 class="text-light mb-0">International Trading<span class="h2 d-inline-block bg-faded-primary text-primary px-3 py-2 rounded-lg ml-3">{!! $category !!}</span></h1>
     </div>
 </section>
