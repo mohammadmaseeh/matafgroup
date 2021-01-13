@@ -20,7 +20,7 @@
         <!-- Page title-->
 <section class="position-relative breadcrumb" style="background: #000000;">
     <div class="cs-shape bg-body" style="opacity: 0.4; height: 300px!important;">
-        <img src="{{url('images/trading/slider/slide-1.jpg')}}" style="width: 100%;"/>
+        <img src="{{url('images/trading/breadcrumb/'.$category.'.jpg')}}" style="width: 100%;"/>
     </div>
     <div class="container bg-overlay-content text-center  pt-md-6 pt-lg-7 py-5 my-lg-3">
         <h1 class="text-light mb-0">International Trading<span class="h2 d-inline-block bg-faded-primary text-primary px-3 py-2 rounded-lg ml-3">{!! $category !!}</span></h1>
