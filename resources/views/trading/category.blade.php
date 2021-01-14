@@ -64,7 +64,7 @@
         <h2 class="text-center pt-3 pt-md-2 pb-4">Fruits and Vegetables Import/Export</h2>
         <p class="text-center">Fruits & Vegetables are necessary daily usage products. We export many products to many countries & import some fruits as well.<br><br></p>
         <div class="cs-gallery row">
-            
+
         </div>
     </section>
 @endif
@@ -129,7 +129,7 @@
                     </a>
                 </div>
                 <div class="col-md-3 col-sm-6 mb-grid-gutter">
-                    <a class="cs-gallery-item rounded-lg text-center bg-white" href="{{url('images/trading/categories/guar-commodities/barely.jpg')}}">
+                    <a class="cs-gallery-item rounded-lg text-center bg-white" href="{{url('images/trading/categories/agro-commodities/barely.jpg')}}">
                         <img src="{{url('images/trading/categories/agro-commodities/barely.jpg')}}" alt="Agro Commodities - Barely"/>
                         <div class="caption">
                             <h3 class="h5 nav-heading mt-1 mb-2">Barely</h3>
@@ -138,7 +138,7 @@
                     </a>
                 </div>
                 <div class="col-md-3 col-sm-6 mb-grid-gutter">
-                    <a class="cs-gallery-item rounded-lg text-center bg-white" href="{{url('images/trading/categories/guar-commodities/oat.jpg')}}">
+                    <a class="cs-gallery-item rounded-lg text-center bg-white" href="{{url('images/trading/categories/agro-commodities/oat.jpg')}}">
                         <img src="{{url('images/trading/categories/agro-commodities/oat.jpg')}}" alt="Agro Commodities - Oat"/>
                         <div class="caption">
                             <h3 class="h5 nav-heading mt-1 mb-2">Oat</h3>
@@ -147,7 +147,7 @@
                     </a>
                 </div>
                 <div class="col-md-3 col-sm-6 mb-grid-gutter">
-                    <a class="cs-gallery-item rounded-lg text-center bg-white" href="{{url('images/trading/categories/guar-commodities/guar-gum.jpeg')}}">
+                    <a class="cs-gallery-item rounded-lg text-center bg-white" href="{{url('images/trading/categories/agro-commodities/guar-gum.jpeg')}}">
                         <img src="{{url('images/trading/categories/agro-commodities/guar-gum.jpeg')}}" alt="Agro Commodities - Guar Gum"/>
                         <div class="caption">
                             <h3 class="h5 nav-heading mt-1 mb-2">Guar Gum</h3>
