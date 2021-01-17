@@ -159,4 +159,42 @@
         </div>
     </section>
 @endif
+
+@if($category == 'sugar')
+    <section>
+        <div class="container pt-5 pt-md-6 pt-lg-7">
+            <h2 class="text-center pt-3 pt-md-2 pb-4">Sugar Import/Export</h2>
+            <p class="text-center">Sugar is a sweet crystalline substance obtained from various plants, especially sugar cane used as a sweetener in food and drink. We deal in all types of sugar such as White Sugar, Brown Sugar, Beet Sugar etc.<br><br></p>
+            <div class="cs-gallery row">
+                <div class="col-md-3 col-sm-6 mb-grid-gutter">
+                    <a class="cs-gallery-item rounded-lg text-center bg-white" href="{{url('images/trading/categories/sugar/white-sugar.jpg')}}">
+                        <img src="{{url('images/trading/categories/sugar/white-sugar.jpg')}}" alt="Sugar - White Sugar"/>
+                        <div class="caption">
+                            <h3 class="h5 nav-heading mt-1 mb-2">White Sugar</h3>
+                            <p class="font-size-sm text-muted mb-1">in Sugar</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-3 col-sm-6 mb-grid-gutter">
+                    <a class="cs-gallery-item rounded-lg text-center bg-white" href="{{url('images/trading/categories/sugar/brown-sugar.jpg')}}">
+                        <img src="{{url('images/trading/categories/sugar/brown-sugar.jpg')}}" alt="Sugar - Brown Sugar"/>
+                        <div class="caption">
+                            <h3 class="h5 nav-heading mt-1 mb-2">Brown Sugar</h3>
+                            <p class="font-size-sm text-muted mb-1">in Sugar</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-3 col-sm-6 mb-grid-gutter">
+                    <a class="cs-gallery-item rounded-lg text-center bg-white" href="{{url('images/trading/categories/sugar/beet-sugar.jpg')}}">
+                        <img src="{{url('images/trading/categories/sugar/beet-sugar.jpg')}}" alt="Sugar - Beet Sugar"/>
+                        <div class="caption">
+                            <h3 class="h5 nav-heading mt-1 mb-2">Beet Sugar</h3>
+                            <p class="font-size-sm text-muted mb-1">in Sugar</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+@endif
 @endsection

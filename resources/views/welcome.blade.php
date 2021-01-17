@@ -1071,7 +1071,7 @@
         <!-- blog-entry start -->
         <article class="flex-container flex-align-center padding-top-60">
           <div class="six-columns padding-top-30">
-            <a href="post_dont-panic.html" class="d-block hover-box anim-img-reveal js-scrollanim js-pointer-large js-animsition-link">
+            <a href="#" class="d-block hover-box anim-img-reveal js-scrollanim js-pointer-large js-animsition-link">
               <div class="anim-img-reveal__hidden">
                 <div class="anim-img-reveal__scale">
                   <img class="img-hover-scale" src="images/products/product-1.png" alt="Post">
@@ -1117,7 +1117,7 @@
             </div>
           </div>
           <div class="six-columns padding-top-30">
-            <a href="post_good-morning.html" class="d-block hover-box anim-img-reveal js-scrollanim js-pointer-large js-animsition-link">
+            <a href="#" class="d-block hover-box anim-img-reveal js-scrollanim js-pointer-large js-animsition-link">
               <div class="anim-img-reveal__hidden">
                 <div class="anim-img-reveal__scale">
                   <img class="img-hover-scale" src="images/products/product-2.png" alt="Post">

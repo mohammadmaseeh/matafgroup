@@ -126,6 +126,92 @@
                     <div class="card card-flip">
                         <div class="card-flip-inner">
                             <div class="card-flip-front">
+                                <img class="card-img" src="{{url('images/trading/categories/agro-commodities.jpg')}}" alt="Portfolio thumb"/>
+                                <div class="card-body">
+                                    <div class="card-body-inner">
+                                        <div class="content-inner">
+                                            <h3 class="h5 card-title mb-2">Agro Commodities</h3>
+                                            <p class="font-size-sm text-blue">Import/Export</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <a class="card-flip-back" href="{{url('international-trading/categories')}}">
+                                <div class="card-body">
+                                    <div class="card-body-inner">
+                                        <div class="content-inner">
+                                            <h3 class="h5 card-title mb-2">Agro Commodities</h3>
+                                            <p class="font-size-sm text-blue">The major agro products can be broadly grouped into foods, fibers, fuels, and raw materials. We cater for ALL types of Agriculture Products in any quantity required.</p>
+                                            <span class="btn btn-primary btn-sm">Read More..</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="cs-grid-item" data-groups="[&quot;3d&quot;]">
+                    <div class="card card-flip">
+                        <div class="card-flip-inner">
+                            <div class="card-flip-front">
+                                <img class="card-img" src="{{url('images/trading/categories/sugar.jpg')}}" alt="Portfolio thumb"/>
+                                <div class="card-body">
+                                    <div class="card-body-inner">
+                                        <div class="content-inner">
+                                            <h3 class="h5 card-title mb-2">Sugar</h3>
+                                            <p class="font-size-sm text-blue">Import/Export</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <a class="card-flip-back" href="{{url('international-trading/categories')}}">
+                                <div class="card-body">
+                                    <div class="card-body-inner">
+                                        <div class="content-inner">
+                                            <h3 class="h5 card-title mb-2">Sugar</h3>
+                                            <p class="font-size-sm text-blue">
+                                                Sugar is a substance used as a sweetener in food. We deal in all types of sugar such as White, Brown, Beet Sugar etc.
+                                            </p>
+                                            <span class="btn btn-primary btn-sm">Read More..</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="cs-grid-item" data-groups="[&quot;3d&quot;]">
+                    <div class="card card-flip">
+                        <div class="card-flip-inner">
+                            <div class="card-flip-front">
+                                <img class="card-img" src="{{url('images/trading/categories/veg.jpg')}}" alt="Portfolio thumb"/>
+                                <div class="card-body">
+                                    <div class="card-body-inner">
+                                        <div class="content-inner">
+                                            <h3 class="h5 card-title mb-2">Fruits & Vegetables</h3>
+                                            <p class="font-size-sm text-blue">Import/Export</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <a class="card-flip-back" href="{{url('international-trading/categories')}}">
+                                <div class="card-body">
+                                    <div class="card-body-inner">
+                                        <div class="content-inner">
+                                            <h3 class="h5 card-title mb-2">Fruits & Vegetables</h3>
+                                            <p class="font-size-sm text-blue">Fruits & Vegetables are necessary daily usage products. We export many products to many countries & import some fruits as well.</p>
+                                            <span class="btn btn-primary btn-sm">Read More..</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="cs-grid-item" data-groups="[&quot;3d&quot;]">
+                    <div class="card card-flip">
+                        <div class="card-flip-inner">
+                            <div class="card-flip-front">
                                 <img class="card-img" src="{{url('images/trading/categories/polymer.jpg')}}" alt="Portfolio thumb"/>
                                 <div class="card-body">
                                     <div class="card-body-inner">
@@ -170,62 +256,6 @@
                                         <div class="content-inner">
                                             <h3 class="h5 card-title mb-2">Health Supplements</h3>
                                             <p class="font-size-sm text-blue">Health supplements are tranding products for modern era of fitness. We deal with best entities all around the world.</p>
-                                            <span class="btn btn-primary btn-sm">Read More..</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="cs-grid-item" data-groups="[&quot;3d&quot;]">
-                    <div class="card card-flip">
-                        <div class="card-flip-inner">
-                            <div class="card-flip-front">
-                                <img class="card-img" src="{{url('images/trading/categories/veg.jpg')}}" alt="Portfolio thumb"/>
-                                <div class="card-body">
-                                    <div class="card-body-inner">
-                                        <div class="content-inner">
-                                            <h3 class="h5 card-title mb-2">Fruits & Vegetables</h3>
-                                            <p class="font-size-sm text-blue">Import/Export</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <a class="card-flip-back" href="{{url('international-trading/categories')}}">
-                                <div class="card-body">
-                                    <div class="card-body-inner">
-                                        <div class="content-inner">
-                                            <h3 class="h5 card-title mb-2">Fruits & Vegetables</h3>
-                                            <p class="font-size-sm text-blue">Fruits & Vegetables are necessary daily usage products. We export many products to many countries & import some fruits as well.</p>
-                                            <span class="btn btn-primary btn-sm">Read More..</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="cs-grid-item" data-groups="[&quot;3d&quot;]">
-                    <div class="card card-flip">
-                        <div class="card-flip-inner">
-                            <div class="card-flip-front">
-                                <img class="card-img" src="{{url('images/trading/categories/agro-commodities.jpg')}}" alt="Portfolio thumb"/>
-                                <div class="card-body">
-                                    <div class="card-body-inner">
-                                        <div class="content-inner">
-                                            <h3 class="h5 card-title mb-2">Agro Commodities</h3>
-                                            <p class="font-size-sm text-blue">Import/Export</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <a class="card-flip-back" href="{{url('international-trading/categories')}}">
-                                <div class="card-body">
-                                    <div class="card-body-inner">
-                                        <div class="content-inner">
-                                            <h3 class="h5 card-title mb-2">Agro Commodities</h3>
-                                            <p class="font-size-sm text-blue">The major agro products can be broadly grouped into foods, fibers, fuels, and raw materials. We cater for ALL types of Agriculture Products in any quantity required.</p>
                                             <span class="btn btn-primary btn-sm">Read More..</span>
                                         </div>
                                     </div>

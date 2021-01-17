@@ -327,7 +327,7 @@
         <div class="container padding-top-bottom-120">
             <!-- footer-logo start -->
             <div class="footer-logo footer-logo-desktop-hidden padding-bottom-90">
-                <img class="footer-logo__img" src="{{asset('images/logo/logo.png')}}" alt="logo">
+                <img class="footer-logo__img" src="{{asset('images/logo.png')}}" alt="logo">
             </div><!-- footer-logo end -->
 
             <!-- flex-container start -->

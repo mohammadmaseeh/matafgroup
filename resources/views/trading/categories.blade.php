@@ -32,19 +32,27 @@
                 </div>
             </div>
             <div class="card card-horizontal card-hover mb-grid-gutter">
+                <div class="card-img-top order-sm-2" style="background-image: url('{{url('images/trading/categories/agro-commodities.jpg')}}');"></div>
+                <div class="card-body">
+                    <h2>Agro Commodities Import/Export</h2>
+                    <p>The major agro products can be broadly grouped into foods, fibers, fuels, and raw materials. We cater for ALL types of Agriculture Products in any quantity required.</p>
+                    <p><a class="btn btn-primary btn-sm" href="{{url('international-trading/categories/agro-commodities')}}">Read More..</a></p>
+                </div>
+            </div>
+            <div class="card card-horizontal card-hover mb-grid-gutter">
+                <div class="card-img-top order-sm-2" style="background-image: url('{{url('images/trading/categories/sugar.jpg')}}');"></div>
+                <div class="card-body">
+                    <h2>Sugar Import/Export</h2>
+                    <p>Sugar is a sweet crystalline substance obtained from various plants, especially sugar cane used as a sweetener in food and drink. We deal in all types of sugar such as White Sugar, Brown Sugar, Beet Sugar etc.</p>
+                    <p><a class="btn btn-primary btn-sm" href="{{url('international-trading/categories/sugar')}}">Read More..</a></p>
+                </div>
+            </div>
+            <div class="card card-horizontal card-hover mb-grid-gutter">
                 <div class="card-img-top order-sm-2" style="background-image: url('{{url('images/trading/categories/polymer.jpg')}}');"></div>
                 <div class="card-body">
                     <h2>Polymer Import/Export</h2>
                     <p>We deal with polymer products. Visit us to get your chance.</p>
                     <p><a class="btn btn-primary btn-sm" href="{{url('international-trading/categories/polymers')}}">Read More..</a></p>
-                </div>
-            </div>
-            <div class="card card-horizontal card-hover mb-grid-gutter">
-                <div class="card-img-top" style="background-image: url('{{url('images/trading/categories/health.jpg')}}');"></div>
-                <div class="card-body">
-                    <h2>Health Supplements Import/Export</h2>
-                    <p>Health supplements are tranding products for modern era of fitness. We deal with best entities all around the world.</p>
-                    <p><a class="btn btn-primary btn-sm" href="{{url('international-trading/categories/health-supplements')}}">Read More..</a></p>
                 </div>
             </div>
             <div class="card card-horizontal card-hover mb-grid-gutter">
@@ -55,6 +63,15 @@
                     <p><a class="btn btn-primary btn-sm" href="{{url('international-trading/categories/fruits-and-vegetables')}}">Read More..</a></p>
                 </div>
             </div>
+
+            <div class="card card-horizontal card-hover mb-grid-gutter">
+                <div class="card-img-top" style="background-image: url('{{url('images/trading/categories/health.jpg')}}');"></div>
+                <div class="card-body">
+                    <h2>Health Supplements Import/Export</h2>
+                    <p>Health supplements are tranding products for modern era of fitness. We deal with best entities all around the world.</p>
+                    <p><a class="btn btn-primary btn-sm" href="{{url('international-trading/categories/health-supplements')}}">Read More..</a></p>
+                </div>
+            </div>
             <div class="card card-horizontal card-hover mb-grid-gutter">
                 <div class="card-img-top" style="background-image: url('{{url('images/trading/categories/surgical.jpg')}}');"></div>
                 <div class="card-body">
@@ -63,14 +80,7 @@
                     <p><a class="btn btn-primary btn-sm" href="{{url('international-trading/categories/surgical-equipment')}}">Read More..</a></p>
                 </div>
             </div>
-            <div class="card card-horizontal card-hover mb-grid-gutter">
-                <div class="card-img-top order-sm-2" style="background-image: url('{{url('images/trading/categories/agro-commodities.jpg')}}');"></div>
-                <div class="card-body">
-                    <h2>Agro Commodities Import/Export</h2>
-                    <p>The major agro products can be broadly grouped into foods, fibers, fuels, and raw materials. We cater for ALL types of Agriculture Products in any quantity required.</p>
-                    <p><a class="btn btn-primary btn-sm" href="{{url('international-trading/categories/agro-commodities')}}">Read More..</a></p>
-                </div>
-            </div>
+
             <div class="card card-horizontal card-hover mb-grid-gutter">
                 <div class="card-img-top" style="background-image: url('{{url('images/trading/categories/other.jpg')}}');"></div>
                 <div class="card-body">
