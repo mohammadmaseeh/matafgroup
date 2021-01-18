@@ -193,6 +193,135 @@
                         </div>
                     </a>
                 </div>
+                <div class="col-md-3 col-sm-6 mb-grid-gutter">
+                    <a class="cs-gallery-item rounded-lg text-center bg-white" href="{{url('images/trading/categories/sugar/sugar-s30-m30.jpg')}}">
+                        <img src="{{url('images/trading/categories/sugar/sugar-s30-m30.jpg')}}" alt="Sugar S30 M30 Indian - Beet Sugar"/>
+                        <div class="caption">
+                            <h3 class="h5 nav-heading mt-1 mb-2">Sugar S30 M30 Indian</h3>
+                            <p class="font-size-sm text-muted mb-1">in Sugar</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+@endif
+@if($category == 'oil')
+    <section>
+        <div class="container pt-5 pt-md-6 pt-lg-7">
+            <h2 class="text-center pt-3 pt-md-2 pb-4">Oil Import/Export</h2>
+            <p class="text-center">
+                Edible oil is a fatty liquid that is physically extracted from several vegetables, plants and nuts. It is used by human being to cook multiple dishes.
+            </p>
+            <div class="cs-gallery row">
+                <div class="col-md-3 col-sm-6 mb-grid-gutter">
+                    <a class="cs-gallery-item rounded-lg text-center bg-white" href="{{url('images/trading/categories/oil/sunflower-oil.jpg')}}">
+                        <img src="{{url('images/trading/categories/oil/sunflower-oil.jpg')}}" alt="Oil - Sunflower Oil"/>
+                        <div class="caption">
+                            <h3 class="h5 nav-heading mt-1 mb-2">Sunflower Oil</h3>
+                            <p class="font-size-sm text-muted mb-1">in Oil</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-3 col-sm-6 mb-grid-gutter">
+                    <a class="cs-gallery-item rounded-lg text-center bg-white" href="{{url('images/trading/categories/oil/refined-palm-oil.jpg')}}">
+                        <img src="{{url('images/trading/categories/oil/refined-palm-oil.jpg')}}" alt="Oil - Palm Oil"/>
+                        <div class="caption">
+                            <h3 class="h5 nav-heading mt-1 mb-2">Refined Palm Oil</h3>
+                            <p class="font-size-sm text-muted mb-1">in Oil</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-3 col-sm-6 mb-grid-gutter">
+                    <a class="cs-gallery-item rounded-lg text-center bg-white" href="{{url('images/trading/categories/oil/palm-olein.jpg')}}">
+                        <img src="{{url('images/trading/categories/oil/palm-olein.jpg')}}" alt="Oil - Plam Olein"/>
+                        <div class="caption">
+                            <h3 class="h5 nav-heading mt-1 mb-2">Palm Olein</h3>
+                            <p class="font-size-sm text-muted mb-1">in Oil</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-3 col-sm-6 mb-grid-gutter">
+                    <a class="cs-gallery-item rounded-lg text-center bg-white" href="{{url('images/trading/categories/oil/soybean-oil.jpg')}}">
+                        <img src="{{url('images/trading/categories/oil/soybean-oil.jpg')}}" alt="Oil - Soybean Oil"/>
+                        <div class="caption">
+                            <h3 class="h5 nav-heading mt-1 mb-2">Soybean Oil</h3>
+                            <p class="font-size-sm text-muted mb-1">in Oil</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-3 col-sm-6 mb-grid-gutter">
+                    <a class="cs-gallery-item rounded-lg text-center bg-white" href="{{url('images/trading/categories/oil/olive-oil.jpg')}}">
+                        <img src="{{url('images/trading/categories/oil/olive-oil.jpg')}}" alt="Oil - Olive Oil"/>
+                        <div class="caption">
+                            <h3 class="h5 nav-heading mt-1 mb-2">Olive Oil</h3>
+                            <p class="font-size-sm text-muted mb-1">in Oil</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-3 col-sm-6 mb-grid-gutter">
+                    <a class="cs-gallery-item rounded-lg text-center bg-white" href="{{url('images/trading/categories/oil/mustard-oil.jpg')}}">
+                        <img src="{{url('images/trading/categories/oil/mustard-oil.jpg')}}" alt="Oil - Mustard Oil"/>
+                        <div class="caption">
+                            <h3 class="h5 nav-heading mt-1 mb-2">Mustard Oil</h3>
+                            <p class="font-size-sm text-muted mb-1">in Oil</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-3 col-sm-6 mb-grid-gutter">
+                    <a class="cs-gallery-item rounded-lg text-center bg-white" href="{{url('images/trading/categories/oil/coconut-oil.jpg')}}">
+                        <img src="{{url('images/trading/categories/oil/coconut-oil.jpg')}}" alt="Oil - Coconut Oil"/>
+                        <div class="caption">
+                            <h3 class="h5 nav-heading mt-1 mb-2">Coconut Oil</h3>
+                            <p class="font-size-sm text-muted mb-1">in Oil</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-3 col-sm-6 mb-grid-gutter">
+                    <a class="cs-gallery-item rounded-lg text-center bg-white" href="{{url('images/trading/categories/oil/almond-oil.jpg')}}">
+                        <img src="{{url('images/trading/categories/oil/almond-oil.jpg')}}" alt="Oil - Almond Oil"/>
+                        <div class="caption">
+                            <h3 class="h5 nav-heading mt-1 mb-2">Almond Oil</h3>
+                            <p class="font-size-sm text-muted mb-1">in Oil</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-3 col-sm-6 mb-grid-gutter">
+                    <a class="cs-gallery-item rounded-lg text-center bg-white" href="{{url('images/trading/categories/oil/castor-oil.jpg')}}">
+                        <img src="{{url('images/trading/categories/oil/castor-oil.jpg')}}" alt="Oil - Castor Oil"/>
+                        <div class="caption">
+                            <h3 class="h5 nav-heading mt-1 mb-2">Castor Oil</h3>
+                            <p class="font-size-sm text-muted mb-1">in Oil</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-3 col-sm-6 mb-grid-gutter">
+                    <a class="cs-gallery-item rounded-lg text-center bg-white" href="{{url('images/trading/categories/oil/rapeseed-oil.jpg')}}">
+                        <img src="{{url('images/trading/categories/oil/rapeseed-oil.jpg')}}" alt="Oil - Rapeseed Oil"/>
+                        <div class="caption">
+                            <h3 class="h5 nav-heading mt-1 mb-2">Rapeseed Oil</h3>
+                            <p class="font-size-sm text-muted mb-1">in Oil</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-3 col-sm-6 mb-grid-gutter">
+                    <a class="cs-gallery-item rounded-lg text-center bg-white" href="{{url('images/trading/categories/oil/corn-oil.jpg')}}">
+                        <img src="{{url('images/trading/categories/oil/corn-oil.jpg')}}" alt="Oil - Corn Oil"/>
+                        <div class="caption">
+                            <h3 class="h5 nav-heading mt-1 mb-2">Corn Oil</h3>
+                            <p class="font-size-sm text-muted mb-1">in Oil</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-3 col-sm-6 mb-grid-gutter">
+                    <a class="cs-gallery-item rounded-lg text-center bg-white" href="{{url('images/trading/categories/oil/sunflower-oil.jpg')}}">
+                        <img src="{{url('images/trading/categories/oil/sunflower-oil.jpg')}}" alt="Oil - Sunflower Oil"/>
+                        <div class="caption">
+                            <h3 class="h5 nav-heading mt-1 mb-2">Sunflower Oil</h3>
+                            <p class="font-size-sm text-muted mb-1">in Oil</p>
+                        </div>
+                    </a>
+                </div>
             </div>
         </div>
     </section>

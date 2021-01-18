@@ -85,5 +85,5 @@ Route::group(['prefix' => 'international-trading'], function() {
     /*Home*/
     Route::get('/','Front\Trading\PagesController@index');
     Route::get('/categories','Front\Trading\PagesController@categories');
-    Route::get('/categories/{category}','Front\Trading\PagesController@category');
+    Route::get('/category/{category}','Front\Trading\PagesController@category');
 });

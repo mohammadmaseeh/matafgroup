@@ -108,7 +108,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <a class="card-flip-back" href="{{url('international-trading/categories')}}">
+                            <a class="card-flip-back" href="{{url('international-trading/category/metal')}}">
                                 <div class="card-body">
                                     <div class="card-body-inner">
                                         <div class="content-inner">
@@ -136,7 +136,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <a class="card-flip-back" href="{{url('international-trading/categories')}}">
+                            <a class="card-flip-back" href="{{url('international-trading/category/agro-commodities')}}">
                                 <div class="card-body">
                                     <div class="card-body-inner">
                                         <div class="content-inner">
@@ -164,13 +164,43 @@
                                     </div>
                                 </div>
                             </div>
-                            <a class="card-flip-back" href="{{url('international-trading/categories')}}">
+                            <a class="card-flip-back" href="{{url('international-trading/category/sugar')}}">
                                 <div class="card-body">
                                     <div class="card-body-inner">
                                         <div class="content-inner">
                                             <h3 class="h5 card-title mb-2">Sugar</h3>
                                             <p class="font-size-sm text-blue">
                                                 Sugar is a substance used as a sweetener in food. We deal in all types of sugar such as White, Brown, Beet Sugar etc.
+                                            </p>
+                                            <span class="btn btn-primary btn-sm">Read More..</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="cs-grid-item" data-groups="[&quot;3d&quot;]">
+                    <div class="card card-flip">
+                        <div class="card-flip-inner">
+                            <div class="card-flip-front">
+                                <img class="card-img" src="{{url('images/trading/categories/oil.jpg')}}" alt="Portfolio thumb"/>
+                                <div class="card-body">
+                                    <div class="card-body-inner">
+                                        <div class="content-inner">
+                                            <h3 class="h5 card-title mb-2">Oil</h3>
+                                            <p class="font-size-sm text-blue">Import/Export</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <a class="card-flip-back" href="{{url('international-trading/category/oil')}}">
+                                <div class="card-body">
+                                    <div class="card-body-inner">
+                                        <div class="content-inner">
+                                            <h3 class="h5 card-title mb-2">Oil</h3>
+                                            <p class="font-size-sm text-blue">
+                                                Edible oil is a fatty liquid that is physically extracted from several vegetables, plants and nuts. It is used by human being to cook multiple dishes.
                                             </p>
                                             <span class="btn btn-primary btn-sm">Read More..</span>
                                         </div>
@@ -194,7 +224,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <a class="card-flip-back" href="{{url('international-trading/categories')}}">
+                            <a class="card-flip-back" href="{{url('international-trading/category/fruits-and-vegetables')}}">
                                 <div class="card-body">
                                     <div class="card-body-inner">
                                         <div class="content-inner">
@@ -222,7 +252,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <a class="card-flip-back" href="{{url('international-trading/categories')}}">
+                            <a class="card-flip-back" href="{{url('international-trading/category/polymer')}}">
                                 <div class="card-body">
                                     <div class="card-body-inner">
                                         <div class="content-inner">
@@ -250,7 +280,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <a class="card-flip-back" href="{{url('international-trading/categories')}}">
+                            <a class="card-flip-back" href="{{url('international-trading/category/health-supplements')}}">
                                 <div class="card-body">
                                     <div class="card-body-inner">
                                         <div class="content-inner">
@@ -278,7 +308,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <a class="card-flip-back" href="{{url('international-trading/categories')}}">
+                            <a class="card-flip-back" href="{{url('international-trading/category/surgical-equipment')}}">
                                 <div class="card-body">
                                     <div class="card-body-inner">
                                         <div class="content-inner">
